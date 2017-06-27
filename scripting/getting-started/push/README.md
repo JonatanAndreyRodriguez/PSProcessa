@@ -1,4 +1,4 @@
-Un perfil push es la especificación de una interfaz de alto nivel para el envío de mensajes push a dispositivos. 
+Un perfil push es la especificación de una interfaz de alto nivel para el envío de notificaciones push a dispositivos. 
 
 Los perfiles son descripciones de grupos de dispositivos formalizados para favorecer su uso unificado. La forma de utilizar las capacidades de Push se basa en la asociación de una pareja (token de dispositivo + nombre) a un perfil.
 
