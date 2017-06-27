@@ -5,7 +5,7 @@ Envia una notificación Push a todos los dispositivos asociados con el perfil.
 ## Sintaxis
 
 ```
-Send-PushbulletMessage [-ProfileName] <String> [-Title] <String> [-Message] <String> [[-EndPoint] <String>]
+Send-PushbulletMessage [-ProfileName] <String> [-Title] <String> [-Message] <String>
 ```
 
 ## Parámetros
