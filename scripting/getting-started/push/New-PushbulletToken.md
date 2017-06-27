@@ -5,7 +5,7 @@ Representa la información de un token de acceso para PushBullet.
 ## Sintaxis
 
 ```
- New-PushbulletToken [-Name] <String> [-Token] <String> [<CommonParameters>]
+ New-PushbulletToken [-Name] <String> [-Token] <String>
 ```
 
 ## Parámetros
