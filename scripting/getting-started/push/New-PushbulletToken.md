@@ -16,7 +16,7 @@ Nombre que describe el token de acceso.
 ```yaml
 Required: true
 Position: 1
-Default value: 
+Default value: None
 Accept pipeline input: false
 Accept wildcard characters: false    
 ```
@@ -27,7 +27,7 @@ Token de acceso asignado por PushBullet (https://www.pushbullet.com/#settings/ac
 ```yaml
 Required: true
 Position: 2
-Default value: 
+Default value: None
 Accept pipeline input: false
 Accept wildcard characters: false    
 ```
