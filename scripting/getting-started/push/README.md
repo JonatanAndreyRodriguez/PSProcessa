@@ -16,9 +16,9 @@ Get-Command -Module PSProcessa -Noun *Push*
 
 ## Para enviar un mensaje
 
-1. [Creé la información de un dispositivo](New-PushbulletToken.md)
-2. [Creé un perfil y asocie el/los dispositivo(s)](Set-PushbulletProfile.md)
-3. [Envié un mensaje a todos los dispositivos del perfil](Send-PushbulletMessage.md)
+1. [Crear la información de un dispositivo](New-PushbulletToken.md)
+2. [Crear un perfil y asocie el/los dispositivo(s)](Set-PushbulletProfile.md)
+3. [Enviar un mensaje a todos los dispositivos del perfil](Send-PushbulletMessage.md)
 
 
 ##### Opcional
