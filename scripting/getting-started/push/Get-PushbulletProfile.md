@@ -1,6 +1,6 @@
 # Get-PushbulletProfile
 
-Obtiene la información de tokens asociados con un perfil de Push.
+Obtiene la información de tokens asociados con un perfil de Push o el nombre de todos los perfiles creados.
 
 ## Sintaxis
 
