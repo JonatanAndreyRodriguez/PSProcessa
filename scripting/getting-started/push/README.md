@@ -23,3 +23,4 @@ Get-Command -Module PSProcessa -Noun *Push*
 
 ##### Opcional
 4. [Agregar un dispositivo a un perfil](Add-PushbulletToken.md)
+5. [Obtener nombre de los perfiles creados](Get-PushbulletProfile.md)
