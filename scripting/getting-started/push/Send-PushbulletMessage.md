@@ -12,12 +12,34 @@ Send-PushbulletMessage [-ProfileName] <String> [-Title] <String> [-Message] <Str
 
 ### -ProfileName \<String\>
 Nombre del perfil al que pertenecen los dispositivos.
+```yaml
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
 
 ### -Title \<String\>
 Texto que se establece como titulo de la notificación.
+```yaml
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 
 ### -Message \<String\>
 Texto que se establece como cuerpo de la notificación.
+```yaml
+Required: True
+Position: 3
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
 
 ## Ejemplos
 
