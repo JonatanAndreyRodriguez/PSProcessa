@@ -1,15 +1,3 @@
----
-ms.date:  2017-06-05
-keywords:  powershell,cmdlet
-title:  Using Tab Expansion
-ms.assetid:  c8730471-bf6a-43b8-ab1d-f9ef5a74f04e
-
-ms.date:  2017-06-05
-keywords:  powershell,cmdlet
-title:  Using Tab Expansion
-ms.assetid:  c8730471-bf6a-43b8-ab1d-f9ef5a74f04e
----
-
 Un perfil push es la especificación de una interfaz de alto nivel para el envío de notificaciones push a dispositivos. 
 
 Los perfiles son descripciones de grupos de dispositivos formalizados para favorecer su uso unificado. La forma de utilizar la capacidad de Push se basa en la asociación de al menos una pareja (token de dispositivo + nombre) a un nombre de perfil.
