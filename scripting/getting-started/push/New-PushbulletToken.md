@@ -13,6 +13,14 @@ Representa la información de un token de acceso para PushBullet.
 ### -Name \<String\>
 Nombre que describe el token de acceso.
 
+```yaml
+Required?                    true
+Position?                    1
+Default value                
+Accept pipeline input?       false
+Accept wildcard characters?  false    
+```
+
 ### -Token \<String\>
 Token de acceso asignado por PushBullet (https://www.pushbullet.com/#settings/account)
 
