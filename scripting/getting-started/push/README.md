@@ -17,7 +17,7 @@ Get-Command -Module PSProcessa -Noun *Push*
 ## Para enviar una notificación push
 
 1. [Crear la información de un dispositivo](New-PushbulletToken.md)
-2. [Crear un perfil y asociar el/los dispositivo(s)](Set-PushbulletProfile.md)
+2. [Crear un perfil y asociar el(los) dispositivo(s)](Set-PushbulletProfile.md)
 3. [Enviar un mensaje a un perfil](Send-PushbulletMessage.md)
 
 
