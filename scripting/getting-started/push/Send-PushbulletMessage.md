@@ -22,7 +22,7 @@ Texto que se establece como cuerpo de la notificación.
 ## Ejemplos
 
 ```
-Send-PushbulletMessage -ProfileName 'Perfil Demo' -Title 'Mensaje de prueba' -Message 'Lorem ipsum dolor sit amet'
+Send-PushbulletMessage -ProfileName 'Perfil demo' -Title 'Mensaje de prueba' -Message 'Lorem ipsum dolor sit amet'
 ```
  
  
