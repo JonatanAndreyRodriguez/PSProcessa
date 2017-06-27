@@ -24,6 +24,14 @@ Accept wildcard characters: false
 ### -Token \<String\>
 Token de acceso asignado por PushBullet (https://www.pushbullet.com/#settings/account)
 
+```yaml
+Required: true
+Position: 2
+Default value: 
+Accept pipeline input: false
+Accept wildcard characters: false    
+```
+
 ## Ejemplos
 
 ```
