@@ -5,7 +5,7 @@ Crea o actualiza la información de un perfil de tokens de acceso a PushBullet.
 ## Sintaxis
 
 ```
-Set-PushbulletProfile [-ProfileName] <String> [-AccessToken]
+Set-PushbulletProfile [-ProfileName] <String> [-AccessToken] <Object>
 ```
 
 ## Parámetros
