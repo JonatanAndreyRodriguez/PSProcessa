@@ -11,5 +11,5 @@ Sistemas operativos soportados
 * Windows 7 SP1
 * Windows 10
 
-**Nota:**
-WMF 5.1 requiere Microsoft .NET Framework 4.5 o superior. Puede instalar Microsoft .NET Framework 4.5 o superior siguiendo las instrucciones [aquí](https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers).
+> [NOTA]
+> WMF 5.1 requiere Microsoft .NET Framework 4.5 o superior. Puede instalar Microsoft .NET Framework 4.5 o superior siguiendo las instrucciones [aquí](https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers).
