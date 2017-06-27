@@ -11,6 +11,9 @@ Como mínimo, una especificación de perfil debe tener:
 Get-Command -Module PSProcessa -Noun *Push*
 ```
 
+**Nota:**
+La configuración de los perfiles se guarda en cada PC
+
 ## Para enviar un mensaje
 
 1. [Creé la información de un dispositivo](New-PushbulletToken.md)
