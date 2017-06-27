@@ -4,5 +4,4 @@ Utilice el comando [Get-Command](https://msdn.microsoft.com/en-us/powershell/ref
 
 ```
 Get-Command -Module PSProcessa
-
 ```
