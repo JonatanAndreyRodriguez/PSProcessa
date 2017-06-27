@@ -11,12 +11,26 @@ Set-PushbulletProfile [-ProfileName] <String> [-AccessToken] <Object>
 ## Parámetros
 
 ### -ProfileName \<String\>
-
 Nombre asignado al perfil.
 
-### -AccessToken \<Object\>
+```yaml
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
+### -AccessToken \<Object\>
 Tokens de acceso de PushBullet asociados con el perfil.
+
+```yaml
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ## Ejemplos
 ```
