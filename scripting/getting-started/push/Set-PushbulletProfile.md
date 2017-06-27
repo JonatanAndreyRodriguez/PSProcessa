@@ -21,7 +21,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -AccessToken \<Object\>
+### -AccessToken \<Processa.Management.Automation.PushbulletToken\>
 Tokens de acceso de PushBullet asociados con el perfil.
 
 ```yaml
