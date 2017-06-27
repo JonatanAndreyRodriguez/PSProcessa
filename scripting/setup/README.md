@@ -7,3 +7,5 @@
 [Desintalación](Uninstalling-PSProcessa.md)
 
 [Importación](Importing-PSProcessa.md)
+
+[Funciones](Get-Command-PSProcessa.md)
