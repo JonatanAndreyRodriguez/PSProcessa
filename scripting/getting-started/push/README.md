@@ -6,3 +6,8 @@ Como mínimo, una especificación de perfil debe tener:
 
 * Un nombre que lo identifica.
 * Uno o más tokens de Push asociados.
+
+```
+Get-Command -Module PSProcessa -Noun *Push*
+```
+
