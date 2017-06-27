@@ -1,6 +1,6 @@
 # Ya lo instalé…. ¿ahora qué hago?
 
-1. Utilice el comando Import-Module para agregar el módulo a la sesión actual
+1. Utilice el comando [Import-Module](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/import-module) para agregar el módulo a la sesión actual
 2. Abra una ventana de PowerShell
 3. Ejecute el comando
 
