@@ -1,3 +1,3 @@
 # PSProcessa
 
-Funcionalidad comunes de PowerShell para Processa.
+Funcionalidades comunes de PowerShell para Processa.
