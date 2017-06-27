@@ -14,7 +14,7 @@ Get-Command -Module PSProcessa -Noun *Push*
 > [NOTA]
 > La configuración de los perfiles se guarda en cada PC
 
-## Para enviar un mensaje
+## Para enviar una notificación push
 
 1. [Crear la información de un dispositivo](New-PushbulletToken.md)
 2. [Crear un perfil y asociar el/los dispositivo(s)](Set-PushbulletProfile.md)
