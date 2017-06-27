@@ -14,11 +14,11 @@ Representa la información de un token de acceso para PushBullet.
 Nombre que describe el token de acceso.
 
 ```yaml
-Required?                    true
-Position?                    1
-Default value                
-Accept pipeline input?       false
-Accept wildcard characters?  false    
+Required: true
+Position: 1
+Default value: 
+Accept pipeline input: false
+Accept wildcard characters: false    
 ```
 
 ### -Token \<String\>
