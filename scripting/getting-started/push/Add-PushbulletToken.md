@@ -15,7 +15,7 @@ Nombre del perfil al que se agrega el token.
 ### -AccessToken \<Object\>
 Información del token que se debe agregar al perfil.
 
-##Ejemplos
+## Ejemplos
 
 ```
 Add-PushbulletToken -ProfileName 'Perfil Demo' -AccessToken (New-PushbulletToken -Name 'Dispositivo de Pepe' -Token 'x.1234500000ABCDE874LIJY6g7xwEI111')
