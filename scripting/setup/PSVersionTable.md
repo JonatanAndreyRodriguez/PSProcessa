@@ -1,5 +1,7 @@
 # ¿Cómo saber que versión de PowerShell está instalada en una maquina?
 
+Abra una ventana de comandos y digite:
+
 ```
 powershell -Command " & {$PSVersionTable}"
 ```
