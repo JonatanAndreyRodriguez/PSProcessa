@@ -10,10 +10,10 @@ Representa la información de un token de acceso para PushBullet.
 
 ## Parámetros
 
-### -Name <String>
+### -Name \<String\>
 Nombre que describe el token de acceso.
 
-### -Token <String>
+### -Token \<String\>
 Token de acceso asignado por PushBullet (https://www.pushbullet.com/#settings/account)
 
 ## Ejemplos
