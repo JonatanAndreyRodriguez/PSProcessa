@@ -1,3 +1,7 @@
+# Instalación
+
+Esta sección explica cómo instalar el módulo PSProcessa así como sus pre-requisitos y funciones de ayuda.
+
 [Especificaciones y requisitos del sistema](specifications.md)
 
 [¿Cómo saber que versión de PowerShell está instalada en una maquina?](PSVersionTable.md)
