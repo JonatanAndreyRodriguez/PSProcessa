@@ -6,7 +6,7 @@
 2. Instale el módulo desde el Repositorio
 
 ```
-Register-PSRepository -Name 'Processa GT' -SourceLocation 'http://10.100.102.22:8020/nuget/PowerShell' -InstallationPolicy Trusted
+Register-PSRepository -Name 'Processa GT' -SourceLocation 'http://proget:8020/nuget/PowerShell' -InstallationPolicy Trusted
 Install-Module -Name 'PSProcessa' -Repository 'Processa GT'
 ```
 
