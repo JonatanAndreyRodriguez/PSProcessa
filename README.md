@@ -8,6 +8,6 @@ Funcionalidades comunes de PowerShell para Processa.
 Las carpetas corresponden a los siguientes recursos de información:
 
 | Carpeta  | Descripción  |
-|---|---|
-| [scripting/setup](scripting/setup)  | Describe el proceso de instalación del módulo |
-| [scripting/getting-started/push](scripting/getting-started/push)  | Describe el proceso para enviar notificaciones push |
+|:---:|---|
+| [Scripting>>Setup](scripting/setup)  | Describe el proceso de instalación del módulo |
+| [Scripting>>Getting Started/push](scripting/getting-started/push)  | Describe el proceso para enviar notificaciones push |
