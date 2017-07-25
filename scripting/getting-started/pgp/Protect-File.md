@@ -122,18 +122,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de FileName.
+Puede canalizar el valor de FileName.
 
 ## OUTPUTS
 
-### Void
+Void
 
 ## NOTES
 Autor: JRiaño
 
 ## RELATED LINKS
 
-[Unprotect-File]()
+[Unprotect-File](Unprotect-File.md)
 
-[https://trello.com/c/c6kDdLeG](https://trello.com/c/c6kDdLeG)
 
