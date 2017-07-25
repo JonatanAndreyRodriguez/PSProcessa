@@ -27,7 +27,7 @@ Set-ModuleInterval -Path 'C:\MyConfig.config' -Value (New-TimeSpan -Seconds 120)
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-'ServiceName' | Get-ServicePath | Set-ModuleInterval -Value (New-TimeSpan -Minutes 2)
+'ServiceName' | Get-ServiceConfigFile | Set-ModuleInterval -Value (New-TimeSpan -Minutes 2)
 ```
 
 ## PARAMETERS
