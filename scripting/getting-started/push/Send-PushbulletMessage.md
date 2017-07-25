@@ -16,7 +16,7 @@ Send-PushbulletMessage [-ProfileName] <String> [-Title] <String> [-Message] <Str
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Envia una notificación Push a todos los dispositivos asociados con el perfil.
 
 ## EXAMPLES
 
