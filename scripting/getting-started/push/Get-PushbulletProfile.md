@@ -50,12 +50,12 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.PushbulletToken
-
-### System.String
+Processa.Management.Automation.PushbulletToken
+System.String
 
 ## NOTES
 Autor: Atorres
