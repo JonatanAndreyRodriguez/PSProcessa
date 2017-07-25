@@ -26,6 +26,8 @@ Read-UserChoice -Title <String> -Prompt <String> -Choice <ChoiceDescription[]> [
 ## DESCRIPTION
 El carácter especial "&" (ampersand) se puede integrar en el texto de la pantalla para indicar que el carácter siguiente es una tecla de acceso rápido.
 
+![Read-UserChoice](images/Read-UserChoice.png)
+
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
