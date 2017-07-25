@@ -24,15 +24,16 @@ Lee una línea de entrada ingresada por el usuario desde la consola y hace las v
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
 $Params = @{
-    Prompt = 'Ingrese un número entre 1 y 10'
-    Pattern = '^\[0-9\]{1,2}$'
-    ErrorMessage = 'Solo se admiten dígitos entre 1 y 10'
-    ScriptBlock = { \[int\]$Args\[0\] -gt 0 -and \[int\]$Args\[0\] -le 10 }
-    Check = $true
+```
+
+Prompt = 'Ingrese un número entre 1 y 10'
+	Pattern = '^\[0-9\]{1,2}$'
+	ErrorMessage = 'Solo se admiten dígitos entre 1 y 10'
+	ScriptBlock = { \[int\]$Args\[0\] -gt 0 -and \[int\]$Args\[0\] -le 10 }
+	Check = $true
 }
 
 Read-UserInput @Params
-```
 
 ## PARAMETERS
 
@@ -101,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -HiddenSuffix
-{{Fill HiddenSuffix Description}}
+Texto que se establece como sufijo cuando se establece el valor de Hidden.
 
 ```yaml
 Type: String
@@ -116,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultValue
-{{Fill DefaultValue Description}}
+Valor predeterminado para la entrada.
 
 ```yaml
 Type: String
@@ -167,6 +168,7 @@ Puede canalizar el valor de Prompt
 ## OUTPUTS
 
 Cadena de caracteres con la información ingresada por el usuario. 
+
 Si se presentan errores en las validaciones System.ArgumentException.
 
 ## NOTES
