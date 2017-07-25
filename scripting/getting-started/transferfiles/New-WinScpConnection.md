@@ -18,17 +18,6 @@ New-WinScpConnection [-ConnectionString] <String>
 ## DESCRIPTION
 Obtiene un objeto que define la información que permite una conexión con un servidor de FTP/SFTP.
 Este objeto se utiliza en las transferencias de archivos.
-Valores admitidos en la cadena de conexión (no se distinguen may/min) (R)equerido (O)pcional :
-	- (R) protocol: (ftp | sftp).
-	- (R) host: (IP o nombre del servidor de FTP/SFTP).
-	- (R) username: Usuario para la autenticación.
-	- (R) password: Clave del usuario para la autenticación.
-	- (R) fingerprint: Huella digital de la clave del host del servidor SSH.
-Requerido para el protocolo SFTP.
-	- (O) timeout: Tiempo de respuesta del servidor.
-Por defecto 30 segundos.
-	- (O) port: Número del puerto que se deb utilizar para conectar con el servidor.
-Por defecto 0 (cero para utilizar el puerto predeterminado para el protocolo).
 
 ## EXAMPLES
 
@@ -51,10 +40,17 @@ Por defecto 0 (cero para utilizar el puerto predeterminado para el protocolo).
 
 ### -ConnectionString
 Establece la cadena de conexión que se utiliza para conectar con el servidor de FTP/SFTP.
-Tokens deben estar separados por ';' y valores por '='.
-Ej:
+Tokens deben estar separados por ';' y valores por '='
 
-protocol=sftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd;
+| Nombre | Descripción | (R)equerido (O)pcional |
+| :--------: |:-------------| :---:|
+| protocol | ftp o sftp | (R) |
+| host | IP o nombre del servidor de FTP/SFTP | (R) |
+| username | Usuario para la autenticación | (R) |
+| password | Clave del usuario para la autenticación | (R) |
+| fingerprint | Huella digital de la clave del host del servidor SSH | Requerido para sftp |
+| timeout | Tiempo de respuesta del servidor, por defecto 30 segundos | (O) |
+| port | Número del puerto que se deb utilizar para conectar con el servidor, por defecto 0 para utilizar el puerto predeterminado para el protocolo | (O) |
 
 ```yaml
 Type: String
@@ -70,16 +66,14 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ConnectionString.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### Instancia de WinSCP.SessionOptions con los valores de configuración establecidos.
+Instancia de WinSCP.SessionOptions con los valores de configuración establecidos.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
-
-[Test-WinScpConnection]()
 
