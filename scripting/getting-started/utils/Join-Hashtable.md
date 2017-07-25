@@ -24,11 +24,20 @@ Los argumentos que son null se ignoran.
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-$options1 = @{ pipeline = 0; }
-$options2 = @{ enable32BitAppOnWin64 = $true; pipeline = 10; }
-$options3 = @{ customprop1 = 'Hola'; customprop2 = 'Mundo'; }
-Join-Hashtable -Arguments $options1, $options2, $options3
+$Options1 = @{ pipeline = 0; }
+$Options2 = @{ enable32BitAppOnWin64 = $true; pipeline = 10; }
+$Options3 = @{ customprop1 = 'Hola'; customprop2 = 'Mundo'; }
+Join-Hashtable -Arguments $Options1, $Options2, $Options3
 ```
+Combina los valores en  $Options1, $Options2 y $Options3 en un solo objeto
+
+### -------------------------- EXAMPLE 2 --------------------------
+```
+$DefaultValues = @{ Proxy = '192.168.0.1' }
+$UserValues = @{ pipeline = '127.0.0.1' }
+Join-Hashtable -Arguments $DefaultValues,$UserValues
+```
+Combina los valores predeterminados de un "sistema", con los "ingresados por el usuario".
 
 ## PARAMETERS
 
