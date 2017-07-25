@@ -145,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-None
+Puede canalizar el valor de Prompt.
 
 ## OUTPUTS
 
