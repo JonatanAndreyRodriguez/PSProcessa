@@ -24,8 +24,8 @@ Se necesita permisos de Administrador para completar la función.
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
 $Tokens = @(
-New-PushbulletToken -Name 'Operaciones' -Token 'o.h7K5yXpS6k6OR710PKeWhXGGj4T15LGe'
-	New-PushbulletToken -Name 'IT' -Token 'o.XX8k4tBesQeRqbum5CrQJY6g7xwEITRo'
+    New-PushbulletToken -Name 'Operaciones' -Token 'o.h7K5yXpS6k6OR710PKeWhXGGj4T15LGe'
+    New-PushbulletToken -Name 'IT' -Token 'o.XX8k4tBesQeRqbum5CrQJY6g7xwEITRo'
 )
 Set-PushbulletProfile -ProfileName 'Perfil de prueba' -AccessToken $Tokens
 ```
