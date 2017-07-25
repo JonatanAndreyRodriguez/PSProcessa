@@ -81,8 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -CommandType
-Especifica cómo se interpreta $CommandText (StoredProcedure, TableDirect, Text).
-Valor predeterminado Text.
+Especifica cómo se interpreta CommandText (StoredProcedure, TableDirect, Text). Valor predeterminado _Text_.
 
 ```yaml
 Type: CommandType
@@ -98,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -ArgumentList
-Establece los valores de los parámetros que se reemplazan en $CommandType.
+Establece los valores de los parámetros que se reemplazan en CommandType.
 
 ```yaml
 Type: PSObject
@@ -128,8 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -OutputMode
-Establece cuántos elementos se pueden seleccionar en la ventana  (Single: uno, Multiple: Varios).
-Valor predeterminado Single.
+Establece cuántos elementos se pueden seleccionar en la ventana  (Single: uno, Multiple: Varios). Valor predeterminado _Single_.
 
 ```yaml
 Type: String
