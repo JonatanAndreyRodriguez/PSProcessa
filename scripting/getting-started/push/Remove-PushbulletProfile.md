@@ -17,7 +17,8 @@ Remove-PushbulletProfile [[-ProfileName] <String>]
 
 ## DESCRIPTION
 Elimina la información un perfil de PushBullet y todos los dispositivos asociados.
-Se necesita permisos de Administrador para completar la función.
+
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
@@ -25,11 +26,7 @@ Se necesita permisos de Administrador para completar la función.
 ```
 Remove-PushbulletProfile -ProfileName 'Test'
 ```
-
-### -------------------------- EXAMPLE 2 --------------------------
-```
-[Get-PushbulletProfile](Get-PushbulletProfile.md)
-```
+Elimina la información del perfil con nombre 'Test'
 
 ## PARAMETERS
 
@@ -49,15 +46,16 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-PushbulletProfile](Set-PushbulletProfile.md)]()
+[Set-PushbulletProfile](Set-PushbulletProfile.md)
 
