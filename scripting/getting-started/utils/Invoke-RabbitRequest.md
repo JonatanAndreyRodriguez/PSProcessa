@@ -46,7 +46,7 @@ Accept wildcard characters: False
 ```
 
 ### -Body
-{{Fill Body Description}}
+Objeto con los datos que se envian en el cuerpo de la solicitud. Este objeto se convertirá a formato JSON.
 
 ```yaml
 Type: PSObject
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -Queue
-{{Fill Queue Description}}
+Nombre de la cola en el servidor de RabbitMQ a donde se envía la solicitud
 
 ```yaml
 Type: String
@@ -76,8 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -Depth
-Especifica cuántos niveles de objetos contenidos se incluyen en la representación JSON del cuerpo de la petición.
-Valor predeterminado 2.
+Especifica cuántos niveles de objetos contenidos se incluyen en la representación JSON del cuerpo de la petición. Valor predeterminado _2_.
 
 ```yaml
 Type: Int32
@@ -92,8 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -Exchange
-Nombre del exchange de RabbitMQ a donde se enviá la solicitud.
-Valor predetermiando easy_net_q_rpc.
+Nombre del exchange de RabbitMQ a donde se enviá la solicitud. Valor predetermiando _easy_net_q_rpc_.
 
 ```yaml
 Type: String
@@ -108,8 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -Timeout
-Tiempo que se espera por la respuesta.
-Valor predeterminado 10 segundos.
+Tiempo que se espera por la respuesta. Valor predeterminado _10 segundos_.
 
 ```yaml
 Type: TimeSpan
