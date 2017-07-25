@@ -64,18 +64,18 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Cadena con el valor asociado a la clave en el archivo de configuración.
+Cadena con el valor asociado a la clave en el archivo de configuración.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-ConnectionString](Get-ConnectionString.md)]()
+[Get-ConnectionString](Get-ConnectionString.md)
 
-[[Get-AppSettingSection](Get-AppSettingSection.md)]()
+[Get-AppSettingSection](Get-AppSettingSection.md)
 
