@@ -38,9 +38,9 @@ Name                           Value
 pipeline                       10                                                                                                                          
 enable32BitAppOnWin64          True                                                                                                                        
 customprop2                    Mundo                                                                                                                       
-customprop1                    Hola                                                                                                     ```                   
+customprop1                    Hola                                                                                                     
 
-
+```                   
 
 
 ### -------------------------- EXAMPLE 2 --------------------------
@@ -50,6 +50,13 @@ $UserValues = @{ pipeline = '127.0.0.1' }
 Join-Hashtable -Arguments $DefaultValues,$UserValues
 ```
 Combina los valores predeterminados de un "sistema", con los "ingresados por el usuario".
+
+#### OUTPUT
+```
+
+XXXXXX
+
+```
 
 ## PARAMETERS
 
