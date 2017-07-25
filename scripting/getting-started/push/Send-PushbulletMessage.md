@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndPoint
-URL del servicio de PushBullet.
+URL del servicio de PushBullet. Si no se establece una, se utiliza la configurada en el archivo PSProcessa.config.
 
 ```yaml
 Type: String
@@ -102,4 +102,6 @@ Autor: Atorres
 [Set-PushbulletProfile](Set-PushbulletProfile.md)
 
 [Add-PushbulletToken](Add-PushbulletToken.md)
+
+[Get-Configuration](Get-Configuration.md)
 
