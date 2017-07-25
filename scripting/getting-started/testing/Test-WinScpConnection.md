@@ -42,7 +42,6 @@ $WinScpConnection | Test-WinScpConnection
 
 ### -WinScpConnection
 Objeto que define la información que permite la conexión con el servidor de FTP/SFTP.
-Ver New-WinScpConnection.
 
 ```yaml
 Type: SessionOptions
