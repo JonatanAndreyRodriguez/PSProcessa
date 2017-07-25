@@ -24,6 +24,6 @@ Los archivos de configuración contienen valores específicos para una aplicaci�
 * Asignar valores a diferentes entradas en un archivo de configuración
 * Leer los valores de configuración de un módulo
 * Comprobar los valores de configuración de un módulo
-* Establecer el número de instancias que se crean de un microservicio en RabbitMQ
-* Establecer el tiempo que se utiliza para comprobar el número de instancias que se mantienen en memoria de un microservicio en RabbitMQ
+* [Establecer el número de instancias que se crean de un microservicio en RabbitMQ](Set-ModuleInstance.md)
+* [Establecer el tiempo que se utiliza para comprobar el número de instancias que se mantienen en memoria de un microservicio en RabbitMQ](Set-ModuleInterval.md)
 
