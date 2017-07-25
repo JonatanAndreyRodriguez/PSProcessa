@@ -61,7 +61,5 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[Protect-AppSettingSection]()
-
-[[Unprotect-ConnectionStringSection](Unprotect-ConnectionStringSection.md)]()
+[Unprotect-ConnectionStringSection](Unprotect-ConnectionStringSection.md)
 
