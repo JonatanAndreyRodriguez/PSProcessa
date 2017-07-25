@@ -12,7 +12,7 @@ Establece los valores ingresados por el usuario en un archivo de configuración 
 ## SYNTAX
 
 ```
-Set-ConfigurationFile [-Path] <String> [-ConfigurationInfo] <Object> [[-Title] <String>] [-Force]
+Set-ConfigurationFile [-Path] <String> [-ConfigurationInfo] <ConfigurationItem> [[-Title] <String>] [-Force]
 ```
 
 ## DESCRIPTION
@@ -49,10 +49,10 @@ Accept wildcard characters: False
 ```
 
 ### -ConfigurationInfo
-Elementos de configuración que se establecen en el archivo.
+Elementos de configuración que se establecen en el archivo. Vea [New-ConfigurationItem](New-ConfigurationItem.md)
 
 ```yaml
-Type: Object
+Type: ConfigurationItem
 Parameter Sets: (All)
 Aliases: 
 
