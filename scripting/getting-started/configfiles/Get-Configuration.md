@@ -38,11 +38,11 @@ Obtiene los nombres de las propiedades incluidas en el objeto de retorno.
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### System.Management.Automation.PSObject
+System.Management.Automation.PSObject
 
 ## NOTES
 Autor: Atorrest
