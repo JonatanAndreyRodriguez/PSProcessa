@@ -86,18 +86,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Ninguno.
+Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[Find-Xml]()
+[Find-Xml](Find-Xml.md)
 
-[https://trello.com/c/qqRvrVbV](https://trello.com/c/qqRvrVbV)
 
