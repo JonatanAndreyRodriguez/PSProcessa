@@ -67,9 +67,9 @@ Ejecuta un procedimento almacenado utilizando los valores de parámetros suminis
 ```
 $Dataset = 'select 1 as [dummy]; select 2 as [dummy]; select 3 as [dummy]' | Invoke-SqlCommand -ConnectionString 'Server=(local);Database=master;Trusted_Connection=True;' -AsDataSet
 
-PS C:\\\>$Dataset.Tables\[0\]
-PS C:\\\>$Dataset.Tables\[1\]
-PS C:\\\>$Dataset.Tables\[2\]
+PS C:\>$Dataset.Tables[0]
+PS C:\>$Dataset.Tables[1]
+PS C:\>$Dataset.Tables[2]
 ```
 Retorna los resultados como un Dataset (tres tablas en este ejemplo).
 
