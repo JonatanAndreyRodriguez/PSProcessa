@@ -19,7 +19,7 @@ New-QueryPickerDialog [-ConnectionString] <String> [-CommandText] <String> [[-Co
 ## DESCRIPTION
 Se conecta con un origen de datos de T/SQL Server, y envía la salida de una consulta SQL a una ventana, permitiendo al usuario seleccionar una o más filas en la ventana.
 
-![New-QueryPickerDialog](images/New-QueryPickerDialog.png)
+![New-QueryPickerDialog](images/New-QueryPickerDialog.png) 
 
 ## EXAMPLES
 
