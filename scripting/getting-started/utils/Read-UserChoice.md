@@ -31,26 +31,24 @@ El carácter especial "&" (ampersand) se puede integrar en el texto de la pantal
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
 $Options = @()
-```
-
 $Options += New-Object -TypeName System.Management.Automation.Host.ChoiceDescription -ArgumentList '&Blanco', 'Blanco en Hex es #ffffff'
 $Options += New-Object -TypeName System.Management.Automation.Host.ChoiceDescription -ArgumentList 'N&egro', 'Negro en Hex es #000000'
 $Options += New-Object -TypeName System.Management.Automation.Host.ChoiceDescription -ArgumentList '&Gris', 'Gris en Hex es #808080'
 
 $SelectedIndex = ('Seleccione un color' | Read-UserChoice -Prompt '¿Qué color prefiere?' -Option $Options)
 $SelectedIndex | Out-Default
+```
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
 $Options = @()
-```
-
 $Options += @{Label = '&Mucho'; HelpMessage = 'Bien'}
 $Options += @{Label = 'M&uchisimo'; HelpMessage = 'Yupi!!!'}
 $Options += @{Label = 'Na&da'; HelpMessage = 'Carita triste'}
 
 $SelectedIndex = ('En el mes de amor y amistad...' | Read-UserChoice -Prompt '¿Me quieres?' -Option $Options)
 $SelectedIndex | Out-Default
+```
 
 ## PARAMETERS
 
@@ -100,8 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -Option
-Colección de objetos que describen cada opción.
-Cada objeto debe tener una propiedad Label y HelpMessage.
+Colección de objetos que describen cada opción. Cada objeto debe tener una propiedad Label y HelpMessage.
 
 ```yaml
 Type: PSObject[]
@@ -116,8 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -Default
-El índice del elemento predeterminado de la etiqueta en la colección de parámetros de opciones.
-Para no indicar una opción predeterminada establezca -1.
+El índice del elemento predeterminado de la etiqueta en la colección de parámetros de opciones. Para no indicar una opción predeterminada establezca -1.
 
 ```yaml
 Type: Int32
@@ -147,10 +143,11 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None
 
 ## OUTPUTS
 
-### El índice del elemento que corresponde con la opción seleccionada por el usuario (int).
+El índice del elemento que corresponde con la opción seleccionada por el usuario (int).
 
 ## NOTES
 Autor: Atorres
