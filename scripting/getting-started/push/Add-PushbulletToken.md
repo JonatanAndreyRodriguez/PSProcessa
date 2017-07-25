@@ -12,7 +12,7 @@ Agrega la información de un token de PushBullet a un perfil.
 ## SYNTAX
 
 ```
-Add-PushbulletToken [-ProfileName] <String> [-AccessToken] <Object>
+Add-PushbulletToken [-ProfileName] <String> [-AccessToken] <PushbulletToken>
 ```
 
 ## DESCRIPTION
@@ -46,10 +46,10 @@ Accept wildcard characters: False
 ```
 
 ### -AccessToken
-Información del token que se debe agregar al perfil.
+Información del token que se debe agregar al perfil. Vea [New-PushbulletToken](New-PushbulletToken.md)
 
 ```yaml
-Type: Object
+Type: PushbulletToken
 Parameter Sets: (All)
 Aliases: 
 
