@@ -33,7 +33,7 @@ Verifica que se pueda establecer la comunicación con un servidor de MongoDB con
 ## PARAMETERS
 
 ### -ConnectionString
-Establece la cadena de conexión que se utiliza para conectar con el servidor de MongoDB [1]
+Establece la cadena de conexión que se utiliza para conectar con el servidor de MongoDB
 
 ```yaml
 Type: String
@@ -60,4 +60,4 @@ Autor: Atorres
 
 ## RELATED LINKS
 [MongoDB Connection String URI Format](https://docs.mongodb.com/manual/reference/connection-string/)
-[1]: https://docs.mongodb.com/manual/reference/connection-string/
+
