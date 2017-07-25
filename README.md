@@ -14,5 +14,5 @@ Las carpetas corresponden a los siguientes recursos de información:
 | [Scripting >> Getting Started >> Config Files](scripting/getting-started/configfiles)  | Funciones que permiten administrar archivos de configuración |
 | [Scripting >> Getting Started >> Testing](scripting/getting-started/testing)  | Funciones que se pueden utilizar para comprobar conexiones |
 | [Scripting >> Getting Started >> Transfer Files](scripting/getting-started/transferfiles)  | Funciones que se pueden utilizar para transferir archivos |
-| [Scripting >> Getting Started >> PGP](scripting/getting-started/pgp)  | Funciones que se pueden utilizar para cifrar/descifrar archivos utilizando [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) |
+| [Scripting >> Getting Started >> PGP](scripting/getting-started/pgp)  | Funciones que se pueden utilizar para cifrar/descifrar archivos |
 
