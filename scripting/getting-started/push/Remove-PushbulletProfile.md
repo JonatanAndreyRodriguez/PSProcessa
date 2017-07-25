@@ -57,5 +57,5 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-PushbulletProfile](Set-PushbulletProfile.md)]()
+[Set-PushbulletProfile](Set-PushbulletProfile.md)
 
