@@ -50,16 +50,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Void
+Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Unprotect-AppSettingSection](Unprotect-AppSettingSection.md)]()
+[Unprotect-AppSettingSection](Unprotect-AppSettingSection.md)
 
