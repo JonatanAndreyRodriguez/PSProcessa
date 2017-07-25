@@ -2,7 +2,7 @@ Los archivos de configuración contienen valores específicos para una aplicaci�
 
 ### Operaciones comunes en un archivo de configuración
 
-* Leer la sección de cadenas de conexión
+* [Leer la sección de cadenas de conexión](Get-ConnectionStringSection.md)
 * Leer la sección de parejas clave/valor personalizadas
 * Leer una entrada en la sección de cadenas de conexión
 * Leer una entrada en la sección de parejas clave/valor personalizadas
