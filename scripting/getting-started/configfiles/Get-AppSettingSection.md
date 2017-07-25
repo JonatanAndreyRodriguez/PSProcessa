@@ -48,17 +48,16 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Diccionario Clave/Valor con el contenido de la sección AppSettings de un archivo de configuración.
+Diccionario Clave/Valor con el contenido de la sección AppSettings de un archivo de configuración.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-AppSetting](Get-AppSetting.md)]()
+[Get-AppSetting](Get-AppSetting.md)
 
