@@ -63,19 +63,17 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
-
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
-
-### System.String
+System.String
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-AppSetting](Get-AppSetting.md)]()
+[Get-AppSetting](Get-AppSetting.md)
 
-[[Get-ConnectionStringSection](Get-ConnectionStringSection.md)]()
+[Get-ConnectionStringSection](Get-ConnectionStringSection.md)
 
