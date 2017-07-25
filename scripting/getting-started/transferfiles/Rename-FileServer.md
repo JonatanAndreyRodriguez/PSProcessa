@@ -31,13 +31,13 @@ La expresión de búsqueda distingue May/Min.
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd' | Rename-FileServer -SourcePath '/MyFolder' -Mask '*MyFile*.txt' -Search '.txt' -Replace '.txt.ok'
+'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd' | Rename-FileServer -SourcePath '/MyFolder' -Mask 'MyFile*.txt' -Search '.txt' -Replace '.txt.ok'
 ```
 Busca todos los archivos cuyo nombre inicie con la palabra MyFile de tipo txt, y cambia la extensión de .txt a .txt.ok
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd' | Rename-FileServer -SourcePath '/MyFolder' -Mask '*MyFile*.txt' -Search '.txt' -Replace '.txt.ok' -WhatIf
+'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd' | Rename-FileServer -SourcePath '/MyFolder' -Mask 'MyFile*.txt' -Search '.txt' -Replace '.txt.ok' -WhatIf
 ```
 Muestra en pantalla que archivos coinciden con la búsqueda pero no los renombra.
 
