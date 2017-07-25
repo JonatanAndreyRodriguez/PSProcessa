@@ -23,7 +23,6 @@ Set-ConfigurationFile [-Path] <String> [-ConfigurationInfo] <Object> [[-Title] <
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
 $ConfigInfo = @(
-```
 
 New-ConfigurationItem -Type 'ConnectionString' -ConfigKey 'MyKey1' -FriendlyName 'MiNombre1' -DataType 'String' -Description 'Cadena de conexión nro 1' -Category 'Cadenas de conexión'
 	New-ConfigurationItem -Type 'AppSetting' -ConfigKey 'MyKey2' -FriendlyName 'MiNombre2' -DataType 'String' -Description 'Un valor para algo' -Category 'Configuraciones generales'
@@ -31,6 +30,7 @@ New-ConfigurationItem -Type 'ConnectionString' -ConfigKey 'MyKey1' -FriendlyName
 )
 
 'C:\MyFile.config' | Set-ConfigurationFile -ConfigurationInfo $ConfigInfo
+```
 
 ## PARAMETERS
 
@@ -96,11 +96,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Void.
+Void
 
 ## NOTES
 Autor: Atorres
