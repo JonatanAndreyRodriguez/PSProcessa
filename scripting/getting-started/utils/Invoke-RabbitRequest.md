@@ -132,5 +132,5 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[Test-RabbitConnection](Test-RabbitConnection.md)
+[Test-RabbitConnection](../testing/Test-RabbitConnection.md)
 
