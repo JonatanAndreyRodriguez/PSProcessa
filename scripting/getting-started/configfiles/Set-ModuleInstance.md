@@ -64,11 +64,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Void
+Void
 
 ## NOTES
 Autor: Atorres
