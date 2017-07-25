@@ -105,4 +105,4 @@ Void
 Autor: Atorres
 
 ## RELATED LINKS
-
+[New-ConfigurationItem](New-ConfigurationItem.md)
