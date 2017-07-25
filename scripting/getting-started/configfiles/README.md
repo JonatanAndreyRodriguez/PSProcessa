@@ -12,8 +12,8 @@ Los archivos de configuración contienen valores específicos para una aplicaci�
 
 * [Cifrar la sección de cadenas de conexión](Protect-ConnectionStringSection.md)
 * [Cifrar la sección de parejas clave/valor personalizadas](Protect-AppSettingSection.md)
-* Descifrar la sección de cadenas de conexión
-* Descifrar la sección de parejas clave/valor personalizadas
+* [Descifrar la sección de cadenas de conexión](Unprotect-ConnectionStringSection.md)
+* [Descifrar la sección de parejas clave/valor personalizadas](Unprotect-AppSettingSection.md)
 
 ### Operaciones de configuración
 
