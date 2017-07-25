@@ -18,6 +18,8 @@ New-SqlConnectionDialog [[-RequiresSelection] <Boolean>] [-RequiresSysAdmin]
 ## DESCRIPTION
 Permite a los usuarios crear cadenas de conexión y conectarse a fuentes de datos de SQL Server.
 
+![New-SqlConnectionDialog](images/New-SqlConnectionDialog.png)
+
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
