@@ -64,18 +64,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Ninguno.
+None
 
 ## OUTPUTS
 
-### String con una cadena de conexión que apunta a una base de datos de SQL Server.
+String con una cadena de conexión que apunta a una base de datos de SQL Server.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[New-QueryPickerDialog]()
+[New-QueryPickerDialog](New-QueryPickerDialog.md)
 
-[https://trello.com/c/7vdIreQj](https://trello.com/c/7vdIreQj)
 
