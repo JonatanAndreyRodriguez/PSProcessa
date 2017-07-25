@@ -45,16 +45,19 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ConnectionString.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
+Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
+[SqlConnection.ConnectionString](https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlconnection.connectionstring(v=vs.110).aspx)
 
-[[Invoke-SqlCommand](Invoke-SqlCommand.md)]()
+[SQL Server connection strings](https://www.connectionstrings.com/sql-server/)
+
+
 
