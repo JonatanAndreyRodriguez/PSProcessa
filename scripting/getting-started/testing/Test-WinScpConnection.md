@@ -4,86 +4,84 @@ online version:
 schema: 2.0.0
 ---
 
-# Test-WinScpConnection
+# Test-EmailConnection
 
 ## SYNOPSIS
-Verifica que se pueda establecer la comunicación con un servidor de FTP/SFTP.
+Verifica si puede establecer una conexión con un servidor de SMTP.
 
 ## SYNTAX
 
-### FromString (Default)
 ```
-Test-WinScpConnection -ConnectionString <String>
-```
-
-### FromSession
-```
-Test-WinScpConnection -WinScpConnection <SessionOptions>
+Test-EmailConnection [-ConnectionString] <String> [[-To] <String>]
 ```
 
 ## DESCRIPTION
-Verifica que se pueda establecer la comunicación con un servidor de FTP/SFTP con los valores de conexión proporcionados.
-Cierra la conexión al finalizar la prueba.
+Verifica si puede establecer una conexión con un servidor de SMTP enviando un mensaje a una dirección de correo de prueba.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd' | Test-WinScpConnection
+'smtpserver=smtp.gmail.com;port=587;username=user@gmail.com;password=supersecret;usessl=true' | Test-EmailConnection
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-$WinScpConnection = New-WinScpConnection -ConnectionString 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd'
+'smtpserver=smtp.gmail.com;username=user@gmail.com;password=supersecret' | Test-EmailConnection
 ```
-
-$WinScpConnection | Test-WinScpConnection
 
 ## PARAMETERS
 
-### -WinScpConnection
-Objeto que define la información que permite la conexión con el servidor de FTP/SFTP.
-Ver New-WinScpConnection.
+### -ConnectionString
+Establece la cadena de conexión que se utiliza para conectar con el servidor de correo.
+Tokens deben estar separados por ';' y valores por '='
+
+| Nombre | Descripción | (R)equerido (O)pcional | Valor predeterminado |
+| :--------:|:-------------|:---:|:---: |
+| smtpserver | Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico | R | smtp.gmail.com |
+| username | Usuario para la autenticación | R | Ninguno |
+| password | Clave del usuario para la autenticación | R | Ninguno |
+| usessl | (true o false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo | O | true |
+| port | Número del puerto que se debe utilizar para conectar con el servidor | O | 587 |
 
 ```yaml
-Type: SessionOptions
-Parameter Sets: FromSession
+Type: String
+Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -ConnectionString
-Cadena de conexión como se describe en el comando New-WinScpConnection.
+### -To
+Dirección de correo a donde se envía el mensaje de prueba.
+Valor predeterminado ping@gmail.com.
 
 ```yaml
 Type: String
-Parameter Sets: FromString
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
+Required: False
+Position: 2
+Default value: Ping@gmail.com
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ## INPUTS
 
-### Puede canalizar los valores de  ConnectionString o WinScpConnection.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
+Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
-
-[[New-WinScpConnection](New-WinScpConnection.md)]()
 
