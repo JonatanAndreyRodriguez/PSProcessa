@@ -9,6 +9,8 @@ Los archivos de configuración contienen valores específicos para una aplicaci�
 * [Obtener la ruta de acceso de un archivo de configuración de un servicio de Windows que atiende una cola de RabbitMQ](Get-ServiceConfigFile.md)
 * [Establecer el valor de una entrada en la sección de cadenas de conexión](Set-ConnectionString.md)
 * [Establecer el valor de una entrada en la sección de parejas clave/valor personalizadas](Set-AppSetting.md)
+* [Eliminar el valor de una entrada en la sección de cadenas de conexión](Remove-ConnectionString.md)
+* [Eliminar el valor de una entrada en la sección de parejas clave/valor personalizadas](Remove-AppSetting.md)
 
 ### Operaciones de seguridad
 
