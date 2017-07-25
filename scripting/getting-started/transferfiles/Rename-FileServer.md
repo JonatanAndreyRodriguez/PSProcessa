@@ -42,7 +42,7 @@ La expresión de búsqueda distingue May/Min.
 ## PARAMETERS
 
 ### -WinScpConnection
-Un objeto WinSCP.SessionOptions (Ver New-WinScpConnection).
+Un objeto WinSCP.SessionOptions. Vea [New-WinScpConnection](New-WinScpConnection.md)
 
 ```yaml
 Type: SessionOptions
@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionString
-Cadena de conexión como se describe en el comando New-WinScpConnection.
+Cadena de conexión como se describe en el comando [New-WinScpConnection](New-WinScpConnection.md).
 
 ```yaml
 Type: String
@@ -184,18 +184,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de WinScpConnection.
+Puede canalizar el valor de WinScpConnection.
 
 ## OUTPUTS
 
-### Array con la lista de los archivos que se renombraron.
+Array con la lista de los archivos que se renombraron.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[New-WinScpConnection]()
+[New-WinScpConnection](New-WinScpConnection.md)
 
-[https://trello.com/c/tr6ZwC3O](https://trello.com/c/tr6ZwC3O)
 
