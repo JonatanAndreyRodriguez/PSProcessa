@@ -55,6 +55,7 @@ None
 ## OUTPUTS
 
 Processa.Management.Automation.PushbulletToken
+
 System.String
 
 ## NOTES
