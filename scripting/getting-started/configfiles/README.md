@@ -21,7 +21,7 @@ Los archivos de configuración contienen valores específicos para una aplicaci�
 
 ### Operaciones de configuración
 
-* Asignar valores a diferentes entradas en un archivo de configuración
+* [Asignar valores a diferentes entradas en un archivo de configuración]
 * [Leer los valores de configuración de un módulo](Get-Configuration.md)
 * [Comprobar los valores de configuración de un módulo]
 * [Establecer el número de instancias que se crean de un microservicio en RabbitMQ](Set-ModuleInstance.md)
