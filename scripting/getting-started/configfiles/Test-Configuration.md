@@ -35,6 +35,14 @@ Test-Configuration -SaveFlag
 Verifica la configuración del módulo (conexiones y demás elementos definidos por el desarrollador).
 Si alguna verificación falla, establece el valor de *No configurado* en el archivo PSGemini.config
 
+### -------------------------- EXAMPLE 3 --------------------------
+```
+Test-Configuration -Verbose
+```
+
+Verifica la configuración del módulo (conexiones y demás elementos definidos por el desarrollador) mostrando los mensajes de resultado de cada validación.
+
+
 ## PARAMETERS
 
 ### -SaveFlag
@@ -54,11 +62,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorrest
