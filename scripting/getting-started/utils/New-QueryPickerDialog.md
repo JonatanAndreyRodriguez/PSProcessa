@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -CommandText
-Establece la instrucción T/SQL, nombre de tabla o procedimiento almacenado para ejecutar en el origen de datos.
+Establece la instrucción T/SQL o procedimiento almacenado para ejecutar en el origen de datos.
 
 ```yaml
 Type: String
