@@ -34,21 +34,15 @@ Verifica si puede establecer una conexión con un servidor de SMTP enviando un m
 
 ### -ConnectionString
 Establece la cadena de conexión que se utiliza para conectar con el servidor de correo.
-Tokens deben estar separados por ';' y valores por '='.
-Ej:
-	'smtpserver=smtp.gmail.com;port=587;username=user@gmail.com;password=supersecret;usessl=true'
+Tokens deben estar separados por ';' y valores por '='
 
-| Nombre | Descripción | (R)equerido (O)pcional |
-| :--------: |:-------------| :---:|
-| smtpserver | Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico.
-Valor predeterminado smtp.gmail.com | R |
-| username | Usuario para la autenticación | R |
-| password | Clave del usuario para la autenticación | R |
-| usessl | (true o false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo.
-Valor predeterminado true | O |
-| port | Número del puerto que se deb utilizar para conectar con el servidor.
-Valor predeterminado 587.
-| O |
+| Nombre | Descripción | (R)equerido (O)pcional | Valor predeterminado |
+| :--------:|:-------------|:---:|:---: |
+| smtpserver | Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico | R | smtp.gmail.com |
+| username | Usuario para la autenticación | R | Ninguno |
+| password | Clave del usuario para la autenticación | R | Ninguno |
+| usessl | (true o false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo | O | true |
+| port | Número del puerto que se debe utilizar para conectar con el servidor | O | 587 |
 
 ```yaml
 Type: String
