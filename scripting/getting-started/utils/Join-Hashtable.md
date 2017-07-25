@@ -25,11 +25,10 @@ Los argumentos que son null se ignoran.
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
 $options1 = @{ pipeline = 0; }
-```
-
 $options2 = @{ enable32BitAppOnWin64 = $true; pipeline = 10; }
 $options3 = @{ customprop1 = 'Hola'; customprop2 = 'Mundo'; }
 Join-Hashtable -Arguments $options1, $options2, $options3
+```
 
 ## PARAMETERS
 
