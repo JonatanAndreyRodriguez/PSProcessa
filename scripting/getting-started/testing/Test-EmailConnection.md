@@ -41,14 +41,14 @@ Ej:
 | Nombre | Descripción | (R)equerido (O)pcional |
 | :--------: |:-------------| :---:|
 | smtpserver | Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico.
-Valor predeterminado smtp.gmail.com | (R) |
-| username | Usuario para la autenticación | (R) |
-| password | Clave del usuario para la autenticación | (R) |
-| usessl | (true | false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo.
-Valor predeterminado true | (O) |
+Valor predeterminado smtp.gmail.com | R |
+| username | Usuario para la autenticación | R |
+| password | Clave del usuario para la autenticación | R |
+| usessl | (true o false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo.
+Valor predeterminado true | O |
 | port | Número del puerto que se deb utilizar para conectar con el servidor.
 Valor predeterminado 587.
-| (O) |
+| O |
 
 ```yaml
 Type: String
