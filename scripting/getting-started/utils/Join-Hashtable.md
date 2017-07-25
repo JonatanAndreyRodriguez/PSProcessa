@@ -46,7 +46,7 @@ customprop1                    Hola
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-$DefaultValues = @{ Proxy = '192.168.0.1'; UseProxy=$true; DefaultPath='C:\Windows' }
+$DefaultValues = @{ Proxy = '192.168.0.1'; UseProxy=$true; DefaultPath='C:\Windows'; Color='Black' }
 $UserValues = @{ Proxy = $null; UseProxy=$false; DefaultPath='C:\Temp' }
 Join-Hashtable -Arguments $DefaultValues,$UserValues
 ```
@@ -58,6 +58,7 @@ Combina los valores predeterminados de un "sistema", con los "ingresados por el 
 Name                           Value                                                                                                                       
 ----                           -----                                                                                                                       
 Proxy                                                                                                                                                      
+Color                          Black                                                                                                                       
 UseProxy                       False                                                                                                                       
 DefaultPath                    C:\Temp                                                                                                                     
 
