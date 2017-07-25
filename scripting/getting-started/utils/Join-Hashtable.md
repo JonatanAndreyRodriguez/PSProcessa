@@ -46,16 +46,16 @@ customprop1                    Hola
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
 $DefaultValues = @{ Proxy = '192.168.0.1' }
-$UserValues = @{ pipeline = '127.0.0.1' }
+$UserValues = @{ Proxy = '127.0.0.1' }
 Join-Hashtable -Arguments $DefaultValues,$UserValues
 ```
 Combina los valores predeterminados de un "sistema", con los "ingresados por el usuario".
 
 #### OUTPUT
 ```
-
-XXXXXX
-
+Name                           Value                                                                                                                       
+----                           -----                                                                                                                       
+Proxy                          127.0.0.1                                                                                                                   
 ```
 
 ## PARAMETERS
