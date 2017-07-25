@@ -80,11 +80,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Voids
+None
 
 ## OUTPUTS
 
-### Valor Boolean que indica si el archivo paso la validacion de estructura, de acuerdo con la reglas especificadas en el archivo Xml.
+Valor Boolean que indica si el archivo paso la validacion de estructura, de acuerdo con la reglas especificadas en el archivo XML.
 
 ## NOTES
 Autor: JRiaño
