@@ -99,16 +99,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Void
+Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-AppSetting](Set-AppSetting.md)]()
+[Set-AppSetting](Set-AppSetting.md)
 
