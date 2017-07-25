@@ -76,16 +76,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### System.Xml.XmlNode
+System.Xml.XmlNode
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Update-XmlTextNode](Update-XmlTextNode.md)]()
+[Update-XmlTextNode](Update-XmlTextNode.md)
 
