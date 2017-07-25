@@ -24,9 +24,9 @@ Set-ConfigurationFile [-Path] <String> [-ConfigurationInfo] <Object> [[-Title] <
 ```
 $ConfigInfo = @(
 
-New-ConfigurationItem -Type 'ConnectionString' -ConfigKey 'MyKey1' -FriendlyName 'MiNombre1' -DataType 'String' -Description 'Cadena de conexión nro 1' -Category 'Cadenas de conexión'
-	New-ConfigurationItem -Type 'AppSetting' -ConfigKey 'MyKey2' -FriendlyName 'MiNombre2' -DataType 'String' -Description 'Un valor para algo' -Category 'Configuraciones generales'
-	New-ConfigurationItem -Type 'EnvironmentVariable' -ConfigKey 'MiKey3' -FriendlyName 'MiNombre3' -DataType 'Int32' -Description 'Un número entre 1 y 10' -Category 'Configuraciones generales' -ValidationScript { $Args\[0\] -ge 1 -and $Args\[0\] -le 10 } -ValidationScriptMessage 'Solo se admiten valores entre 1 y 10'
+ New-ConfigurationItem -Type 'ConnectionString' -ConfigKey 'MyKey1' -FriendlyName 'MiNombre1' -DataType 'String' -Description 'Cadena de conexión nro 1' -Category 'Cadenas de conexión'
+ New-ConfigurationItem -Type 'AppSetting' -ConfigKey 'MyKey2' -FriendlyName 'MiNombre2' -DataType 'String' -Description 'Un valor para algo' -Category 'Configuraciones generales'
+ New-ConfigurationItem -Type 'EnvironmentVariable' -ConfigKey 'MiKey3' -FriendlyName 'MiNombre3' -DataType 'Int32' -Description 'Un número entre 1 y 10' -Category 'Configuraciones generales' -ValidationScript { $Args\[0\] -ge 1 -and $Args\[0\] -le 10 } -ValidationScriptMessage 'Solo se admiten valores entre 1 y 10'
 )
 
 'C:\MyFile.config' | Set-ConfigurationFile -ConfigurationInfo $ConfigInfo
