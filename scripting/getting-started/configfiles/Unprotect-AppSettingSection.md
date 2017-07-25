@@ -49,21 +49,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Void
+Void
 
 ## NOTES
 
 ## RELATED LINKS
 
-[Unprotect-ConnectionStringSection]()
+[Protect-ConnectionStringSection](Protect-ConnectionStringSection.md)
 
-[Protect-ConnectionStringSection]()
-
-[Protect-AppSettingSection]()
-
-[https://trello.com/c/zkKQOWFr](https://trello.com/c/zkKQOWFr)
 
