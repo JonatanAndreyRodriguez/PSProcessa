@@ -11,3 +11,4 @@ Las carpetas corresponden a los siguientes recursos de información:
 |:---:|---|
 | [Scripting >> Setup](scripting/setup)  | Describe el proceso de instalación del módulo |
 | [Scripting >> Getting Started >> Push](scripting/getting-started/push)  | Describe el proceso para enviar notificaciones push |
+| [Scripting >> Getting Started >> Config Files](scripting/getting-started/configfiles)  | Describe el proceso para administrar archivos de configuración |
