@@ -143,16 +143,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ConnectionString.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### Array de PSObject con el(los) objeto(s) seleccionado(s).
+Array de PSObject con el(los) objeto(s) seleccionado(s).
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[New-SqlConnectionDialog](New-SqlConnectionDialog.md)]()
+[New-SqlConnectionDialog](New-SqlConnectionDialog.md)
 
