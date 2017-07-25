@@ -17,7 +17,8 @@ Protect-ConnectionStringSection [-Path] <String>
 
 ## DESCRIPTION
 Cifra la sección ConnectionStrings de un archivo de configuración.
-Se necesita permisos de Administrador para completar la función.
+
+> NOTA: Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
