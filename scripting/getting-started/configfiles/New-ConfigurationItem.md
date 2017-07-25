@@ -246,4 +246,5 @@ Processa.Management.Automation.ConfigurationItem
 Autor: Atorres
 
 ## RELATED LINKS
+[Set-ConfigurationFile](Set-ConfigurationFile.md)
 
