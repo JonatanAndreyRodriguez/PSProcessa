@@ -4,77 +4,88 @@ online version:
 schema: 2.0.0
 ---
 
-# Test-EmailConnection
+# Test-WinScpConnection
 
 ## SYNOPSIS
-Verifica si puede establecer una conexión con un servidor de SMTP.
+Verifica que se pueda establecer la comunicación con un servidor de FTP/SFTP.
 
 ## SYNTAX
 
+### FromString (Default)
 ```
-Test-EmailConnection [-ConnectionString] <String> [[-To] <String>]
+Test-WinScpConnection -ConnectionString <String>
+```
+
+### FromSession
+```
+Test-WinScpConnection -WinScpConnection <SessionOptions>
 ```
 
 ## DESCRIPTION
-Verifica si puede establecer una conexión con un servidor de SMTP enviando un mensaje a una dirección de correo de prueba.
+Verifica que se pueda establecer la comunicación con un servidor de FTP/SFTP con los valores de conexión proporcionados.
+Cierra la conexión al finalizar la prueba.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-'smtpserver=smtp.gmail.com;port=587;username=user@gmail.com;password=supersecret;usessl=true' | Test-EmailConnection
+'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd' | Test-WinScpConnection
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-'smtpserver=smtp.gmail.com;username=user@gmail.com;password=supersecret' | Test-EmailConnection
+$WinScpConnection = New-WinScpConnection -ConnectionString 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd'
 ```
+
+$WinScpConnection | Test-WinScpConnection
 
 ## PARAMETERS
 
-### -ConnectionString
-Establece la cadena de conexión que se utiliza para conectar con el servidor de correo.
-Tokens deben estar separados por ';' y valores por '='
-
-| Nombre | Descripción | (R)equerido (O)pcional | Valor predeterminado |
-| :--------:|:-------------|:---:|:---: |
-| smtpserver | Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico | R | smtp.gmail.com |
-| username | Usuario para la autenticación | R | Ninguno |
-| password | Clave del usuario para la autenticación | R | Ninguno |
-| usessl | (true o false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo | O | true |
-| port | Número del puerto que se debe utilizar para conectar con el servidor | O | 587 |
+### -WinScpConnection
+Objeto que define la información que permite la conexión con el servidor de FTP/SFTP.
+Ver New-WinScpConnection.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
+Type: SessionOptions
+Parameter Sets: FromSession
 Aliases: 
 
 Required: True
-Position: 1
+Position: Named
 Default value: None
 Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -To
-Dirección de correo a donde se envía el mensaje de prueba.
-Valor predeterminado ping@gmail.com.
+### -ConnectionString
+Cadena de conexión como se describe en el comando New-WinScpConnection.
+Valores admitidos en la cadena de conexión (no se distinguen may/min)
+
+| Nombre | Descripción | (R)equerido (O)pcional |
+| :--------: |:-------------| :---:|
+| protocol | ftp o sftp | (R) |
+| host | IP o nombre del servidor de FTP/SFTP | (R) |
+| username | Usuario para la autenticación | (R) |
+| password | Clave del usuario para la autenticación | (R) |
+| fingerprint | Huella digital de la clave del host del servidor SSH | Requerido para sftp |
+| timeout | Tiempo de respuesta del servidor, por defecto 30 segundos | (O) |
+| port | Número del puerto que se deb utilizar para conectar con el servidor, por defecto 0 para utilizar el puerto predeterminado para el protocolo | (O) |
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: FromString
 Aliases: 
 
-Required: False
-Position: 2
-Default value: Ping@gmail.com
-Accept pipeline input: False
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
 ## INPUTS
 
-Puede canalizar el valor de ConnectionString.
+Puede canalizar los valores de  ConnectionString o WinScpConnection.
 
 ## OUTPUTS
 
@@ -84,4 +95,6 @@ Ninguno si se logra establecer la conexión; de lo contrario genera una excepci�
 Autor: Atorres
 
 ## RELATED LINKS
+
+
 
