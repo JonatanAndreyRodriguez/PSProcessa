@@ -191,7 +191,7 @@ Puede canalizar el valor de CommandText.
 
 ## OUTPUTS
 
-DataTable con los resultados de la ejecución de la instrucción T/SQL o DataSet si se utiliza el interruptor -AsDataSet.
+DataRow con los resultados de la ejecución de la instrucción T/SQL o DataSet si se utiliza el interruptor -AsDataSet.
 
 ## NOTES
 Autor: Atorres
