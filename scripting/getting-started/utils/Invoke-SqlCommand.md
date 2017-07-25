@@ -66,11 +66,11 @@ Ejecuta un procedimento almacenado utilizando los valores de parámetros suminis
 ### -------------------------- EXAMPLE 6 --------------------------
 ```
 $Dataset = 'select 1 as [dummy]; select 2 as [dummy]; select 3 as [dummy]' | Invoke-SqlCommand -ConnectionString 'Server=(local);Database=master;Trusted_Connection=True;' -AsDataSet
-```
 
 PS C:\\\>$Dataset.Tables\[0\]
 PS C:\\\>$Dataset.Tables\[1\]
 PS C:\\\>$Dataset.Tables\[2\]
+```
 Retorna los resultados como un Dataset (tres tablas en este ejemplo).
 
 ## PARAMETERS
@@ -187,16 +187,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de CommandText.
+Puede canalizar el valor de CommandText.
 
 ## OUTPUTS
 
-### DataTable con los resultados de la ejecución de la instrucción T/SQL o DataSet si se utiliza el interruptor -AsDataSet.
+DataTable con los resultados de la ejecución de la instrucción T/SQL o DataSet si se utiliza el interruptor -AsDataSet.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[New-SqlConnectionDialog](New-SqlConnectionDialog.md)]()
+[New-SqlConnectionDialog](New-SqlConnectionDialog.md)
 
