@@ -41,7 +41,7 @@ Copia uno o más archivos del directorio remoto al directorio local desde un ser
 ## PARAMETERS
 
 ### -InputObject
-Un objeto WinSCP.SessionOptions \[New-WinScpConnection\](New-WinScpConnection.md).
+Un objeto WinSCP.SessionOptions. Vea [New-WinScpConnection](New-WinScpConnection.md)
 
 ```yaml
 Type: SessionOptions
