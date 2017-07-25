@@ -27,7 +27,7 @@ $Params = @{
     Prompt = 'Ingrese un número entre 1 y 10'
     Pattern = '^\[0-9\]{1,2}$'
     ErrorMessage = 'Solo se admiten dígitos entre 1 y 10'
-    ScriptBlock = { \[int\]$Args\[0\] -gt 0 -and \[int\]$Args\[0\] -le 10 }
+    ScriptBlock = { [int]$Args[0] -gt 0 -and [int]$Args[0] -le 10 }
     Check = $true
 }
 
