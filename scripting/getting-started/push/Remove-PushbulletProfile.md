@@ -12,13 +12,12 @@ Elimina la información un perfil de PushBullet.
 ## SYNTAX
 
 ```
-Remove-PushbulletProfile [[-ProfileName] <String>]
+Remove-PushbulletProfile [-ProfileName] <String>
 ```
 
 ## DESCRIPTION
 Elimina la información un perfil de PushBullet y todos los dispositivos asociados.
-
-> Se necesita permisos de Administrador para completar la función.
+Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
@@ -26,6 +25,7 @@ Elimina la información un perfil de PushBullet y todos los dispositivos asociad
 ```
 Remove-PushbulletProfile -ProfileName 'Test'
 ```
+
 Elimina la información del perfil con nombre 'Test'
 
 ## PARAMETERS
@@ -38,7 +38,7 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
+Required: True
 Position: 1
 Default value: None
 Accept pipeline input: True (ByValue)
@@ -57,5 +57,5 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[Set-PushbulletProfile](Set-PushbulletProfile.md)
+[[Set-PushbulletProfile](Set-PushbulletProfile.md)]()
 
