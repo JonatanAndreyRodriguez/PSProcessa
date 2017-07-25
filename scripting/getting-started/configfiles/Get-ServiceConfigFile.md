@@ -54,16 +54,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ServiceName
+Puede canalizar el valor de ServiceName
 
 ## OUTPUTS
 
-### String con la ruta de acceso del archivo de configuración o NULL si el servicio o el archivo no existieran.
+String con la ruta de acceso del archivo de configuración o NULL si el servicio o el archivo no existieran.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-Service](https://msdn.microsoft.com/en-us/powershell/reference/5.0/microsoft.powershell.management/get-service)]()
+[Get-Service](https://msdn.microsoft.com/en-us/powershell/reference/5.0/microsoft.powershell.management/get-service)]
 
