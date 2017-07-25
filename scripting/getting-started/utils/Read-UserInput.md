@@ -166,10 +166,12 @@ Puede canalizar el valor de Prompt
 
 ## OUTPUTS
 
-Cadena de caracteres con la información ingresada por el usuario. Si se presentan errores en las validaciones System.ArgumentException.
+Cadena de caracteres con la información ingresada por el usuario. 
+Si se presentan errores en las validaciones System.ArgumentException.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
+[Read-UserChoice](Read-UserChoice.md)
 
