@@ -6,6 +6,7 @@ Los archivos de configuración contienen valores específicos para una aplicaci�
 * Leer la sección de parejas clave/valor personalizadas
 * Leer una entrada en la sección de cadenas de conexión
 * Leer una entrada en la sección de parejas clave/valor personalizadas
+* Obtener la ruta de acceso de un archivo de configuración de un servicio de Windows que atiende una cola de RabbitMQ
 
 ### Operaciones de seguridad
 
@@ -13,3 +14,12 @@ Los archivos de configuración contienen valores específicos para una aplicaci�
 * Cifrar la sección de parejas clave/valor personalizadas
 * Decifrar la sección de cadenas de conexión
 * Decifrar la sección de parejas clave/valor personalizadas
+
+### Operaciones de configuración
+
+* Asignar valores a diferentes entradas en un archivo de configuración
+* Leer los valores de configuración de un módulo
+* Comprobar los valores de configuración de un módulo
+* Establecer el número de instancias que se crean de un microservicio en RabbitMQ
+* Establecer el tiempo que se utiliza para comprobar el número de instancias que se mantienen en memoria de un microservicio en RabbitMQ
+
