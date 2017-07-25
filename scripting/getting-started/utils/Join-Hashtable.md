@@ -1,6 +1,6 @@
 ---
 external help file: PSProcessa-help.xml
-online version: https://trello.com/c/5z2zGZMS
+online version: 
 schema: 2.0.0
 ---
 
@@ -16,7 +16,9 @@ Join-Hashtable [[-Arguments] <Hashtable[]>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Combina el contenido de dos o más Hashtable.
+Las claves de todos los objetos se añaden al objeto resultante. 
+Los argumentos que son null se ignoran.
 
 ## EXAMPLES
 
@@ -48,16 +50,14 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Ninguno.
+None
 
 ## OUTPUTS
 
-### Hashtable con todas las propiedades de todos los objetos.
+Hashtable con todas las propiedades de todos los objetos.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
-
-[https://trello.com/c/5z2zGZMS](https://trello.com/c/5z2zGZMS)
 
