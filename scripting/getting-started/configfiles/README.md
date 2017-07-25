@@ -1,1 +1,1 @@
-Archivos de configuración
+Los archivos de configuración contienen valores específicos para una aplicación. Estos archivos contienen parámetros de configuración que se leen en tiempo de ejecución, como cadenas de conexión y valores propios de cada aplicación. Los archivos de configuración son archivos XML que se pueden cambiar según sea necesario y contienen elementos, que son estructuras de datos lógicas que establecen la información de configuración.
