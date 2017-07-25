@@ -1,35 +1,66 @@
+---
+external help file: PSProcessa-help.xml
+online version: 
+schema: 2.0.0
+---
+
 # Get-PushbulletProfile
 
-Obtiene la información de tokens asociados con un perfil de Push o el nombre de todos los perfiles creados.
+## SYNOPSIS
+Obtiene la información de tokens asociados con un perfil de PushBullet.
 
-## Sintaxis
-
-```
- Get-PushbulletProfile [[-ProfileName] <String>]
- ```
- 
- ## Parámetros
- ### -ProfileName \<String\>
- Nombre con el que se creo el perfil.
- ```yaml
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
- 
- 
-## Ejemplos
-
-Dispositivos asociados al perfil con nombre 'Perfil Demo'
+## SYNTAX
 
 ```
-Get-PushbulletProfile -ProfileName 'Perfil Demo'
+Get-PushbulletProfile [[-ProfileName] <String>]
 ```
 
-Nombre de todos los perfiles registrados en el PC
-  
+## DESCRIPTION
+Obtiene la información de tokens asociados con un perfil de PushBullet o el nombre de los perfiles creados.
+
+## EXAMPLES
+
+### -------------------------- EXAMPLE 1 --------------------------
+```
+Get-PushbulletProfile -ProfileName 'Test'
+```
+Obtiene la información del perfil con nombre 'Test'
+
+### -------------------------- EXAMPLE 2 --------------------------
 ```
 Get-PushbulletProfile
 ```
+Obtiene los nombres de todos los perfiles configurados
+
+## PARAMETERS
+
+### -ProfileName
+Nombre con el que se creo el perfil.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+## INPUTS
+
+## OUTPUTS
+
+### Processa.Management.Automation.PushbulletToken
+
+### System.String
+
+## NOTES
+Autor: Atorres
+
+## RELATED LINKS
+
+[Set-PushbulletProfile](Set-PushbulletProfile.md)
+
