@@ -16,15 +16,7 @@ Test-EmailConnection [-ConnectionString] <String> [[-To] <String>]
 ```
 
 ## DESCRIPTION
-Valores admitidos en la cadena de conexión (no se distinguen may/min) (R)equerido (O)pcional :
-	- (R) smtpserver: Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico.
-Valor predeterminado smtp.gmail.com
-	- (R) username: Usuario para la autenticación.
-	- (R) password: Clave del usuario para la autenticación.
-	- (O) usessl: (true | false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo.
-Valor predeterminado true.
-	- (O) port: Número del puerto que se deb utilizar para conectar con el servidor.
-Valor predeterminado 587.
+Verifica si puede establecer una conexión con un servidor de SMTP enviando un mensaje a una dirección de correo de prueba.
 
 ## EXAMPLES
 
@@ -46,6 +38,18 @@ Tokens deben estar separados por ';' y valores por '='.
 Ej:
 	'smtpserver=smtp.gmail.com;port=587;username=user@gmail.com;password=supersecret;usessl=true'
 
+| Nombre | Descripción | (R)equerido (O)pcional |
+| :--------: |:-------------| :---:|
+| smtpserver | Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico.
+Valor predeterminado smtp.gmail.com | (R) |
+| username | Usuario para la autenticación | (R) |
+| password | Clave del usuario para la autenticación | (R) |
+| usessl | (true | false) Determina si utiliza el protocolo SSL (Secure Sockets Layer) para establecer la conexión con el servidor para enviar correo.
+Valor predeterminado true | (O) |
+| port | Número del puerto que se deb utilizar para conectar con el servidor.
+Valor predeterminado 587.
+| (O) |
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -59,7 +63,8 @@ Accept wildcard characters: False
 ```
 
 ### -To
-{{Fill To Description}}
+Dirección de correo a donde se envía el mensaje de prueba.
+Valor predeterminado ping@gmail.com.
 
 ```yaml
 Type: String
@@ -75,11 +80,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ConnectionString.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
+Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
 
 ## NOTES
 Autor: Atorres
