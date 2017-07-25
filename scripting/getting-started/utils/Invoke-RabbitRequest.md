@@ -30,8 +30,7 @@ El hilo se bloqueará hasta que se devuelva la respuesta.
 ## PARAMETERS
 
 ### -ConnectionString
-Cadena de conexión que se utiliza para conectar con el servidor de RabbitMQ.
-Ver https://goo.gl/avBzsU
+Cadena de conexión que se utiliza para conectar con el servidor de RabbitMQ. Vea https://goo.gl/avBzsU
 
 ```yaml
 Type: String
