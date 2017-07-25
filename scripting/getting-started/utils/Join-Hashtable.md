@@ -33,7 +33,9 @@ Combina los valores en  $Options1, $Options2 y $Options3 en un solo objeto
 
 #### OUTPUT
 ```
-Name                           Value                                                                                                     ----                           -----                                                                                                     pipeline                       10
+Name                           Value                                                                                                     ----                           -----                                                                                                     
+
+pipeline                       10
 enable32BitAppOnWin64          True
 customprop2                    Mundo
 customprop1                    Hola
