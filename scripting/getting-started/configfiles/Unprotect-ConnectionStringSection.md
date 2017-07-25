@@ -49,16 +49,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Protect-ConnectionStringSection](Protect-ConnectionStringSection.md)]()
+[Protect-ConnectionStringSection](Protect-ConnectionStringSection.md)
 
