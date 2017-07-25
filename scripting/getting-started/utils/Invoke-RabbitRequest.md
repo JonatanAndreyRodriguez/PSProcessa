@@ -125,16 +125,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ConnectionString.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### System.Management.Automation.PSObject
+System.Management.Automation.PSObject
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Test-RabbitConnection](Test-RabbitConnection.md)]()
+[Test-RabbitConnection](Test-RabbitConnection.md)
 
