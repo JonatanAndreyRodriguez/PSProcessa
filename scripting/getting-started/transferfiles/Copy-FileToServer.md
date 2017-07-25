@@ -178,20 +178,20 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de InputObject o de ConnectionString.
+Puede canalizar el valor de InputObject o de ConnectionString.
 
 ## OUTPUTS
 
-### Processa.Management.Automation.TransferedFile
+Processa.Management.Automation.TransferedFile
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[New-WinScpConnection](New-WinScpConnection.md)]()
+[New-WinScpConnection](New-WinScpConnection.md)
 
-[Get-ChildItem]()
+[Get-ChildItem](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.management/get-childitem)
 
-[[Copy-FileFromServer](Copy-FileFromServer.md)]()
+[Copy-FileFromServer](Copy-FileFromServer.md)
 
