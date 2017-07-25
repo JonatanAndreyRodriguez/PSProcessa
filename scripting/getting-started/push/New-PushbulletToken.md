@@ -1,39 +1,71 @@
+---
+external help file: PSProcessa-help.xml
+online version: 
+schema: 2.0.0
+---
+
 # New-PushbulletToken
 
+## SYNOPSIS
 Representa la información de un token de acceso para PushBullet.
 
-## Sintaxis
+## SYNTAX
 
 ```
- New-PushbulletToken [-Name] <String> [-Token] <String>
+New-PushbulletToken [-Name] <String> [-Token] <String>
 ```
 
-## Parámetros
+## DESCRIPTION
+{{Fill in the Description}}
 
-### -Name \<String\>
-Nombre que describe el token de acceso.
+## EXAMPLES
+
+### -------------------------- EXAMPLE 1 --------------------------
+```
+New-PushbulletToken -Name 'Operaciones' -Token 'o.h7K5yXpS6k6OR710PKeWhXGGj4T15LGe'
+```
+
+## PARAMETERS
+
+### -Name
+Nombre que desribe el token de acceso.
 
 ```yaml
-Required: true
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: 1
 Default value: None
-Accept pipeline input: false
-Accept wildcard characters: false    
+Accept pipeline input: False
+Accept wildcard characters: False
 ```
 
-### -Token \<String\>
+### -Token
 Token de acceso asignado por PushBullet (https://www.pushbullet.com/#settings/account)
 
 ```yaml
-Required: true
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: 2
 Default value: None
-Accept pipeline input: false
-Accept wildcard characters: false    
+Accept pipeline input: False
+Accept wildcard characters: False
 ```
 
-## Ejemplos
+## INPUTS
+None
 
-```
-New-PushbulletToken -Name 'Demo' -Token '7.12345XpS6k6O12345KeWhXGGj4Tabcde'
-```
+## OUTPUTS
+
+Processa.Management.Automation.PushbulletToken
+
+## NOTES
+Autor: Atorres
+
+## RELATED LINKS
+
