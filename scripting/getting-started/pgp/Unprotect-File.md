@@ -122,18 +122,18 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de FileName.
+Puede canalizar el valor de FileName.
 
 ## OUTPUTS
 
-### Void
+Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[Protect-File]()
+[Protect-File](Protect-File.md)
 
-[https://trello.com/c/CT6H5GwC](https://trello.com/c/CT6H5GwC)
+
 
