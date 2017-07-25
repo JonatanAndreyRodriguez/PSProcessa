@@ -19,7 +19,7 @@ New-ConfigurationItem [-Type] <String> [-ConfigKey] <String> [-FriendlyName] <St
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Crea un objeto que representa un elemento de configuración en un archivo *.config.
 
 ## EXAMPLES
 
@@ -236,10 +236,11 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.ConfigurationItem
+Processa.Management.Automation.ConfigurationItem
 
 ## NOTES
 Autor: Atorres
