@@ -64,20 +64,20 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Path.
+Puede canalizar el valor de Path.
 
 ## OUTPUTS
 
-### Void
+Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-ConnectionString](Set-ConnectionString.md)]()
+[Set-ConnectionString](Set-ConnectionString.md)
 
-[[Get-ConnectionStringSection](Get-ConnectionStringSection.md)]()
+[Get-ConnectionStringSection](Get-ConnectionStringSection.md)
 
-[[Get-ConnectionString](Get-ConnectionString.md)]()
+[Get-ConnectionString](Get-ConnectionString.md)
 
