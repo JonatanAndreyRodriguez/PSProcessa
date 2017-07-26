@@ -11,7 +11,7 @@ Obtiene la ruta de acceso del archivo de configuración de un servicio de Window
 
 ## SYNTAX
 
-```
+```powershell
 Get-ServiceConfigFile [-ServiceName] <String>
 ```
 
@@ -21,17 +21,17 @@ Obtiene el archivo de configuración asociado a los servicios de Windows desarro
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-ServiceConfigFile -ServiceName 'NombreServicio'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'NombreServicio' | Get-ServiceConfigFile
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-Service -Name '*Processa*' | Get-ServiceConfigFile
 ```
 
