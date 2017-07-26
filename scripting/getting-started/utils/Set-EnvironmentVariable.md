@@ -11,7 +11,7 @@ Permite establecer el valor de una variable de entorno.
 
 ## SYNTAX
 
-```
+```powershell
 Set-EnvironmentVariable [-Name] <String> [-Value] <String> [[-Scope] <String>]
 ```
 
@@ -23,7 +23,7 @@ Si la variable de entorno no existe, se crea y se asigna el contenido. Si existe
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-EnvironmentVariable -Name 'MyVariable' -Value 'MyValue' -Scope 'Machine'
 ```
 
