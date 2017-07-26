@@ -11,7 +11,7 @@ Establece el tiempo que se utiliza para comprobar el número de instancias que s
 
 ## SYNTAX
 
-```
+```powershell
 Set-ModuleInterval [-Path] <String> [-Value] <TimeSpan>
 ```
 
@@ -21,12 +21,12 @@ Por defecto se realiza la comprobación cada 60 segundos.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-ModuleInterval -Path 'C:\MyConfig.config' -Value (New-TimeSpan -Seconds 120)
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'ServiceName' | Get-ServiceConfigFile | Set-ModuleInterval -Value (New-TimeSpan -Minutes 2)
 ```
 
