@@ -41,5 +41,5 @@
 - \[Fix\] - Se agregaron pruebas unitarias de varias funciones que faltaban
 - \[Fix\] - Se quitó la dependencia de Visual Studio Professional. Ahora se puede utilizar Visual Studio Code para mantener el proyecto
 - \[Fix\] - Se movió la documentación a github.com
-- \[Fix\] - Se extendió la documentación
+- \[Fix\] - Se extendió la documentación y se distribuyo en carpetas funcionales
 - \[Fix\] - Ahora el proyecto utiliza la plantilla definida para módulo en Plaster
