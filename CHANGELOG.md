@@ -13,7 +13,7 @@ Se agregan los comandos:
 - Merge-Property
 - Get-PropertyList
 - Convert-ToConnection
-### Correcciones:
+#### Correcciones:
 - Read-UserInput ahora permite establecer un valor predeterminado (parámetro DefaultValue)
 - New-PropertyDialog ahora muestra un cuadro de dialogo Resizable y con titulo en la barra de tareas
 - Correcciones en la función Format-Error
@@ -36,7 +36,7 @@ Se agregan los comandos:
 Se agregan los comandos:
 - Remove-PushbulletProfile
 - Get-Configuration
-## Correcciones
+#### Correcciones
 - Se modificó la función Start-TranscriptFile para que deje el archivo de transcripción en la carpeta Logs de la carpeta contendora del script que la llama (Get-Location)
 - Se modificó la función New-ConfigurationProperty para que tenga en cuenta el tipo de datos de los valores actualmente configurados en un archivo .config
 - Se agregaron pruebas unitarias de varias funciones
