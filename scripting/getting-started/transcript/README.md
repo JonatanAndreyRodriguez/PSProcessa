@@ -10,3 +10,6 @@ Por ejemplo, luego de iniciar la transcripción, el siguiente comando enviaría 
 ```powershell
 Get-Date | Format-List | Out-String | Out-Default
 ```
+
+* [Iniciar la transcripción](Start-TranscriptFile.md)
+* [Detener la transcripción](Stop-TranscriptFile.md)
