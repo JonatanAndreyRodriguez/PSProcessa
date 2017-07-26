@@ -44,16 +44,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Name.
+Puede canalizar el valor de Name.
 
 ## OUTPUTS
 
-### Cadena con el valor de la variable de ambiente.
+Cadena con el valor de la variable de ambiente.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-EnvironmentVariable](Set-EnvironmentVariable.md)]()
+[Set-EnvironmentVariable](Set-EnvironmentVariable.md)
 
