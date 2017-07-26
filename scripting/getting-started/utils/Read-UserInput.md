@@ -11,7 +11,7 @@ Lee una línea de entrada ingresada por el usuario desde la consola.
 
 ## SYNTAX
 
-```
+```powershell
 Read-UserInput [-Prompt] <String> [[-Pattern] <String>] [[-ErrorMessage] <String>]
  [[-ScriptBlock] <ScriptBlock>] [[-HiddenSuffix] <String>] [[-DefaultValue] <String>] [-Hidden] [-Check]
 ```
@@ -24,7 +24,7 @@ Lee una línea de entrada ingresada por el usuario desde la consola y hace las v
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 $Params = @{
 	   Prompt = 'Ingrese un número entre 1 y 10';
 	   Pattern = '^[0-9]{1,2}$';
