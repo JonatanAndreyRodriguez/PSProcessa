@@ -11,7 +11,7 @@ Envía un mensaje a una cola de RabbitMQ y espera por su respuesta.
 
 ## SYNTAX
 
-```
+```powershell
 Invoke-RabbitRequest [-ConnectionString] <String> [-Body] <PSObject> [-Queue] <String> [[-Depth] <Int32>]
  [[-Exchange] <String>] [[-Timeout] <TimeSpan>]
 ```
@@ -23,7 +23,7 @@ El hilo se bloqueará hasta que se devuelva la respuesta.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'host=localhost' | Invoke-RabbitRequest -Body @{DocNumber='123456';CorrelationalId='12345600'} -Queue 'SampleQueueRequest'
 ```
 
