@@ -11,7 +11,7 @@ Establece el número de instancias que se crean, al iniciar un servicio de Proce
 
 ## SYNTAX
 
-```
+```powershell
 Set-ModuleInstance [-Path] <String> [-Value] <Int32>
 ```
 
@@ -21,12 +21,12 @@ Por defecto se crean 10 instancias del módulo de PowerShell que genera las resp
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-ModuleInstance -Path 'C:\MyConfig.config' -Value 15
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'ServiceName' | Get-ServicePath | Set-ModuleInstance -Value 15
 ```
 
