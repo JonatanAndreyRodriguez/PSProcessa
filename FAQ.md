@@ -12,7 +12,8 @@ Import-Module PSProcessa
 start notepad (Join-Path (Split-Path (Get-Module PSProcessa).Path -Parent) 'Config.psd1')
 ```
 
-3. Cambie el valor del campo `ProxyServer`, guarde el archivo y vuelva a importar el módulo
+3. Cambie el valor del campo `ProxyServer`, guarde el archivo y vuelva a importar el módulo. Si no se necesita servidor Proxy deje el valor en blanco, es decir `ProxyServer=''`
 ```powershell
 Import-Module PSProcessa -Force
 ```
+
