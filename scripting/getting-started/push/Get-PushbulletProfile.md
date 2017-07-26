@@ -11,7 +11,7 @@ Obtiene la información de tokens asociados con un perfil de PushBullet.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PushbulletProfile [[-ProfileName] <String>]
 ```
 
@@ -21,13 +21,13 @@ Obtiene la información de tokens asociados con un perfil de PushBullet o el nom
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-PushbulletProfile -ProfileName 'Test'
 ```
 Obtiene la información del perfil con nombre 'Test'
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-PushbulletProfile
 ```
 Obtiene los nombres de todos los perfiles configurados
