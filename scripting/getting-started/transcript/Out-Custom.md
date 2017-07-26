@@ -11,27 +11,27 @@ Envía la salida al formateador predeterminado anexando información de la hora 
 
 ## SYNTAX
 
-```
+```powershell
 Out-Custom [[-InputObject] <String>] [[-Type] <String>] [[-FormatTime] <String>] [[-NewLine] <Boolean>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Envía la salida al formateador predeterminado anexando información de la hora de ejecución y el tipo de información.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'Hola Mundo'| Out-Custom
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'Hola Mundo'| Out-Custom -NewLine $false
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-Variable | Out-String | Out-Custom -Type Info
 ```
 
