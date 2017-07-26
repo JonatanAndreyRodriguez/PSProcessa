@@ -11,7 +11,7 @@ Crea un objeto que representa un elemento de configuración en un archivo *.conf
 
 ## SYNTAX
 
-```
+```powershell
 New-ConfigurationItem [-Type] <String> [-ConfigKey] <String> [-FriendlyName] <String> [-DataType] <String>
  [-Description] <String> [[-ValidationPattern] <String>] [[-ValidationPatternMessage] <String>]
  [[-Category] <String>] [[-Format] <String>] [[-Required] <Boolean>] [[-ValidationScript] <ScriptBlock>]
@@ -24,22 +24,22 @@ Crea un objeto que representa un elemento de configuración en un archivo *.conf
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-ConfigurationItem -Type 'ConnectionString' -ConfigKey 'mongodb:dbName' -FriendlyName 'BDMongo' -DataType 'String' -Description 'Cadena de conexión con la base de datos de MongoDB' -Category 'Cadenas de conexión'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-ConfigurationItem -Type 'AppSetting' -ConfigKey 'startDate' -FriendlyName 'FechaInicioPeriodo' -DataType 'Date' -Description 'Fecha de inicio de algo' -Category 'Configuraciones generales' -Format '{0:yyyy-MM-dd}'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 New-ConfigurationItem -Type 'EnvironmentVariable' -ConfigKey 'OS' -FriendlyName 'SistemaOperativo' -DataType 'String' -Description 'Nombre del sistema operativo' -Category 'Configuraciones generales' -Required $false
 ```
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 New-ConfigurationItem -Type 'EnvironmentVariable' -ConfigKey 'days' -FriendlyName 'NumeroDias' -DataType 'Int32' -Description 'Prueba variable de ambiente no existente' -Category 'Configuraciones generales' -ValidationPattern '^\d*$' -ValidationPatternMessage 'Solo se admiten números' -ValidationScript { $Args[0] -gt 0 -and $Args[0] -le 10 } -ValidationScriptMessage 'Solo se admiten valores entre 1 y 10'
 ```
 
