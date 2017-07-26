@@ -11,7 +11,7 @@ Crea un registro de la sesión de Windows PowerShell en un archivo de texto en l
 
 ## SYNTAX
 
-```
+```powershell
 Start-TranscriptFile [[-VariableName] <String>] [[-FileName] <String>] [[-Append] <Boolean>]
  [-IncludeInvocationHeader]
 ```
@@ -22,7 +22,7 @@ Start-TranscriptFile [[-VariableName] <String>] [[-FileName] <String>] [[-Append
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Start-TranscriptFile
 ```
 
@@ -30,12 +30,12 @@ Inicia el registro de la sesión utilizando los valores predeterminados.
 En este caso la ruta de acceso al archivo de transcripción se encuentra en la variable global TranscriptFilePath.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Start-TranscriptFile -VariableName 'MyCustomGlobalVariableName'
-```
-
 $MyCustomGlobalVariableName | Out-Default
 start notepad $MyCustomGlobalVariableName
+```
+
 Inicia el registro de la sesión y coloca la ruta del archivo en la variable global MyCustomGlobalVariableName.
 Luego abre el archivo con el Bloc de Notas.
 
@@ -106,13 +106,15 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None
 
 ## OUTPUTS
+None
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Stop-TranscriptFile](Stop-TranscriptFile.md)]()
+[Stop-TranscriptFile](Stop-TranscriptFile.md)
 
