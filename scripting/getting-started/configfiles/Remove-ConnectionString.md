@@ -11,7 +11,7 @@ Elimina una cadena de conexion en la sección ConnectionStrings de un archivo de
 
 ## SYNTAX
 
-```
+```powershell
 Remove-ConnectionString [-Path] <String> [-Name] <String>
 ```
 
@@ -21,17 +21,17 @@ Elimina (si existe) una conexion en la sección ConnectionStrings de un archivo 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-ConnectionString -Path 'C:\MyConfig.config' -Name 'SQLServer'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Remove-ConnectionString -Name 'SQLServer'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Remove-ConnectionString -Name 'RabbitMQ'
 ```
 
