@@ -11,7 +11,7 @@ Combina el contenido de dos o más Hashtable.
 
 ## SYNTAX
 
-```
+```powershell
 Join-Hashtable [[-Arguments] <Hashtable[]>]
 ```
 
@@ -23,7 +23,7 @@ Los argumentos que son null se ignoran.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 $Options1 = @{ pipeline = 0; }
 $Options2 = @{ enable32BitAppOnWin64 = $true; pipeline = 10; }
 $Options3 = @{ customprop1 = 'Hola'; customprop2 = 'Mundo'; }
@@ -45,7 +45,7 @@ customprop1                    Hola
 
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 $DefaultValues = @{ Proxy = '192.168.0.1'; UseProxy=$true; DefaultPath='C:\Windows'; Color='Black' }
 $UserValues = @{ Proxy = $null; UseProxy=$false; DefaultPath='C:\Temp' }
 Join-Hashtable -Arguments $DefaultValues,$UserValues
