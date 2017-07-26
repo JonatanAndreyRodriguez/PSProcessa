@@ -11,7 +11,7 @@ Envia una notificación Push a todos los dispositivos asociados con el perfil.
 
 ## SYNTAX
 
-```
+```powershell
 Send-PushbulletMessage [-ProfileName] <String> [-Title] <String> [-Message] <String> [[-EndPoint] <String>]
 ```
 
@@ -21,7 +21,7 @@ Envia una notificación Push a todos los dispositivos asociados con el perfil.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Send-PushbulletMessage -ProfileName 'Demo' -Title 'Mensaje de prueba' -Message 'Lorem ipsum dolor sit amet'
 ```
 
