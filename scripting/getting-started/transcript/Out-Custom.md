@@ -33,7 +33,6 @@ Envía la salida al formateador predeterminado anexando información de la hora 
 #### OUTPUT 
 ```
 20:04:07 pm => INFO: Hola Mundo
-
 ```
 
 
