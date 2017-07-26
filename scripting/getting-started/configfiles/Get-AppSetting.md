@@ -11,7 +11,7 @@ Obtiene el valor de una clave en la sección AppSettings de un archivo de config
 
 ## SYNTAX
 
-```
+```powershell
 Get-AppSetting [-Path] <String> [-Key] <String>
 ```
 
@@ -21,12 +21,12 @@ Obtiene el valor de una clave en la sección AppSettings (Clave/Valor) de un arc
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-AppSetting -Path 'C:\MyConfig.config' -Key 'MiClave'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Get-AppSetting -Key 'MiClave'
 ```
 
