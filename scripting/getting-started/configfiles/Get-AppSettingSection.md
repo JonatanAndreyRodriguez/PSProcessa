@@ -11,7 +11,7 @@ Obtiene los valores de la sección AppSettings de un archivo de configuración.
 
 ## SYNTAX
 
-```
+```powershell
 Get-AppSettingSection [-Path] <String>
 ```
 
@@ -21,12 +21,12 @@ Obtiene un diccionario Clave/Valor con el contenido de la sección AppSettings d
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-AppSettingSection -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Get-AppSettingSection
 ```
 
