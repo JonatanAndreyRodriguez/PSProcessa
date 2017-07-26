@@ -6,5 +6,5 @@
 | [testing](testing)  | Funciones que se pueden utilizar para comprobar conexiones |
 | [transferfiles](transferfiles)  | Funciones que se pueden utilizar para transferir archivos |
 | [utils](utils)  | Funciones utilitarias de uso general |
-
+| [transcript](transcript)  | Funciones de transcripción o registro |
 
