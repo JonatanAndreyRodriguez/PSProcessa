@@ -12,13 +12,13 @@ Permite ejecutar una instrucción de T/SQL o un procedimiento almacenado en una 
 ## SYNTAX
 
 ### FromString (Default)
-```
+```powershell
 Invoke-SqlCommand -ConnectionString <String> -CommandText <String> [-CommandType <CommandType>]
  [-ArgumentList <PSObject>] [-CommandTimeout <Int32>] [-AsDataSet]
 ```
 
 ### FromConnection
-```
+```powershell
 Invoke-SqlCommand -SqlConnection <SqlConnection> -CommandText <String> [-CommandType <CommandType>]
  [-ArgumentList <PSObject>] [-CommandTimeout <Int32>] [-AsDataSet]
 ```
@@ -29,42 +29,42 @@ Ejecuta comandos como INSERT de T/SQL, DELETE, UPDATE e instrucciones SET.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Invoke-SqlCommand -ConnectionString 'Server=(local);Database=master;Trusted_Connection=True;' -CommandText 'select * from sys.tables'
 ```
 
 Ejecuta una instrucción SELECT simple.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'select * from sys.tables' | Invoke-SqlCommand -ConnectionString 'Server=(local);Database=master;Trusted_Connection=True;'
 ```
 
 Ejecuta una instrucción SELECT simple desde el Pipeline.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 'select * from sys.tables where name = @mytable_name' | Invoke-SqlCommand -ConnectionString 'Server=(local);Database=master;Trusted_Connection=True;' -ArgumentList @{mytable_name = 'spt_monitor'}
 ```
 
 Ejecuta una instrucción SELECT utilizando los valores de parámetros suministrados en ArgumentList.
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 'GetHostSettings' | Invoke-SqlCommand -ConnectionString 'Server=(local);Database=dnn_900;Trusted_Connection=True;' -CommandType StoredProcedure
 ```
 
 Ejecuta un procedimento almacenado.
 
 ### -------------------------- EXAMPLE 5 --------------------------
-```
+```powershell
 'GetPortalSettings' | Invoke-SqlCommand -ConnectionString 'Server=(local);Database=dnn_900;Trusted_Connection=True;' -CommandType StoredProcedure -ArgumentList @{PortalId=0;CultureCode=$null}
 ```
 
 Ejecuta un procedimento almacenado utilizando los valores de parámetros suministrados en ArgumentList..
 
 ### -------------------------- EXAMPLE 6 --------------------------
-```
+```powershell
 $Dataset = 'select 1 as [dummy]; select 2 as [dummy]; select 3 as [dummy]' | Invoke-SqlCommand -ConnectionString 'Server=(local);Database=master;Trusted_Connection=True;' -AsDataSet
 
 PS C:\>$Dataset.Tables[0]
