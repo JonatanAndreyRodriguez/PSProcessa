@@ -7,18 +7,16 @@
 
 ### Versión 1.1 (atorres)
 ------
-Se agregan los comandos:
-- Remove-AppSetting
-- Remove-ConnectionString
-- Remove-EnvironmentVariable
-- Set-EnvironmentVariable
-- Merge-Property
-- Get-PropertyList
-- Convert-ToConnection
-#### Correcciones:
-- Read-UserInput ahora permite establecer un valor predeterminado (parámetro DefaultValue)
-- New-PropertyDialog ahora muestra un cuadro de dialogo Resizable y con titulo en la barra de tareas
-- Correcciones en la función Format-Error
+- \[New\] - Remove-AppSetting
+- \[New\] - Remove-ConnectionString
+- \[New\] - Remove-EnvironmentVariable
+- \[New\] - Set-EnvironmentVariable
+- \[New\] - Merge-Property
+- \[New\] - Get-PropertyList
+- \[New\] - Convert-ToConnection
+- \[Fix\] Read-UserInput ahora permite establecer un valor predeterminado (parámetro DefaultValue)
+- \[Fix\] New-PropertyDialog ahora muestra un cuadro de dialogo Resizable y con titulo en la barra de tareas
+- \[Fix\] Correcciones en la función Format-Error
 
 ### Versión 1.5 (atorres)
 ------
