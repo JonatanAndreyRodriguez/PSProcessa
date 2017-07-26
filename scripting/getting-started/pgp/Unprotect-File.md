@@ -12,12 +12,12 @@ Descifra un archivo con extensión .pgp
 ## SYNTAX
 
 ### NoSignature
-```
+```powershell
 Unprotect-File -PrivateKeyFileName <String> -FileName <String> -Password <String> [-JavaPath <String>]
 ```
 
 ### Signature
-```
+```powershell
 Unprotect-File -PrivateKeyFileName <String> -PublicKeyFileName <String> -FileName <String> -Password <String>
  [-JavaPath <String>]
 ```
@@ -28,17 +28,17 @@ Descifra un archivo por medio de la utilidad OpenPGP y lo deja con su extensión
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Unprotect-File -PrivateKeyFileName 'C:\TestPrivateKey.asc' -PublicKeyFileName 'C:\TestPublicKey.asc' -FileName 'C:\ArchivoPrueba.txt' -Password 'PGPPassword'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Unprotect-File -PrivateKeyFileName 'C:\TestPrivateKey.asc' -FileName 'C:\ArchivoPrueba.txt' -Password 'PGPPassword'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Unprotect-File -PrivateKeyFileName 'C:\TestPrivateKey.asc' -PublicKeyFileName 'C:\TestPublicKey.asc' -FileName 'C:\ArchivoPrueba.txt' -Password 'PGPPassword' -JavaPath 'C:\ProgramData\Oracle\Java\javapath\java.exe'
 ```
 
