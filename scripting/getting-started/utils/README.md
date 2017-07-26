@@ -9,5 +9,6 @@
 * [Solicitar al usuario que ingrese un valor](Read-UserInput.md)
 * [Establecer el valor de una variable de entorno](Set-EnvironmentVariable.md)
 * [Obtener el valor de una variable de entorno](Get-EnvironmentVariable.md)
+* [Eliminar el valor de una variable de entorno](Remove-EnvironmentVariable.md)
 * [Formatear la información de un error, como un objeto que muestre información detallada del mismo](Format-Error.md)
 
