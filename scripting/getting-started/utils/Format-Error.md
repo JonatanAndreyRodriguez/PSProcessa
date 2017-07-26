@@ -33,7 +33,7 @@ Format-Error -Wrap
 ## PARAMETERS
 
 ### -ErrorRecord
-{{Fill ErrorRecord Description}}
+Información del error.
 
 ```yaml
 Type: ErrorRecord
@@ -64,11 +64,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ErrorRecord.
+Puede canalizar el valor de ErrorRecord.
 
 ## OUTPUTS
 
-### System.Management.Automation.PSObject
+System.Management.Automation.PSObject
 
 ### System.String
 
