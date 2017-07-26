@@ -11,7 +11,7 @@ Valida la estructura de un archivo de acuerdo a un archivo XML que describe el f
 
 ## SYNTAX
 
-```
+```powershell
 Invoke-FileValidator [-Path] <String> [-XmlPath] <String> [[-LogPath] <String>]
 ```
 
@@ -22,12 +22,12 @@ Usa la libreria Processa.FileValidator.dll
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Invoke-FileValidator -Path 'C:\Carpeta\Archivo.txt' -XmlPath 'C:\Carpeta\ArchivoValidacion.xml' -LogPath 'C:\Carpeta\ArchivoLog.log'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Invoke-FileValidator -Path 'C:\Carpeta\Archivo.txt' -XmlPath 'C:\Carpeta\ArchivoValidacion.xml'
 ```
 
