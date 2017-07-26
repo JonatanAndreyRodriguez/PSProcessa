@@ -11,7 +11,7 @@ Cifra los valores de la sección AppSettings de un archivo de configuración.
 
 ## SYNTAX
 
-```
+```powershell
 Protect-AppSettingSection [-Path] <String>
 ```
 
@@ -22,12 +22,12 @@ Se necesita permisos de Administrador para completar la función.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Protect-AppSettingSection -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Protect-AppSettingSection
 ```
 
