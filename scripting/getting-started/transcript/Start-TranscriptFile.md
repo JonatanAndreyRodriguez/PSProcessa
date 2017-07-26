@@ -7,7 +7,7 @@ schema: 2.0.0
 # Start-TranscriptFile
 
 ## SYNOPSIS
-Crea un registro de la sesión de Windows PowerShell en un archivo de texto en la carpeta logs.
+Crea un registro de la sesión de Windows PowerShell en un archivo de texto en la subcarpeta logs.
 
 ## SYNTAX
 
@@ -17,7 +17,7 @@ Start-TranscriptFile [[-VariableName] <String>] [[-FileName] <String>] [[-Append
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Crea un registro de la sesión de Windows PowerShell en un archivo de texto en la subcarpeta logs de la ruta de acceso actual (Get-Location).
 
 ## EXAMPLES
 
