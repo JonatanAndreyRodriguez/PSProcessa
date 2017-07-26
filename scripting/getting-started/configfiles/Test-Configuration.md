@@ -11,7 +11,7 @@ Verifica la información de los datos de configuración del módulo.
 
 ## SYNTAX
 
-```
+```powershell
 Test-Configuration [-SaveFlag]
 ```
 
@@ -21,14 +21,14 @@ Verifica la información de los datos de configuración del módulo de acuerdo a
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Test-Configuration
 ```
 
 Verifica la configuración del módulo (conexiones y demás elementos definidos por el desarrollador).
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Test-Configuration -SaveFlag
 ```
 
@@ -36,7 +36,7 @@ Verifica la configuración del módulo (conexiones y demás elementos definidos 
 Si alguna verificación falla, establece el valor de *No configurado* en el archivo PSGemini.config
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Test-Configuration -Verbose
 ```
 
