@@ -101,10 +101,11 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+Puede canalizar el valor de InputObject.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
