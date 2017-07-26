@@ -11,7 +11,7 @@ Detiene la transcripción que se inició mediante Start-TranscriptFile.
 
 ## SYNTAX
 
-```
+```powershell
 Stop-TranscriptFile
 ```
 
@@ -22,20 +22,22 @@ También puede detener la transcripción finalizando la sesión.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Stop-TranscriptFile
 ```
 
 ## PARAMETERS
 
 ## INPUTS
+None
 
 ## OUTPUTS
+None
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Start-TranscriptFile](Start-TranscriptFile.md)]()
+[Start-TranscriptFile](Start-TranscriptFile.md)
 
