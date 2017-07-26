@@ -103,5 +103,4 @@ Autor: Atorres
 
 [Add-PushbulletToken](Add-PushbulletToken.md)
 
-[Get-Configuration](Get-Configuration.md)
 
