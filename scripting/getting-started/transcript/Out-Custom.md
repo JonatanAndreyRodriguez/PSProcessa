@@ -22,7 +22,7 @@ Envía la salida al formateador predeterminado anexando información de la hora 
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```powershell
-'Hola Mundo'| Out-Custom
+Get-Variable | Out-String | Out-Custom
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
