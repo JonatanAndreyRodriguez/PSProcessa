@@ -11,7 +11,7 @@ Crea o actualiza la información de un perfil de tokens de acceso a PushBullet.
 
 ## SYNTAX
 
-```
+```powershell
 Set-PushbulletProfile [-ProfileName] <String> [-AccessToken] <Object>
 ```
 
@@ -22,7 +22,7 @@ Se necesita permisos de Administrador para completar la función.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 $Tokens = @(
     New-PushbulletToken -Name 'Operaciones' -Token 'o.h7K5yXpS6k6OR710PKeWhXGGj4T15LGe'
     New-PushbulletToken -Name 'IT' -Token 'o.XX8k4tBesQeRqbum5CrQJY6g7xwEITRo'
