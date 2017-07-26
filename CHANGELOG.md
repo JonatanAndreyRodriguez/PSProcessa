@@ -5,7 +5,7 @@
 * \[New\] - Liberación inicial
 
 
-### Versión 1.1 (atorres)
+### Versión 1.1.6367.26579 (atorres)
 ------
 - \[New\] - Remove-AppSetting
 - \[New\] - Remove-ConnectionString
@@ -18,7 +18,7 @@
 - \[Fix\] - New-PropertyDialog ahora muestra un cuadro de dialogo Resizable y con titulo en la barra de tareas
 - \[Fix\] - Correcciones en la función Format-Error
 
-### Versión 1.5 (atorres)
+### Versión 1.5.6383.30493 (atorres)
 ------
 - \[New\] - Test-MongoConnection
 - \[New\] - Set-DefaultSetting
