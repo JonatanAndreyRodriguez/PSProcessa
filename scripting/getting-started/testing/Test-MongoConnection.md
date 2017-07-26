@@ -11,7 +11,7 @@ Verifica que se pueda establecer la comunicación con un servidor de MongoDB.
 
 ## SYNTAX
 
-```
+```powershell
 Test-MongoConnection [-ConnectionString] <String>
 ```
 
@@ -21,12 +21,12 @@ Verifica que se pueda establecer la comunicación con un servidor de MongoDB con
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'mongodb://localhost' | Test-MongoConnection
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'mongodb://username:password@localhost:27017' | Test-MongoConnection
 ```
 
