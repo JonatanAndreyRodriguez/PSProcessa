@@ -11,7 +11,7 @@ Cifra los valores de la sección ConnectionStrings de un archivo de configuraci�
 
 ## SYNTAX
 
-```
+```powershell
 Protect-ConnectionStringSection [-Path] <String>
 ```
 
@@ -23,12 +23,12 @@ Cifra la sección ConnectionStrings de un archivo de configuración.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Protect-ConnectionStringSection -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Protect-ConnectionStringSection
 ```
 
