@@ -18,7 +18,7 @@ Set-EnvironmentVariable [-Name] <String> [-Value] <String> [[-Scope] <String>]
 ## DESCRIPTION
 Si la variable de entorno no existe, se crea y se asigna el contenido. Si existe, su valor se modifica.
 
-> NOTA: Esta función no tiene ningún efecto en las variables de entorno del sistema o las variables de entorno de otros procesos.
+> NOTA: Esta función no tiene ningún efecto en las variables de entorno de otros procesos.
 
 ## EXAMPLES
 
