@@ -36,10 +36,10 @@
 ------
 - \[New\] - Remove-PushbulletProfile
 - \[New\] - Get-Configuration
+- \[New\] - Se agregaron pruebas unitarias de varias funciones que faltaban
+- \[New\] - Se quitó la dependencia de Visual Studio Professional. Ahora se puede utilizar Visual Studio Code para mantener el proyecto
+- \[New\] - Se movió la documentación a github.com
+- \[New\] - Se extendió la documentación y se distribuyo en carpetas funcionales
+- \[New\] - Ahora el proyecto utiliza la plantilla definida para módulo en Plaster
 - \[Fix\] - Se modificó la función Start-TranscriptFile para que deje el archivo de transcripción en la carpeta Logs de la carpeta contendora del script que la llama (Get-Location)
 - \[Fix\] - Se modificó la función New-ConfigurationProperty para que tenga en cuenta el tipo de datos de los valores actualmente configurados en un archivo .config
-- \[Fix\] - Se agregaron pruebas unitarias de varias funciones que faltaban
-- \[Fix\] - Se quitó la dependencia de Visual Studio Professional. Ahora se puede utilizar Visual Studio Code para mantener el proyecto
-- \[Fix\] - Se movió la documentación a github.com
-- \[Fix\] - Se extendió la documentación y se distribuyo en carpetas funcionales
-- \[Fix\] - Ahora el proyecto utiliza la plantilla definida para módulo en Plaster
