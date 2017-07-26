@@ -12,13 +12,13 @@ Copia uno o más archivos del directorio local al directorio remoto.
 ## SYNTAX
 
 ### FromSession (Default)
-```
+```powershell
 Copy-FileToServer -InputObject <SessionOptions> -LocalFile <FileInfo[]> -RemotePath <String>
  [-TransferMode <TransferMode>] [-TotalAttempt <Int32>] [-AttemptWindow <Int32>] [-RemoveAfterCopy]
 ```
 
 ### FromConnectionString
-```
+```powershell
 Copy-FileToServer -ConnectionString <String> -LocalFile <FileInfo[]> -RemotePath <String>
  [-TransferMode <TransferMode>] [-TotalAttempt <Int32>] [-AttemptWindow <Int32>] [-RemoveAfterCopy]
 ```
@@ -29,12 +29,12 @@ Copia uno o más archivos del directorio local al directorio remoto en el servid
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd; | Copy-FileToServer -LocalFile (Get-ChildItem -Filter '*.txt') -RemotePath '/Temp'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd;' | Copy-FileToServer -LocalFile (Get-ChildItem -Filter '*.txt' -Path 'C:\Temp') -RemotePath '/Temp'
 ```
 
