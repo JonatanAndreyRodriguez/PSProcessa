@@ -11,7 +11,7 @@ Descifra los valores de la sección ConnectionStrings de un archivo de configura
 
 ## SYNTAX
 
-```
+```powershell
 Unprotect-ConnectionStringSection [-Path] <String>
 ```
 
@@ -21,12 +21,12 @@ Descifra la sección ConnectionStrings de un archivo de configuración
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Unprotect-ConnectionStringSection -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Unprotect-ConnectionStringSection
 ```
 
