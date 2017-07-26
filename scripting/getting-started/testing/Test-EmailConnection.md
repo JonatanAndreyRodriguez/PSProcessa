@@ -11,7 +11,7 @@ Verifica si puede establecer una conexión con un servidor de SMTP.
 
 ## SYNTAX
 
-```
+```powershell
 Test-EmailConnection [-ConnectionString] <String> [[-To] <String>]
 ```
 
@@ -21,12 +21,12 @@ Verifica si puede establecer una conexión con un servidor de SMTP enviando un m
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'smtpserver=smtp.gmail.com;port=587;username=user@gmail.com;password=supersecret;usessl=true' | Test-EmailConnection
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'smtpserver=smtp.gmail.com;username=user@gmail.com;password=supersecret' | Test-EmailConnection
 ```
 
