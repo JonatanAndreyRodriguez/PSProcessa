@@ -11,7 +11,7 @@ Agrega la información de un token de PushBullet a un perfil.
 
 ## SYNTAX
 
-```
+```powershell
 Add-PushbulletToken [-ProfileName] <String> [-AccessToken] <PushbulletToken>
 ```
 
@@ -24,7 +24,7 @@ Se necesita permisos de Administrador para completar la función.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Add-PushbulletToken -ProfileName 'Demo' -AccessToken (New-PushbulletToken -Name 'Nuevo dispositivo' -Token 'x.BB8k4tBesQeRqbum5CrQJY6g7xwEI111')
 ```
 
