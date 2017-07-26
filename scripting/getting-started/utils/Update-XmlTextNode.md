@@ -11,7 +11,7 @@ Establece valores en un documento XML en un nodo de tipo TextNode.
 
 ## SYNTAX
 
-```
+```powershell
 Update-XmlTextNode [-Path] <String> [-XPath] <String> [-Value] <String>
 ```
 
@@ -21,17 +21,17 @@ Permite utilizar consultas XPath para establecer valores en documentos XML en no
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Update-XmlTextNode -Path 'C:\MyFile.xml' -XPath '/root'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyFile.xml' | Update-XmlTextNode -XPath '/root'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 'C:\MyFile.dtsconfig' | Update-XmlTextNode -XPath "//Configuration[@Path='\Package.Variables[User::FilePath].Properties[Value]']/ConfiguredValue" -Value 'NewValue'
 ```
 
