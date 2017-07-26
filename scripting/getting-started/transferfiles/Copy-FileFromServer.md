@@ -60,7 +60,7 @@ String que define la información que permite una conexión con un servidor de F
 Este objeto se utiliza en las transferencias de archivos.
 Valores admitidos en la cadena de conexión (no se distinguen may/min)
 
-| Nombre | Descripción | (R)equerido (O)pcional |
+| Token | Descripción | (R)equerido (O)pcional |
 | :--------: |:-------------| :---:|
 | protocol | ftp o sftp | (R) |
 | host | IP o nombre del servidor de FTP/SFTP | (R) |
