@@ -45,16 +45,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Name.
+Puede canalizar el valor de Name.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-EnvironmentVariable](Set-EnvironmentVariable.md)]()
+[Set-EnvironmentVariable](Set-EnvironmentVariable.md)
 
