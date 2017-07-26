@@ -11,17 +11,17 @@ Representa la información de un token de acceso para PushBullet.
 
 ## SYNTAX
 
-```
+```powershell
 New-PushbulletToken [-Name] <String> [-Token] <String>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Representa la información de un token de acceso para PushBullet.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-PushbulletToken -Name 'Operaciones' -Token 'o.h7K5yXpS6k6OR710PKeWhXGGj4T15LGe'
 ```
 
