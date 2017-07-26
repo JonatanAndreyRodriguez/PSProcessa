@@ -14,8 +14,8 @@
 - \[New\] - Merge-Property
 - \[New\] - Get-PropertyList
 - \[New\] - Convert-ToConnection
-- \[Fix\] - Read-UserInput ahora permite establecer un valor predeterminado (parámetro DefaultValue)
-- \[Fix\] - New-PropertyDialog ahora muestra un cuadro de dialogo Resizable y con titulo en la barra de tareas
+- \[Enhancement\] - Read-UserInput ahora permite establecer un valor predeterminado (parámetro DefaultValue)
+- \[Enhancement\] - New-PropertyDialog ahora muestra un cuadro de dialogo Resizable y con titulo en la barra de tareas
 - \[Fix\] - Correcciones en la función Format-Error
 
 ### Versión 1.5.6383.30493 (atorres)
@@ -30,7 +30,7 @@
 - \[New\] - Set-PushbulletProfile
 - \[New\] - Get-PushbulletProfile
 - \[New\] - Send-PushbulletMessage
-- \[Fix\] - Invoke-SqlCommand ahora permite la configuración de TimeOut a través del comando Set-DefaultSetting
+- \[Enhancement\] - Invoke-SqlCommand ahora permite la configuración de TimeOut a través del comando Set-DefaultSetting
 
 ### Versión 1.6 (atorres)
 ------
@@ -41,5 +41,5 @@
 - \[New\] - Se movió la documentación a github.com
 - \[New\] - Se extendió la documentación y se distribuyo en carpetas funcionales
 - \[New\] - Ahora el proyecto utiliza la plantilla definida para módulo en Plaster
-- \[Fix\] - Se modificó la función Start-TranscriptFile para que deje el archivo de transcripción en la carpeta Logs de la carpeta contendora del script que la llama (Get-Location)
+- \[Enhancement\] - Se modificó la función Start-TranscriptFile para que deje el archivo de transcripción en la carpeta Logs de la carpeta contendora del script que la llama (Get-Location)
 - \[Fix\] - Se modificó la función New-ConfigurationProperty para que tenga en cuenta el tipo de datos de los valores actualmente configurados en un archivo .config
