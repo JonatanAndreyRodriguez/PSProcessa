@@ -1,6 +1,13 @@
 # Preguntas Frecuentes
 
-## ## ¿Cómo determinar el servidor proxy predeterminado?
+## ¿Cómo determinar el servidor proxy predeterminado?
+
+1. Importe el módulo 
+```powershell
+Import-Module PSProcessa
+```
+
+2. Ejecute la instrucción
 ```powershell
 (Import-PowerShellDataFile (Join-Path (Split-Path (Get-Module PSProcessa).Path -Parent) 'Config.psd1'))['ProxyServer']
 ```
