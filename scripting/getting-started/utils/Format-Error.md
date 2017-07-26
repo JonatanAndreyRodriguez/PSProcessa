@@ -25,6 +25,28 @@ Formatea la información de un error, como un objeto que muestra información de
 Format-Error
 ```
 
+#### OUTPUT
+```
+
+DateTime         : 2017-07-25 07:16:26 pm
+ScriptName       : 
+ErrorMessage     : Attempted to divide by zero.
+ErrorTypeName    : System.Management.Automation.RuntimeException
+LineNumber       : 1
+ColumnNumber     : 1
+Category         : NotSpecified
+ErrorReason      : RuntimeException
+Target           : 
+StackTrace       :    at System.Management.Automation.IntOps.Divide(Int32 lhs, Int32 rhs)
+                      at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+                      at System.Management.Automation.Interpreter.DynamicInstruction`3.Run(InterpretedFrame frame)
+                      at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+ScriptStackTrace : at <ScriptBlock>, <No file>: line 1
+
+
+```
+
+
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
 Format-Error -Wrap
