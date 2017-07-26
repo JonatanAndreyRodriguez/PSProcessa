@@ -11,7 +11,7 @@ Obtiene el valor de una cadena de conexión en la sección ConnectionString de u
 
 ## SYNTAX
 
-```
+```powershell
 Get-ConnectionString [-Path] <String> [-Name] <String>
 ```
 
@@ -21,12 +21,12 @@ Obtiene el valor de una conexión a base de datos de un archivo de configuració
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-ConnectionString -Path 'C:\MyConfig.config' -Name 'LocalSqlServer'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Get-ConnectionString -Name 'LocalSqlServer'
 ```
 
