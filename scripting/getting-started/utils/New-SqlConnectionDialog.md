@@ -11,7 +11,7 @@ Permite a los usuarios crear cadenas de conexión a través de un cuadro de dial
 
 ## SYNTAX
 
-```
+```powershell
 New-SqlConnectionDialog [[-RequiresSelection] <Boolean>] [-RequiresSysAdmin]
 ```
 
@@ -23,12 +23,12 @@ Permite a los usuarios crear cadenas de conexión y conectarse a fuentes de dato
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-SqlConnectionDialog
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-SqlConnectionDialog -RequiresSysAdmin
 ```
 
