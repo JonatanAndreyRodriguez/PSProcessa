@@ -11,7 +11,7 @@ Elimina la información un perfil de PushBullet.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-PushbulletProfile [-ProfileName] <String>
 ```
 
@@ -22,7 +22,7 @@ Se necesita permisos de Administrador para completar la función.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-PushbulletProfile -ProfileName 'Test'
 ```
 
