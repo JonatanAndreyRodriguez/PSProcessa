@@ -34,7 +34,6 @@
 
 ### Versión 1.6 (atorres)
 ------
-Se agregan los comandos:
 - \[New\] - Remove-PushbulletProfile
 - \[New\] - Get-Configuration
 - \[Fix\] - Se modificó la función Start-TranscriptFile para que deje el archivo de transcripción en la carpeta Logs de la carpeta contendora del script que la llama (Get-Location)
