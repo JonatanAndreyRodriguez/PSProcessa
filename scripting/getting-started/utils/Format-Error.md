@@ -116,7 +116,7 @@ Puede canalizar el valor de ErrorRecord.
 
 System.Management.Automation.PSObject
 
-### System.String
+System.String
 
 ## NOTES
 Autor: Atorres
