@@ -1,11 +1,11 @@
 # PSProcessa ChangeLog
 
-### Versión 1.0.6292.28933 (atorres)
+### Versión 1.0.6292.28933
 ------
 * \[New\] - Liberación inicial
 
 
-### Versión 1.1.6367.26579 (atorres)
+### Versión 1.1.6367.26579
 ------
 - \[New\] - Remove-AppSetting
 - \[New\] - Remove-ConnectionString
@@ -18,7 +18,7 @@
 - \[Enhancement\] - New-PropertyDialog ahora muestra un cuadro de dialogo Resizable y con titulo en la barra de tareas
 - \[Fix\] - Correcciones en la función Format-Error
 
-### Versión 1.5.6383.30493 (atorres)
+### Versión 1.5.6383.30493
 ------
 - \[New\] - Test-MongoConnection
 - \[New\] - Set-DefaultSetting
@@ -32,7 +32,7 @@
 - \[New\] - Send-PushbulletMessage
 - \[Enhancement\] - Invoke-SqlCommand ahora permite la configuración de TimeOut a través del comando Set-DefaultSetting
 
-### Versión 1.6 (atorres)
+### Versión 1.6
 ------
 - \[New\] - Remove-PushbulletProfile
 - \[New\] - Get-Configuration
