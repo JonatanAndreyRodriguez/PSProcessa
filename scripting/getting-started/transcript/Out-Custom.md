@@ -30,6 +30,13 @@ Envía la salida al formateador predeterminado anexando información de la hora 
 'Hola Mundo'| Out-Custom -NewLine $false
 ```
 
+#### OUTPUT 
+```
+20:04:07 pm => INFO: Hola Mundo
+
+```
+
+
 ### -------------------------- EXAMPLE 3 --------------------------
 ```powershell
 Get-Variable | Out-String | Out-Custom -Type Info
