@@ -11,7 +11,7 @@ Envía la salida de una consulta T/SQL a una ventana, permitiendo al usuario sel
 
 ## SYNTAX
 
-```
+```powershell
 New-QueryPickerDialog [-ConnectionString] <String> [-CommandText] <String> [[-CommandType] <CommandType>]
  [[-ArgumentList] <PSObject>] [[-Title] <String>] [[-OutputMode] <String>]
 ```
@@ -24,27 +24,27 @@ Se conecta con un origen de datos de T/SQL Server, y envía la salida de una con
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-QueryPickerDialog -ConnectionString 'Data Source=(local);Initial Catalog=Master;Integrated Security=True' -CommandText 'select * from sys.databases'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-QueryPickerDialog -ConnectionString 'Data Source=(local);Initial Catalog=Master;Integrated Security=True' -CommandText 'select * from sys.databases' -OutputMode 'Multiple'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 New-SqlConnectionDialog | New-QueryPickerDialog -CommandText 'select * from master.sys.databases' -OutputMode 'Multiple'
 ```
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 New-SqlConnectionDialog | New-QueryPickerDialog -CommandText 'select * from master.sys.databases where user_access = @user_access' -ArgumentList @{user_access=0}
 ```
 
 ### -------------------------- EXAMPLE 5 --------------------------
-```
+```powershell
 'Data Source=(local);Initial Catalog=Master;Integrated Security=True' | New-QueryPickerDialog -CommandText 'select @@SERVERNAME as ServerName' -Title 'Hello World'
 ```
 
