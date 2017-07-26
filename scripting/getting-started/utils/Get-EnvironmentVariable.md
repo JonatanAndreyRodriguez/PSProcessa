@@ -11,7 +11,7 @@ Obtiene el valor de una variable de ambiente.
 
 ## SYNTAX
 
-```
+```powershell
 Get-EnvironmentVariable [-Name] <String>
 ```
 
@@ -21,7 +21,7 @@ Obtiene el valor de una variable de ambiente.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-EnvironmentVariable -Name 'OS'
 ```
 
