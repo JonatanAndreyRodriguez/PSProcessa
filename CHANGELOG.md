@@ -1,10 +1,12 @@
 # PSProcessa ChangeLog
 
 ### Versión 1.0.6292.28933 (atorres)
+------
 * Liberación inicial
 
 
 ### Versión 1.1 (atorres)
+------
 Se agregan los comandos:
 - Remove-AppSetting
 - Remove-ConnectionString
@@ -19,6 +21,7 @@ Se agregan los comandos:
 - Correcciones en la función Format-Error
 
 ### Versión 1.5 (atorres)
+------
 Se agregan los comandos:
 - Test-MongoConnection
 - Set-DefaultSetting
@@ -33,6 +36,7 @@ Se agregan los comandos:
 - Invoke-SqlCommand ahora permite la configuración de TimeOut a través del comando Set-DefaultSetting
 
 ### Versión 1.6 (atorres)
+------
 Se agregan los comandos:
 - Remove-PushbulletProfile
 - Get-Configuration
