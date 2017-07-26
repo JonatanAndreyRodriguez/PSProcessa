@@ -11,7 +11,7 @@ Crea o actualiza el valor de una clave en la sección AppSettings de un archivo 
 
 ## SYNTAX
 
-```
+```powershell
 Set-AppSetting [-Path] <String> [-Key] <String> [-Value] <String>
 ```
 
@@ -21,12 +21,12 @@ Crea o actualiza (si existe) el valor de una clave en la sección AppSettings de
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-AppSetting -Path 'C:\MyConfig.config' -Key 'MiClave' -Value 'MiValor'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'ServiceName' | Get-ServicePath | Set-AppSetting -Key 'MiClave' -Value 'MiValor'
 ```
 
