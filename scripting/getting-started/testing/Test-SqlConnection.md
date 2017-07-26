@@ -11,7 +11,7 @@ Verifica que se pueda establecer la comunicación con un servidor de SQL Server.
 
 ## SYNTAX
 
-```
+```powershell
 Test-SqlConnection [-ConnectionString] <String>
 ```
 
@@ -22,7 +22,7 @@ Cierra la conexión al finalizar la prueba.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'Server=(local);Database=master;Trusted_Connection=True;' | Test-SqlConnection
 ```
 
