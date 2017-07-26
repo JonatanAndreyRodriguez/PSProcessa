@@ -11,7 +11,7 @@ Obtiene la información de los datos de configuración del módulo.
 
 ## SYNTAX
 
-```
+```powershell
 Get-Configuration
 ```
 
@@ -21,14 +21,14 @@ Obtiene la información de los datos de configuración del módulo a partir de l
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Configuration
 ```
 
 Obtiene la información de configuración del módulo.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Configuration | Get-Member -MemberType Properties
 ```
 
