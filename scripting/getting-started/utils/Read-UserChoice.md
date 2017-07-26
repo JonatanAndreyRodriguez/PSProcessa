@@ -12,13 +12,13 @@ Proporciona un conjunto de opciones, que permiten al usuario elegir una sola opc
 ## SYNTAX
 
 ### CustomSet (Default)
-```
+```powershell
 Read-UserChoice -Title <String> -Prompt <String> -Option <PSObject[]> [-Default <Int32>]
  [-NoneElement <PSObject>]
 ```
 
 ### ChoiceSet
-```
+```powershell
 Read-UserChoice -Title <String> -Prompt <String> -Choice <ChoiceDescription[]> [-Default <Int32>]
  [-NoneElement <PSObject>]
 ```
@@ -31,7 +31,7 @@ El carácter especial "&" (ampersand) se puede integrar en el texto de la pantal
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 $Options = @()
 $Options += New-Object -TypeName System.Management.Automation.Host.ChoiceDescription -ArgumentList '&Blanco', 'Blanco en Hex es #ffffff'
 $Options += New-Object -TypeName System.Management.Automation.Host.ChoiceDescription -ArgumentList 'N&egro', 'Negro en Hex es #000000'
@@ -42,7 +42,7 @@ $SelectedIndex | Out-Default
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 $Options = @()
 $Options += @{Label = '&Mucho'; HelpMessage = 'Bien'}
 $Options += @{Label = 'M&uchisimo'; HelpMessage = 'Yupi!!!'}
