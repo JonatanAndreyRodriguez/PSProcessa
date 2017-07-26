@@ -32,7 +32,7 @@
 - \[New\] - Send-PushbulletMessage
 - \[Enhancement\] - Invoke-SqlCommand ahora permite la configuración de TimeOut a través del comando Set-DefaultSetting
 
-### Versión 1.6
+### Versión 1.6.6416.554385409
 ------
 - \[New\] - Remove-PushbulletProfile
 - \[New\] - Get-Configuration
