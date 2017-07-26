@@ -19,6 +19,8 @@ Read-UserInput [-Prompt] <String> [[-Pattern] <String>] [[-ErrorMessage] <String
 ## DESCRIPTION
 Lee una línea de entrada ingresada por el usuario desde la consola y hace las validaciones establecidas ante de retornar un valor.
 
+![Read-UserInput](images/Read-UserInput.png)
+
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
