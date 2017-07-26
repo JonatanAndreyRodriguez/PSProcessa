@@ -11,7 +11,7 @@ Obtiene los valores de la sección ConnectionString de un archivo de configuraci
 
 ## SYNTAX
 
-```
+```powershell
 Get-ConnectionStringSection [-Path] <String>
 ```
 
@@ -21,12 +21,12 @@ Obtiene un diccionario Clave/Valor con el contenido de la sección ConnectionStr
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-ConnectionStringSection -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Get-ConnectionStringSection
 ```
 
