@@ -36,7 +36,7 @@ Verifica si puede establecer una conexión con un servidor de SMTP enviando un m
 Establece la cadena de conexión que se utiliza para conectar con el servidor de correo.
 Tokens deben estar separados por ';' y valores por '='
 
-| Nombre | Descripción | (R)equerido (O)pcional | Valor predeterminado |
+| Token | Descripción | (R)equerido (O)pcional | Valor predeterminado |
 | :--------:|:-------------|:---:|:---: |
 | smtpserver | Nombre o IP del servidor SMTP que envía el mensaje de correo electrónico | R | smtp.gmail.com |
 | username | Usuario para la autenticación | R | Ninguno |
