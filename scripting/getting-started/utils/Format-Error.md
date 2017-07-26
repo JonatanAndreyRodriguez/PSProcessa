@@ -11,7 +11,7 @@ Formatea la información de un error, como un objeto que muestra información de
 
 ## SYNTAX
 
-```
+```powershell
 Format-Error [[-ErrorRecord] <ErrorRecord>] [-Wrap]
 ```
 
@@ -21,7 +21,7 @@ Formatea la información de un error, como un objeto que muestra información de
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Format-Error
 ```
 
@@ -48,7 +48,7 @@ ScriptStackTrace : at <ScriptBlock>, <No file>: line 1
 
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Format-Error -Wrap
 ```
 
