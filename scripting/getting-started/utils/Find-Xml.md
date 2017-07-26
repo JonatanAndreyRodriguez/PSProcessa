@@ -11,7 +11,7 @@ Encuentra texto en un documento XML.
 
 ## SYNTAX
 
-```
+```powershell
 Find-Xml [-Path] <String> [-XPath] <String>
 ```
 
@@ -21,22 +21,22 @@ Permite utilizar consultas XPath para buscar texto en documentos XML.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Find-Xml -Path 'C:\MyFile.xml' -XPath '/root'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyFile.xml' | Find-Xml -XPath '/root'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 'C:\MyFile.dtsconfig' | Find-Xml -XPath "//Configuration[@Path='\Package.Variables[User::FilePath].Properties[Value]']/ConfiguredValue"
 ```
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 'C:\MyFile.dtsconfig' | Find-Xml -XPath '//Configuration'
 ```
 
