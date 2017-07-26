@@ -11,7 +11,7 @@ Permite eliminar una variable de entorno.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-EnvironmentVariable [-Name] <String>
 ```
 
@@ -22,7 +22,7 @@ Si variable no existe, no se produce ningún error.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-EnvironmentVariable -Name 'MyVariable'
 ```
 
