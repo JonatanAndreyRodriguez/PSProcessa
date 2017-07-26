@@ -11,7 +11,7 @@ Obtiene un objeto que define la información que permite una conexión con un se
 
 ## SYNTAX
 
-```
+```powershell
 New-WinScpConnection [-ConnectionString] <String>
 ```
 
@@ -22,17 +22,17 @@ Este objeto se utiliza en las transferencias de archivos.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'protocol=sftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd;fingerprint=' | New-WinScpConnection
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'protocol=sftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd;timeout=300;port=5000;' | New-WinScpConnection
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd;' | New-WinScpConnection
 ```
 
