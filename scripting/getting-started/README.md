@@ -5,5 +5,6 @@
 | [push](push)  | Describe el proceso para enviar notificaciones push |
 | [testing](testing)  | Funciones que se pueden utilizar para comprobar conexiones |
 | [transferfiles](transferfiles)  | Funciones que se pueden utilizar para transferir archivos |
+| [utils](utils)  | Funciones utilitarias de uso general |
 
 
