@@ -60,8 +60,7 @@ Accept wildcard characters: False
 
 ### -Scope
 Alcance de la variable de entorno.
-Valores admitidos: 'Machine', 'User'.
-Valor predeterminado: Machine.
+Valores admitidos: 'Machine', 'User'. Valor predeterminado: _Machine_.
 
 ```yaml
 Type: String
