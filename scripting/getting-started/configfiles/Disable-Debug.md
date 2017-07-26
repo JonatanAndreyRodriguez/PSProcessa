@@ -11,7 +11,7 @@ Deshabilita el modo de depuración en un servicio de Processa.
 
 ## SYNTAX
 
-```
+```powershell
 Disable-Debug [-Path] <String>
 ```
 
@@ -21,12 +21,12 @@ Deshabilita el modo de depuración en un servicio de Windows de Processa.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Disable-Debug -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'ServiceName' | Get-ServiceConfigFile | Disable-Debug
 ```
 
