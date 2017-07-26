@@ -12,12 +12,12 @@ Cifra un archivo y cambia su extensión a .pgp
 ## SYNTAX
 
 ### NoSignature
-```
+```powershell
 Protect-File -FileName <String> -PublicKeyFileName <String> [-JavaPath <String>]
 ```
 
 ### Signature
-```
+```powershell
 Protect-File -FileName <String> -PublicKeyFileName <String> -PrivateKeyFileName <String> -Password <String>
  [-JavaPath <String>]
 ```
@@ -28,17 +28,17 @@ Cifra un archivo por medio de la utilidad OpenPGP y lo deja con extensión .pgp
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Protect-File -PrivateKeyFileName 'C:\TestPrivateKey.asc' -PublicKeyFileName 'C:\TestPublicKey.asc' -FileName 'C:\ArchivoPrueba.txt' -Password 'PGPPassword'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Protect-File -PublicKeyFileName 'C:\TestPublicKey.asc' -FileName 'C:\ArchivoPrueba.txt'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Protect-File -PrivateKeyFileName 'C:\TestPrivateKey.asc' -PublicKeyFileName 'C:\TestPublicKey.asc' -FileName 'C:\ArchivoPrueba.txt' -Password 'PGPPassword' -JavaPath 'C:\ProgramData\Oracle\Java\javapath\java.exe'
 ```
 
