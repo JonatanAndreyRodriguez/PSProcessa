@@ -11,7 +11,7 @@ Habilita el modo de depuración en un servicio de Processa.
 
 ## SYNTAX
 
-```
+```powershell
 Enable-Debug [-Path] <String>
 ```
 
@@ -21,12 +21,12 @@ Habilita el modo de depuración en un servicio de Windows de Processa.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Enable-Debug -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'ServiceName' | Get-ServiceConfigFile  | Enable-Debug
 ```
 
