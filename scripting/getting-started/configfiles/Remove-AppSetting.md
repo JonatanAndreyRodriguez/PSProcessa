@@ -11,7 +11,7 @@ Elimina  una entrada en la sección AppSettings de un archivo de configuración.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-AppSetting [-Path] <String> [-Key] <String>
 ```
 
@@ -21,12 +21,12 @@ Elimina (si existe) una entrada en la sección AppSettings de un archivo de conf
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-AppSetting -Path 'C:\MyConfig.config' -Key 'MiClave'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'ServiceName' | Get-ServiceConfigFile | Remove-AppSetting -Key 'MiClave'
 ```
 
