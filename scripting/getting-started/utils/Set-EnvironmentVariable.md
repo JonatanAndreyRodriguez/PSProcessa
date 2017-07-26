@@ -76,15 +76,16 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-EnvironmentVariable](Get-EnvironmentVariable.md)]()
+[Get-EnvironmentVariable](Get-EnvironmentVariable.md)
 
