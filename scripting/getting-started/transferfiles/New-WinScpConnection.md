@@ -42,7 +42,7 @@ Este objeto se utiliza en las transferencias de archivos.
 Establece la cadena de conexión que se utiliza para conectar con el servidor de FTP/SFTP.
 Tokens deben estar separados por ';' y valores por '='
 
-| Nombre | Descripción | (R)equerido (O)pcional |
+| Token | Descripción | (R)equerido (O)pcional |
 | :--------: |:-------------| :---:|
 | protocol | ftp o sftp | (R) |
 | host | IP o nombre del servidor de FTP/SFTP | (R) |
