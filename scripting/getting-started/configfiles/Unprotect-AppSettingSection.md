@@ -11,7 +11,7 @@ Descifra los valores de la sección AppSettings de un archivo de configuración.
 
 ## SYNTAX
 
-```
+```powershell
 Unprotect-AppSettingSection [-Path] <String>
 ```
 
@@ -21,12 +21,12 @@ Descifra la sección AppSetting de un archivo de configuración
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Unprotect-AppSettingSection -Path 'C:\MyConfig.config'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 'C:\MyConfig.config' | Unprotect-AppSettingSection
 ```
 
