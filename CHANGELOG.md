@@ -1,4 +1,4 @@
-# PSProcessa CHANGELOG
+# PSProcessa ChangeLog
 
 ### Versión 1.0.6292.28933 (atorres)
 * Liberación inicial
