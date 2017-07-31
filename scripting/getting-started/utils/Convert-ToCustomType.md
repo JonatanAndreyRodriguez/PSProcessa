@@ -128,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -TypeName
-Nombre que se utiliza para describir el tipo que se está creando.
+Nombre que se utiliza para describir el tipo que se está creando. A este nombre se le antepone el valor de la variable global $ProcessaNamespace.
 
 ```yaml
 Type: String
