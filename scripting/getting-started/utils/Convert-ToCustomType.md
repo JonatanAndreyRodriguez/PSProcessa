@@ -13,14 +13,14 @@ Convierte un objeto a partir de la información de otro objeto.
 
 ### FromStyle (Default)
 ```powershell
-Convert-ToCustomType -InputObject <PSObject> -TypeName <String> [-ResolverNameStyle <String>]
- [-FixedProperty <IDictionary>] [-AdditionalProperty <IDictionary>]
+Convert-ToCustomType -InputObject <PSObject> -TypeName <String> [-Exclude <String[]>] [-NameStyle <String>]
+ [-FixedName <IDictionary>] [-AppendProperty <IDictionary>]
 ```
 
 ### FromResolver
 ```powershell
-Convert-ToCustomType -InputObject <PSObject> -TypeName <String> -ResolverNameScript <ScriptBlock>
- [-FixedProperty <IDictionary>] [-AdditionalProperty <IDictionary>]
+Convert-ToCustomType -InputObject <PSObject> -TypeName <String> [-Exclude <String[]>] -NameScript <ScriptBlock>
+ [-FixedName <IDictionary>] [-AppendProperty <IDictionary>]
 ```
 
 ## DESCRIPTION
@@ -30,8 +30,10 @@ Si InputObject es de tipo IDictionary, entonces utiliza las parejas Key/Value co
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 @{
+```
+
 isPresent = $false
     name = 'xxxx'
     id = 12345
@@ -39,11 +41,12 @@ isPresent = $false
     categoryId = 5
     monitored = $true
 } | Convert-ToCustomType -TypeName 'MyTestName'
-```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 @{
+```
+
 is_present = $false
     name = 'xxxx'
     id = 12345
@@ -51,64 +54,65 @@ is_present = $false
     category_id = 5
     monitor = $true
 } | Convert-ToCustomType -TypeName 'MyTestName'
-```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```powershell
+```
 @{
+```
+
 is_present = $false
     name = 'xxxx'
     id = 12345
     last_date = Get-Date
     category_id = 5
     monitor = $true
-} | Convert-ToCustomType -TypeName 'MyTestName' -FixedProperty @{'monitor'='MyMonitorName'}
+} | Convert-ToCustomType -TypeName 'MyTestName' -FixedName @{'monitor'='MyMonitorName'}
 
 ### -------------------------- EXAMPLE 4 --------------------------
 ```
-
-```powershell
 @{
+```
+
 isPresent = $false
     name = 'xxxx'
     id = 12345
     lastDate = Get-Date
     categoryId = 5
     monitored = $true
-} | Convert-ToCustomType -TypeName 'MyTestName' -ResolverNameStyle ShiftKey
-```
+} | Convert-ToCustomType -TypeName 'MyTestName' -NameStyle ShiftKey
 
 ### -------------------------- EXAMPLE 5 --------------------------
-```powershell
+```
 @{
+```
+
 isPresent = $false
     name = 'xxxx'
     id = 12345
     lastDate = Get-Date
     categoryId = 5
     monitored = $true
-} | Convert-ToCustomType -TypeName 'MyTestName' -ResolverNameScript {$Input.ToUpper()}
-```
-
+} | Convert-ToCustomType -TypeName 'MyTestName' -NameScript {$Input.ToUpper()}
 
 ### -------------------------- EXAMPLE 6 --------------------------
-```powershell
+```
 @{
+```
+
 isPresent = $false
     name = 'xxxx'
     id = 12345
     lastDate = Get-Date
     categoryId = 5
     monitored = $true
-} | Convert-ToCustomType -TypeName 'MyTestName' -AdditionalProperty @{prop1=$True;prop2=0}
-```
+} | Convert-ToCustomType -TypeName 'MyTestName' -AppendProperty @{prop1=$True;prop2=0}
 
 ### -------------------------- EXAMPLE 7 --------------------------
-```powershell
+```
 Invoke-SqlCommand -ConnectionString $ConnectionString -CommandText 'select * from sys.tables' |
-    Convert-ToCustomType -TypeName 'MyTestName' -ResolverNameStyle TitleCase
 ```
 
+Convert-ToCustomType -TypeName 'MyTestName' -NameStyle TitleCase
 
 ## PARAMETERS
 
@@ -128,7 +132,8 @@ Accept wildcard characters: False
 ```
 
 ### -TypeName
-Nombre que se utiliza para describir el tipo que se está creando. A este nombre se le antepone el valor de la variable global $ProcessaNamespace.
+Nombre que se utiliza para describir el tipo que se está creando.
+A este nombre se le antepone el valor de la variable global $ProcessaNamespace.
 
 ```yaml
 Type: String
@@ -142,7 +147,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResolverNameScript
+### -Exclude
+Lista con los nombres de las propiedades que se deben excluir del objeto resultante.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -NameScript
 Define como se generan los nombres de las propiedades del objeto resultante.
 La variable automática $Input será enviada al script para que se genere el nombre de la propiedad.
 Por ejemplo: Para retornar los nombres en mayúsculas utilice $Input.ToUpper()
@@ -159,8 +179,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResolverNameStyle
+### -NameStyle
 Define como se generan los nombres de las propiedades del objeto resultante.
+Valor predeterminado Source.
 
 Valor | Descripción | Entrada | Salida
 ----- | ----------- | ------- | ------
@@ -175,12 +196,12 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: TitleCase
+Default value: Source
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FixedProperty
+### -FixedName
 Hashtable con las propiedades a las que se deben asignar nombres fijos.
 
 ```yaml
@@ -195,7 +216,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -AdditionalProperty
+### -AppendProperty
 Hashtable con las propiedades adicionales que se deben agregar al objeto resultante.
 
 ```yaml
@@ -212,11 +233,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-Puede canalizar el valor de InputObject.
+### Puede canalizar el valor de InputObject.
 
 ## OUTPUTS
 
-System.Management.Automation.PSObject
+### System.Management.Automation.PSObject
 
 ## NOTES
 Autor: Atorres
