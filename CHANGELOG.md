@@ -43,3 +43,12 @@
 - \[New\] - Ahora el proyecto utiliza la plantilla definida para módulo en Plaster
 - \[Enhancement\] - Se modificó la función Start-TranscriptFile para que deje el archivo de transcripción en la carpeta Logs de la carpeta contendora del script que la llama (Get-Location)
 - \[Fix\] - Se modificó la función New-ConfigurationProperty para que tenga en cuenta el tipo de datos de los valores actualmente configurados en un archivo .config
+
+
+### Versión 1.7.6421.554801357
+------
+- \[New\] - New-SqlTransaction
+- \[New\] - Get-ModuleNamespace
+- \[New\] - Convert-ToCustomType
+- \[Enhancement\] - Se soporta el uso de Transacciones (SqlTransaction) en la función Invoke-SqlCommand
+
