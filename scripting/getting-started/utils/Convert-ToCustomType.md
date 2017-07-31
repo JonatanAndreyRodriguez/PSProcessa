@@ -166,6 +166,7 @@ Valor | Descripción | Entrada | Salida
 ----- | ----------- | ------- | ------
 TitleCase | Quita el caracter underline y convirte el resultado a TitleCase | my_name | MyName
 ShiftKey | Convierte a mayúscula inicial | myName | MyName
+Original | Utiliza el mismo nombre que la propiedad de origen | MyName | MyName
 
 ```yaml
 Type: String
