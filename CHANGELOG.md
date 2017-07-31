@@ -45,7 +45,7 @@
 - \[Fix\] - Se modificó la función New-ConfigurationProperty para que tenga en cuenta el tipo de datos de los valores actualmente configurados en un archivo .config
 
 
-### Versión 1.7.6421.554801357
+### Versión 1.7.6421.554808919
 ------
 - \[New\] - New-SqlTransaction
 - \[New\] - Get-ModuleNamespace
