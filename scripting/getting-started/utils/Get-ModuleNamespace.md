@@ -11,7 +11,7 @@ Obtiene el el nombre del Namespace que se debe utilizar cuando se convierten obj
 
 ## SYNTAX
 
-```
+```powershell
 Get-ModuleNamespace [[-CallStackFrame] <Int32>]
 ```
 
@@ -22,14 +22,14 @@ Si desea invalidar este comportamiento, establezca el valor de la variable globa
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-ModuleNamespace
 ```
 
 Genera un nombre de Namespace utilizando el nombre del módulo de la función que se encuentra en el posición 2 de la pilla de llamadas.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-ModuleNamespace -CallStackFrame 5
 ```
 
@@ -54,15 +54,16 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+Ninguno.
 
 ## OUTPUTS
 
-### System.String
+System.String
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-PSCallStack](https://msdn.microsoft.com/en-us/powershell/reference/5.0/microsoft.powershell.utility/get-pscallstack)]()
+[Get-PSCallStack](https://msdn.microsoft.com/en-us/powershell/reference/5.0/microsoft.powershell.utility/get-pscallstack)
 
