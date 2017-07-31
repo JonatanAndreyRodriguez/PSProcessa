@@ -11,7 +11,7 @@ Obtiene el nombre completo de un tipo (incluido el Namespace) a partir de la inf
 
 ## SYNTAX
 
-```
+```powershell
 Get-FullTypeName [-TypeName] <String>
 ```
 
@@ -22,14 +22,14 @@ El nombre del Namespace se obtiene con la función Get-ModuleNamespace.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-FullTypeName -TypeName 'MyCustomTypeName'
 ```
 
 ## PARAMETERS
 
 ### -TypeName
-{{Fill TypeName Description}}
+Nombre del tipo que se desea generar.
 
 ```yaml
 Type: String
@@ -45,16 +45,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Ninguno.
+Ninguno
 
 ## OUTPUTS
 
-### System.String
+System.String
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-ModuleNamespace](Get-ModuleNamespace.md)]()
+[Get-ModuleNamespace](Get-ModuleNamespace.md)
 
