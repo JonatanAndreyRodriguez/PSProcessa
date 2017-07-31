@@ -238,4 +238,6 @@ System.Management.Automation.PSObject
 Autor: Atorres
 
 ## RELATED LINKS
+[Get-ModuleNamespace](Get-ModuleNamespace.md)
 
+[Get-FullTypeName](Get-FullTypeName.md)
