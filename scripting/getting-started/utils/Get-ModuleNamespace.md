@@ -67,3 +67,5 @@ Autor: Atorres
 
 [Get-PSCallStack](https://msdn.microsoft.com/en-us/powershell/reference/5.0/microsoft.powershell.utility/get-pscallstack)
 
+[Get-FullTypeName](Get-FullTypeName.md)
+
