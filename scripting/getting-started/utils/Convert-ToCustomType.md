@@ -12,13 +12,13 @@ Convierte un objeto a partir de la información de otro objeto.
 ## SYNTAX
 
 ### FromStyle (Default)
-```
+```powershell
 Convert-ToCustomType -InputObject <PSObject> -TypeName <String> [-ResolverNameStyle <String>]
  [-FixedProperty <IDictionary>] [-AdditionalProperty <IDictionary>]
 ```
 
 ### FromResolver
-```
+```powershell
 Convert-ToCustomType -InputObject <PSObject> -TypeName <String> -ResolverNameScript <ScriptBlock>
  [-FixedProperty <IDictionary>] [-AdditionalProperty <IDictionary>]
 ```
@@ -30,10 +30,8 @@ Si InputObject es de tipo IDictionary, entonces utiliza las parejas Key/Value co
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 @{
-```
-
 isPresent = $false
     name = 'xxxx'
     id = 12345
@@ -41,12 +39,11 @@ isPresent = $false
     categoryId = 5
     monitored = $true
 } | Convert-ToCustomType -TypeName 'MyTestName'
+```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 @{
-```
-
 is_present = $false
     name = 'xxxx'
     id = 12345
@@ -54,12 +51,11 @@ is_present = $false
     category_id = 5
     monitor = $true
 } | Convert-ToCustomType -TypeName 'MyTestName'
+```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 @{
-```
-
 is_present = $false
     name = 'xxxx'
     id = 12345
@@ -70,9 +66,9 @@ is_present = $false
 
 ### -------------------------- EXAMPLE 4 --------------------------
 ```
-@{
-```
 
+```powershell
+@{
 isPresent = $false
     name = 'xxxx'
     id = 12345
@@ -80,12 +76,11 @@ isPresent = $false
     categoryId = 5
     monitored = $true
 } | Convert-ToCustomType -TypeName 'MyTestName' -ResolverNameStyle ShiftKey
+```
 
 ### -------------------------- EXAMPLE 5 --------------------------
-```
+```powershell
 @{
-```
-
 isPresent = $false
     name = 'xxxx'
     id = 12345
@@ -93,12 +88,12 @@ isPresent = $false
     categoryId = 5
     monitored = $true
 } | Convert-ToCustomType -TypeName 'MyTestName' -ResolverNameScript {$Input.ToUpper()}
+```
+
 
 ### -------------------------- EXAMPLE 6 --------------------------
-```
+```powershell
 @{
-```
-
 isPresent = $false
     name = 'xxxx'
     id = 12345
@@ -106,13 +101,14 @@ isPresent = $false
     categoryId = 5
     monitored = $true
 } | Convert-ToCustomType -TypeName 'MyTestName' -AdditionalProperty @{prop1=$True;prop2=0}
+```
 
 ### -------------------------- EXAMPLE 7 --------------------------
-```
+```powershell
 Invoke-SqlCommand -ConnectionString $ConnectionString -CommandText 'select * from sys.tables' |
+    Convert-ToCustomType -TypeName 'MyTestName' -ResolverNameStyle TitleCase
 ```
 
-Convert-ToCustomType -TypeName 'MyTestName' -ResolverNameStyle TitleCase
 
 ## PARAMETERS
 
@@ -215,11 +211,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de InputObject.
+Puede canalizar el valor de InputObject.
 
 ## OUTPUTS
 
-### System.Management.Automation.PSObject
+System.Management.Automation.PSObject
 
 ## NOTES
 Autor: Atorres
