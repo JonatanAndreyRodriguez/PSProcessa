@@ -46,7 +46,7 @@ Verifica la configuración del módulo (conexiones y demás elementos definidos 
 ## PARAMETERS
 
 ### -SaveFlag
-Cuando se establece y las validaciones fallan, actualiza el valor de *No configurado* en el archivo PSGemini.config
+Cuando se establece y las validaciones fallan, actualiza el valor de *No configurado* en el archivo PSProcessa.config
 
 ```yaml
 Type: SwitchParameter
