@@ -1,6 +1,6 @@
 # Preguntas Frecuentes
 
-## ¿Cómo determinar el servidor proxy predeterminado?
+## ¿Cómo consultar el servidor proxy predeterminado?
 
 1. Importe el módulo 
 ```powershell
