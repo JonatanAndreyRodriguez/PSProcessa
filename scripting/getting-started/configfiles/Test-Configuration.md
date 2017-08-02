@@ -73,7 +73,7 @@ Autor: Atorrest
 
 ## RELATED LINKS
 
-[Set-Configuration](Set-Configuration.md)
+[Set-ConfigurationFile](Set-ConfigurationFile.md)
 
 [Get-Configuration](Get-Configuration.md)
 
