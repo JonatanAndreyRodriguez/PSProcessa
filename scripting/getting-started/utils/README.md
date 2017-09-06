@@ -1,7 +1,7 @@
 ### Utilitarios
 
 * [Ejecutar sentencias de T/SQL en una base de datos de SQL Server](Invoke-SqlCommand.md)
-* [Emviar mensajes a una cola de RabbitMQ](Invoke-RabbitRequest.md)
+* [Enviar mensajes a una cola de RabbitMQ](Invoke-RabbitRequest.md)
 * [Extraer valores de cadenas XML](Find-Xml.md)
 * [Combinar el contenido de tablas Hash](Join-Hashtable.md)
 * [Seleccionar filas de una consulta T/SQL](New-QueryPickerDialog.md)
