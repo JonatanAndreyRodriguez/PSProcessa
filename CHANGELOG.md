@@ -52,3 +52,6 @@
 - \[New\] - Convert-ToCustomType
 - \[Enhancement\] - Se soporta el uso de Transacciones (SqlTransaction) en la función Invoke-SqlCommand
 
+### Versión 1.8.6464.61834
+------
+- \[Enhancement\] - Convert-ToCustomType soporta el uso del parámetro CallStackFrame
