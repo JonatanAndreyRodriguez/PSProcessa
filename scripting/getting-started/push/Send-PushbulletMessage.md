@@ -24,6 +24,14 @@ Envia una notificación Push a todos los dispositivos asociados con el perfil.
 ```powershell
 Send-PushbulletMessage -ProfileName 'Demo' -Title 'Mensaje de prueba' -Message 'Lorem ipsum dolor sit amet'
 ```
+Envia notificaciones a todos los dispositivos en el perfil con nombre Demo.
+
+### -------------------------- EXAMPLE 2 --------------------------
+```powershell
+$Result = Send-PushbulletMessage -ProfileName 'Demo' -Title 'Mensaje de prueba' -Message 'Lorem ipsum dolor sit amet'
+$Result | Where-Object -Property Status -eq ([System.Net.HttpStatusCode]::BadRequest)
+```
+Obtiene la información de las notificaciones que terminaron con errores en el envío.
 
 ## PARAMETERS
 
