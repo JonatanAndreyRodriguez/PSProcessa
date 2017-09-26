@@ -12,13 +12,13 @@ Registra o actualiza una conexión FTP/SFTP para la transferencia de archivos.
 ## SYNTAX
 
 ### FTP (Default)
-```
+```powershell
 Set-FtpConnection -Credential <PSCredential> -Name <String> -Host <String> [-Port <Int32>] [-TimeOut <Int32>]
  [-Force]
 ```
 
 ### SFTP
-```
+```powershell
 Set-FtpConnection -Credential <PSCredential> -Name <String> -Host <String> -FingerPrint <String>
  [-Port <Int32>] [-TimeOut <Int32>] [-Force]
 ```
@@ -30,14 +30,14 @@ Registra o actualiza una conexión FTP/SFTP para la transferencia de archivos.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Credential |  Set-FtpConnection -Name 'MyName' -Host 'localhost'
 ```
 
 Pregunta por la credenciales y guarda la información de conexión con el nombre MyName.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-CheckedCredential | Set-FtpConnection -Name 'MyName' -Host '127.0.0.1'
 ```
 
@@ -154,17 +154,18 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Get-FtpConnection](Get-FtpConnection.md)]()
+[Get-FtpConnection](Get-FtpConnection.md)
 
-[[Remove-FtpConnection](Remove-FtpConnection.md)]()
+[Remove-FtpConnection](Remove-FtpConnection.md)
 
