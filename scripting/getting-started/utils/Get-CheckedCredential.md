@@ -90,7 +90,7 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None.
+None.
 
 ## OUTPUTS
 
