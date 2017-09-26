@@ -13,19 +13,25 @@ Get-Command -Module PSProcessa -Noun *Smtp*
 * [Eliminar la información una conexión SMTP para el envió de correos](Remove-SmtpConnection.md)
 * [Probar la información de uan conexión SMTP para el envió de correos](Test-SmtpConnection.md)
 
+-----------------
 
 ### Credenciales para conexiones con servidores FTP/SFTP
 ```powershell
 Get-Command -Module PSProcessa -Noun *Ftp*
 ```
 
+-----------------
+
 ### Credenciales para conexiones con servidores de SQL Server
 ```powershell
 Get-Command -Module PSProcessa -Noun *SqlConnection
 ```
+
+-----------------
 
 ### Configuraciones de llaves de cifrado/descrifrado PGP
 ```powershell
 Get-Command -Module PSProcessa -Noun *PGP*
 ```
 
+-----------------
