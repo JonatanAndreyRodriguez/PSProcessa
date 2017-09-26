@@ -53,6 +53,7 @@ Accept wildcard characters: True
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
