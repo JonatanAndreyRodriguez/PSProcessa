@@ -101,5 +101,5 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-CheckedSecret](Get-CheckedSecret.md)]()
+[Get-CheckedSecret](Get-CheckedSecret.md)
 
