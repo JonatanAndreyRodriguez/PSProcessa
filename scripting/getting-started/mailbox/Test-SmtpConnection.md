@@ -84,4 +84,7 @@ Ninguno si se logra establecer la conexi√≥n; de lo contrario genera una excepci√
 Autor: Atorres
 
 ## RELATED LINKS
+[Set-SmtpConnection](Set-SmtpConnection.md)
+
+[Remove-SmtpConnection](Remove-SmtpConnection.md)
 
