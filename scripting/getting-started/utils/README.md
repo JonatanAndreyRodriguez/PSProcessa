@@ -12,4 +12,6 @@
 * [Eliminar el valor de una variable de entorno](Remove-EnvironmentVariable.md)
 * [Formatear la información de un error, como un objeto que muestre información detallada del mismo](Format-Error.md)
 * [Crear un objeto a partir de la información de otro objeto](Convert-ToCustomType.md)
+* [Solicitar al usuario que ingrese una pareja usuario/clave](Get-CheckedCredential.md)
+* [Solicitar al usuario que ingrese una clave](Get-CheckedSecret.md)
 
