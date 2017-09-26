@@ -11,7 +11,7 @@ Registra o actualiza una conexión SMTP para envió de correos.
 
 ## SYNTAX
 
-```
+```powershell
 Set-SmtpConnection [-Credential] <PSCredential> [-Name] <String> [[-SmtpServer] <String>] [[-Port] <Int32>]
  [[-UseSSL] <Boolean>] [-Force]
 ```
@@ -23,7 +23,7 @@ Registra o actualiza una conexión SMTP para envió de correos.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-CheckedCredential | Set-SmtpConnection -Name 'MyName'
 ```
 
@@ -126,17 +126,18 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Get-SmtpConnection](Get-SmtpConnection.md)]()
+[Get-SmtpConnection](Get-SmtpConnection.md)
 
-[[Remove-SmtpConnection](Remove-SmtpConnection.md)]()
+[Remove-SmtpConnection](Remove-SmtpConnection.md)
 
