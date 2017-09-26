@@ -11,18 +11,18 @@ Elimina la configuración de conexión a un servidor FTP/SFTP.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-FtpConnection [-Name] <String>
 ```
 
 ## DESCRIPTION
 Elimina la configuración de conexión a un servidor FTP/SFTP.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-FtpConnection -Name 'MyName'
 ```
 
@@ -45,16 +45,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
+Void
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-FtpConnection](Set-FtpConnection.md)]()
+[Set-FtpConnection](Set-FtpConnection.md)
 
-[[Get-FtpConnection](Get-FtpConnection.md)]()
+[Get-FtpConnection](Get-FtpConnection.md)
 
