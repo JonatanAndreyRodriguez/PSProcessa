@@ -11,7 +11,7 @@ Verifica que se pueda cifrar un archivo con la información de conexión suminis
 
 ## SYNTAX
 
-```
+```powershell
 Test-PGPKeyStore [-Phrase] <SecureString> [-PublicKeyPath] <String> [-PrivateKeyPath] <String>
 ```
 
@@ -21,7 +21,7 @@ Crea un archivo temporal y verifica que se pueda cifrar con la información de c
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-CheckedSecret | Test-PGPKeyStore -PublicKeyPath 'C:\Key_pkr.pgp' -PrivateKeyPath 'C:\Key_skr.pgp'
 ```
 
@@ -74,11 +74,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de  ConnectionString.
+Puede canalizar el valor de  ConnectionString.
 
 ## OUTPUTS
 
-### Ninguno si se logra cifrar el archivo; de lo contrario genera una excepción.
+Ninguno si se logra cifrar el archivo; de lo contrario genera una excepción.
 
 ## NOTES
 Autor: Atorres
