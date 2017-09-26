@@ -25,7 +25,7 @@ Set-FtpConnection -Credential <PSCredential> -Name <String> -Host <String> -Fing
 
 ## DESCRIPTION
 Registra o actualiza una conexión FTP/SFTP para la transferencia de archivos.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
