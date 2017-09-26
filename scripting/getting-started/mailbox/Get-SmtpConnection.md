@@ -11,7 +11,7 @@ Obtiene una conexión de SMTP para el envió de correos.
 
 ## SYNTAX
 
-```
+```powershell
 Get-SmtpConnection [[-Name] <String>]
 ```
 
@@ -21,14 +21,14 @@ Obtiene una conexión de SMTP el para envió de correos.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-SmtpConnection -Name 'MyName'
 ```
 
 Obtiene la información de conexión que registró con el nombre MyName.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-SmtpConnection
 ```
 
@@ -53,19 +53,20 @@ Accept wildcard characters: True
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
-### System.String
+System.String
 
-### System.Management.Automation.PSObject[]
+System.Management.Automation.PSObject[]
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-SmtpConnection](Set-SmtpConnection.md)]()
+[Set-SmtpConnection](Set-SmtpConnection.md)
 
-[[Remove-SmtpConnection](Remove-SmtpConnection.md)]()
+[Remove-SmtpConnection](Remove-SmtpConnection.md)
 
