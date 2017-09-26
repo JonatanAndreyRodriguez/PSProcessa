@@ -11,7 +11,7 @@ Obtiene una conexión de FTP/SFTP para la transferencia de archivos.
 
 ## SYNTAX
 
-```-----------------
+```powershell
 Get-FtpConnection [[-Name] <String>]
 ```
 
