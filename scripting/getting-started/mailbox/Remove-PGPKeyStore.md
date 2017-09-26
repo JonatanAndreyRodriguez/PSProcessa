@@ -11,18 +11,18 @@ Elimina la configuración de llaves de crifrado PGP.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-PGPKeyStore [-Name] <String>
 ```
 
 ## DESCRIPTION
 Elimina la configuración de llaves de crifrado PGP.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-PGPKeyStore -Name 'MyName'
 ```
 
@@ -45,16 +45,18 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
+Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-PGPKeyStore](Set-PGPKeyStore.md)]()
+[Set-PGPKeyStore](Set-PGPKeyStore.md)
 
-[[Get-PGPKeyStore](Get-PGPKeyStore.md)]()
+[Get-PGPKeyStore](Get-PGPKeyStore.md)
 
+[Test-PGPKeyStore](Test-PGPKeyStore.md)
