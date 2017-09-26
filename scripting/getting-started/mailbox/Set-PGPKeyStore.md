@@ -11,19 +11,19 @@ Registra o actualiza la información de llaves de cifrado PGP.
 
 ## SYNTAX
 
-```
+```powershell
 Set-PGPKeyStore [-Phrase] <SecureString> [-Name] <String> [-PublicKeyPath] <String> [-PrivateKeyPath] <String>
  [-Force]
 ```
 
 ## DESCRIPTION
 Registra o actualiza la información de llaves de cifrado PGP.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-CheckedSecret | Set-PGPKeyStore -Name 'MyName' -PublicKeyPath 'C:\Key_pkr.pgp' -PrivateKeyPath 'C:\Key_skr.pgp'
 ```
 
@@ -105,10 +105,11 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Author: Atorres
