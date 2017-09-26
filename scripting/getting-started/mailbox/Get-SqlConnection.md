@@ -11,7 +11,7 @@ Obtiene una cadena de conexión con un servidor de SQL Server.
 
 ## SYNTAX
 
-```
+```powershell
 Get-SqlConnection [[-Name] <String>]
 ```
 
@@ -21,14 +21,14 @@ Obtiene una cadena de conexión con un servidor de SQL Server.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-SqlConnection -Name 'MyName'
 ```
 
 Obtiene la información de conexión que registró con el nombre MyName.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-SqlConnection
 ```
 
@@ -56,16 +56,16 @@ Accept wildcard characters: True
 
 ## OUTPUTS
 
-### System.String
+System.String
 
-### System.Management.Automation.PSObject[]
+System.Management.Automation.PSObject[]
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-SqlConnection](Set-SqlConnection.md)]()
+[Set-SqlConnection](Set-SqlConnection.md)
 
-[[Remove-SqlConnection](Remove-SqlConnection.md)]()
+[Remove-SqlConnection](Remove-SqlConnection.md)
 
