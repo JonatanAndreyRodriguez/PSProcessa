@@ -42,5 +42,9 @@ Get-Command -Module PSProcessa -Noun *SqlConnection
 ```powershell
 Get-Command -Module PSProcessa -Noun *PGP*
 ```
+* [Registrar o actualizar la configuración de llaves de cifrado](Set-PGPKeyStore.md)
+* [Obtener la configuración de llaves de cifrado](Get-PGPKeyStore.md)
+* [Eliminar la configuración de llaves de cifrado](Remove-PGPKeyStore.md)
+* [Probar la configuración de llaves de cifrado](Test-PGPKeyStore.md)
 
 -----------------
