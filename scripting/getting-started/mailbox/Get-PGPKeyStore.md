@@ -37,7 +37,7 @@ Obtiene la configuración de la llave de cifrado almacenada con el nombre MyName
 ## PARAMETERS
 
 ### -Name
-{{Fill Name Description}}
+Nombre que se indicó al registrar la configuración. Para obtener todas las configuraciones disponibles, omita el valor de este parámetro.
 
 ```yaml
 Type: String
@@ -63,4 +63,8 @@ Processa.Management.Automation.PSProcessa.PGPKeyStoreInfo
 Autor: Atorres
 
 ## RELATED LINKS
+[Set-PGPKeyStore](Set-PGPKeyStore.md)
 
+[Remove-PGPKeyStore](Remove-PGPKeyStore.md)
+
+[Test-PGPKeyStore](Test-PGPKeyStore.md)
