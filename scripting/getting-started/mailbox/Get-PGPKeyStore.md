@@ -11,7 +11,7 @@ Obtiene la configuración de llaves de cifrado PGP.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PGPKeyStore [[-Name] <String>]
 ```
 
@@ -21,14 +21,14 @@ Obtiene la configuración de llaves de cifrado PGP.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-PGPKeyStore
 ```
 
 Obtiene la configuración de todas las llaves de cifrado registradas.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-PGPKeyStore -Name MyName'
 ```
 
@@ -53,11 +53,11 @@ Accept wildcard characters: True
 
 ## INPUTS
 
-### None.
+None.
 
 ## OUTPUTS
 
-### Processa.Management.Automation.PSProcessa.PGPKeyStoreInfo
+Processa.Management.Automation.PSProcessa.PGPKeyStoreInfo
 
 ## NOTES
 Autor: Atorres
