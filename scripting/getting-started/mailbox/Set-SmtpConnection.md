@@ -18,7 +18,7 @@ Set-SmtpConnection [-Credential] <PSCredential> [-Name] <String> [[-SmtpServer] 
 
 ## DESCRIPTION
 Registra o actualiza una conexión SMTP para envió de correos.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
