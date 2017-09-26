@@ -8,6 +8,11 @@ Se tienen cuatro tipos de buzones de configuración:
 ```powershell
 Get-Command -Module PSProcessa -Noun *Smtp*
 ```
+* [Registrar o actualizar la información de una conexión SMTP para envió de correos](Set-SmtpConnection.md)
+* [Obtener la información de una conexión SMTP para el envió de correos](Get-SmtpConnection.md)
+* [Eliminar la información una conexión SMTP para el envió de correos](Remove-SmtpConnection.md)
+* [Probar la información de uan conexión SMTP para el envió de correos](Test-SmtpConnection.md)
+
 
 ### Credenciales para conexiones con servidores FTP/SFTP
 ```powershell
