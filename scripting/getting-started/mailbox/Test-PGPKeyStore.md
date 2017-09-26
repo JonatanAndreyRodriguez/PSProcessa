@@ -84,4 +84,10 @@ Ninguno si se logra cifrar el archivo; de lo contrario genera una excepción.
 Autor: Atorres
 
 ## RELATED LINKS
+[Set-PGPKeyStore](Set-PGPKeyStore.md)
 
+[Get-PGPKeyStore](Get-PGPKeyStore.md)
+
+[Remove-PGPKeyStore](Remove-PGPKeyStore.md)
+
+[Test-PGPKeyStore](Test-PGPKeyStore.md)
