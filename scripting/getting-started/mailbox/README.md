@@ -1,6 +1,6 @@
-# Buzones de configuración 
+# Entradas de configuración 
 
-Un buzón de configuración permite guardar de forma centralizada configuraciones de información sensible estableciendo un nombre que luego se puede utilizar para obtener los valores iniciales, al mismo tiempo permite simplificar la configuración en los desarrollos, ya que si se hace uso de estos solo se necesitará almacenar el nombre de la configuración en lugar de la información completa de la misma.
+Una entrada de configuración permite guardar de forma centralizada configuraciones de información sensible estableciendo un nombre que luego se puede utilizar para obtener los valores iniciales, al mismo tiempo permite simplificar la configuración en los desarrollos, ya que si se hace uso de estos solo se necesitará almacenar el nombre de la configuración en lugar de la información completa de la misma.
 
 Se tienen cuatro tipos de buzones de configuración:
 
