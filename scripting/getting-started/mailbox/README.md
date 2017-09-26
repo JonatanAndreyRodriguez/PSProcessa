@@ -31,6 +31,10 @@ Get-Command -Module PSProcessa -Noun *Ftp*
 ```powershell
 Get-Command -Module PSProcessa -Noun *SqlConnection
 ```
+* [Registrar o actualizar la información de una conexión SQL Server](Set-SqlConnection.md)
+* [Obtener la información de una conexión SQL Server](Get-SqlConnection.md)
+* [Eliminar la información una conexión SQL Server](Remove-SqlConnection.md)
+* [Probar la información de una conexión SQL Server](Test-SqlConnection.md)
 
 -----------------
 
