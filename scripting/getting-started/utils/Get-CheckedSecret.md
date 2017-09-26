@@ -75,5 +75,5 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-CheckedCredential](Get-CheckedCredential.md)]()
+[Get-CheckedCredential](Get-CheckedCredential.md)
 
