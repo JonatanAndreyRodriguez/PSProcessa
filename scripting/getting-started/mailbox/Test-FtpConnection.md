@@ -12,12 +12,12 @@ Verifica que se pueda establecer la comunicación con un servidor de FTP/SFTP.
 ## SYNTAX
 
 ### FromString (Default)
-```
+```powershell
 Test-FtpConnection -ConnectionString <String>
 ```
 
 ### FromSession
-```
+```powershell
 Test-FtpConnection -WinScpConnection <SessionOptions>
 ```
 
@@ -28,12 +28,12 @@ Cierra la conexión al finalizar la prueba.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd' | Test-FtpConnection
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 $WinScpConnection = New-WinScpConnection -ConnectionString 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd'
 ```
 
@@ -85,16 +85,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar los valores de  ConnectionString o WinScpConnection.
+Puede canalizar los valores de  ConnectionString o WinScpConnection.
 
 ## OUTPUTS
 
-### Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
+Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[New-WinScpConnection](New-WinScpConnection.md)]()
+[Set-FtpConnection](Set-FtpConnection.md)
 
