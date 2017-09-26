@@ -19,5 +19,5 @@ Las carpetas corresponden a los siguientes recursos de información:
 | [Scripting >> Getting Started >> PGP](scripting/getting-started/pgp)  | Funciones que se pueden utilizar para cifrar/descifrar archivos |
 | [Scripting >> Getting Started >> Utils](scripting/getting-started/utils)  | Funciones utilitarias de uso general |
 | [Scripting >> Getting Started >> Transcript](scripting/getting-started/transcript)  | Funciones de transcripción o registro |
-| [Scripting >> Getting Started >> Mailbox](scripting/getting-started/mailbox)  | Funciones de buzones de configuración |
+| [Scripting >> Getting Started >> Mailbox](scripting/getting-started/mailbox)  | Funciones de entradas de configuración |
 
