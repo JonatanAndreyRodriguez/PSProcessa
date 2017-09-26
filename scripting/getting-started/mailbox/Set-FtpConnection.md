@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -FingerPrint
-{{Fill FingerPrint Description}}
+Huella digital de la clave del host del servidor SSH.
 
 ```yaml
 Type: String
