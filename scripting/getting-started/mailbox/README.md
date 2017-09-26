@@ -11,7 +11,7 @@ Get-Command -Module PSProcessa -Noun *Smtp*
 * [Registrar o actualizar la información de una conexión SMTP para envió de correos](Set-SmtpConnection.md)
 * [Obtener la información de una conexión SMTP para el envió de correos](Get-SmtpConnection.md)
 * [Eliminar la información una conexión SMTP para el envió de correos](Remove-SmtpConnection.md)
-* [Probar la información de uan conexión SMTP para el envió de correos](Test-SmtpConnection.md)
+* [Probar la información de una conexión SMTP para el envió de correos](Test-SmtpConnection.md)
 
 -----------------
 
@@ -19,6 +19,11 @@ Get-Command -Module PSProcessa -Noun *Smtp*
 ```powershell
 Get-Command -Module PSProcessa -Noun *Ftp*
 ```
+* [Registrar o actualizar la información de una conexión FTP/SFTP para la transferencia de archivo](Set-FtpConnection.md)
+* [Obtener la información de una conexión FTP/SFTP para la transferencia de archivo](Get-FtpConnection.md)
+* [Eliminar la información una conexión FTP/SFTP para la transferencia de archivo](Remove-FtpConnection.md)
+* [Probar la información de una conexión FTP/SFTP para la transferencia de archivo](Test-FtpConnection.md)
+
 
 -----------------
 
