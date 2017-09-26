@@ -11,7 +11,7 @@ Obtiene una conexión de FTP/SFTP para la transferencia de archivos.
 
 ## SYNTAX
 
-```
+```-----------------
 Get-FtpConnection [[-Name] <String>]
 ```
 
@@ -21,14 +21,14 @@ Obtiene una conexión de SMTP para envió de correos.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-FtpConnection -Name 'MyName'
 ```
 
 Obtiene la información de conexión que registró con el nombre MyName.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-FtpConnection
 ```
 
@@ -56,16 +56,16 @@ Accept wildcard characters: True
 
 ## OUTPUTS
 
-### System.String
+System.String
 
-### System.Management.Automation.PSObject[]
+System.Management.Automation.PSObject[]
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-FtpConnection](Set-FtpConnection.md)]()
+[Set-FtpConnection](Set-FtpConnection.md)
 
-[[Remove-FtpConnection](Remove-FtpConnection.md)]()
+[Remove-FtpConnection](Remove-FtpConnection.md)
 
