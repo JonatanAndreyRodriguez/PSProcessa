@@ -11,7 +11,7 @@ Obtiene un objeto de tipo credenciales a partir de un nombre de usuario y contra
 
 ## SYNTAX
 
-```
+```powershell
 Get-CheckedCredential [[-Username] <String>] [[-Title] <String>] [[-RewriteTitle] <String>]
  [[-Message] <String>]
 ```
@@ -22,7 +22,7 @@ Solicita dos veces al usuario un nombre de usuario y contraseña.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-CheckedCredential
 ```
 
@@ -91,16 +91,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None.
+None.
 
 ## OUTPUTS
 
-### System.Management.Automation.PSCredential
+System.Management.Automation.PSCredential
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-CheckedSecret](Get-CheckedSecret.md)]()
+[Get-CheckedSecret](Get-CheckedSecret.md)
 
