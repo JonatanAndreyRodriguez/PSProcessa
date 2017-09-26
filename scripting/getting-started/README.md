@@ -7,4 +7,5 @@
 | [transferfiles](transferfiles)  | Funciones que se pueden utilizar para transferir archivos |
 | [utils](utils)  | Funciones utilitarias de uso general |
 | [transcript](transcript)  | Funciones de transcripción o registro |
+| [mailbox](mailbox)  | Funciones de buzones de configuración |
 
