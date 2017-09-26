@@ -29,7 +29,7 @@ Get-CheckedCredential
 ## PARAMETERS
 
 ### -Username
-{{Fill Username Description}}
+Texto que se muestra en el cuadro de dialogo como nombre de usuario. Valor predeterminado `$null`
 
 ```yaml
 Type: String
@@ -44,7 +44,7 @@ Accept wildcard characters: False
 ```
 
 ### -Title
-{{Fill Title Description}}
+Texto que se muestra como titulo del cuadro de dialogo.
 
 ```yaml
 Type: String
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -RewriteTitle
-{{Fill RewriteTitle Description}}
+Texto que se muestra como titulo del cuadro de dialogo cuando se solicita al usuario confirmar el valor ingresado.
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -Message
-{{Fill Message Description}}
+Texto que se muestra como mensaje informativo del cuadro de dialogo.
 
 ```yaml
 Type: String
