@@ -19,10 +19,10 @@ Get-Command -Module PSProcessa -Noun *Smtp*
 ```powershell
 Get-Command -Module PSProcessa -Noun *Ftp*
 ```
-* [Registrar o actualizar la información de una conexión FTP/SFTP para la transferencia de archivo](Set-FtpConnection.md)
-* [Obtener la información de una conexión FTP/SFTP para la transferencia de archivo](Get-FtpConnection.md)
-* [Eliminar la información una conexión FTP/SFTP para la transferencia de archivo](Remove-FtpConnection.md)
-* [Probar la información de una conexión FTP/SFTP para la transferencia de archivo](Test-FtpConnection.md)
+* [Registrar o actualizar la información de una conexión FTP/SFTP para la transferencia de archivos](Set-FtpConnection.md)
+* [Obtener la información de una conexión FTP/SFTP para la transferencia de archivos](Get-FtpConnection.md)
+* [Eliminar la información una conexión FTP/SFTP para la transferencia de archivos](Remove-FtpConnection.md)
+* [Probar la información de una conexión FTP/SFTP para la transferencia de archivos](Test-FtpConnection.md)
 
 
 -----------------
