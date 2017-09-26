@@ -28,7 +28,7 @@ Get-CheckedSecret | Test-PGPKeyStore -PublicKeyPath 'C:\Key_pkr.pgp' -PrivateKey
 ## PARAMETERS
 
 ### -Phrase
-{{Fill Phrase Description}}
+Contraseña necesaria para acceder a la clave privada.
 
 ```yaml
 Type: SecureString
@@ -43,7 +43,7 @@ Accept wildcard characters: False
 ```
 
 ### -PublicKeyPath
-{{Fill PublicKeyPath Description}}
+Ruta de acceso del archivo con la llave de cifrado pública.
 
 ```yaml
 Type: String
@@ -58,7 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -PrivateKeyPath
-{{Fill PrivateKeyPath Description}}
+Ruta de acceso del archivo con la llave de cifrado privada.
 
 ```yaml
 Type: String
