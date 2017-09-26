@@ -35,9 +35,8 @@ Cierra la conexión al finalizar la prueba.
 ### -------------------------- EXAMPLE 2 --------------------------
 ```powershell
 $WinScpConnection = New-WinScpConnection -ConnectionString 'protocol=ftp;host=127.0.0.1;username=myuser;password=myp@ssw0rd'
-```
-
 $WinScpConnection | Test-FtpConnection
+```
 
 ## PARAMETERS
 
