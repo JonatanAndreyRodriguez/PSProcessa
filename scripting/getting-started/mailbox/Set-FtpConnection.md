@@ -169,3 +169,5 @@ Autor: Jarodriguezc
 
 [Remove-FtpConnection](Remove-FtpConnection.md)
 
+[Get-CheckedCredential](Get-CheckedCredential.md)
+
