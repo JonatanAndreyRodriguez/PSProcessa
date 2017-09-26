@@ -79,7 +79,7 @@ Accept wildcard characters: False
 
 ### -Port
 Puerto por el cual establecerá conexión al servidor.
-Valor predeterminado 578.
+Valor predeterminado 587.
 
 ```yaml
 Type: Int32
