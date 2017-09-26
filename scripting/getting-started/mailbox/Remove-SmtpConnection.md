@@ -11,18 +11,18 @@ Elimina la configuración de conexión a un servidor SMTP.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-SmtpConnection [-Name] <String>
 ```
 
 ## DESCRIPTION
 Elimina la configuración de conexión a un servidor SMTP.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-SmtpConnection -Name 'MyName'
 ```
 
@@ -45,16 +45,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None.
 
 ## OUTPUTS
+Void.
 
 ## NOTES
 Autor: Jarodriguezc
 
 ## RELATED LINKS
 
-[[Set-SmtpConnection](Set-SmtpConnection.md)]()
+[Set-SmtpConnection](Set-SmtpConnection.md)
 
-[[Get-SmtpConnection](Get-SmtpConnection.md)]()
+[Get-SmtpConnection](Get-SmtpConnection.md)
 
