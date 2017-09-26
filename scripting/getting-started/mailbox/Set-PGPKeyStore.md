@@ -116,4 +116,8 @@ System.Void
 Author: Atorres
 
 ## RELATED LINKS
+[Get-PGPKeyStore](Get-PGPKeyStore.md)
 
+[Remove-PGPKeyStore](Remove-PGPKeyStore.md)
+
+[Test-PGPKeyStore](Test-PGPKeyStore.md)
