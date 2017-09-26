@@ -12,30 +12,30 @@ Registra o actualiza una cadena de conexión con un servidor de SQL Server.
 ## SYNTAX
 
 ### SqlAuth (Default)
-```
+```powershell
 Set-SqlConnection -Name <String> -Server <String> -Database <String> -Credential <PSCredential> [-Force]
 ```
 
 ### WindowsAuth
-```
+```powershell
 Set-SqlConnection -Name <String> -Server <String> -Database <String> [-IntegratedSecurity] [-Force]
 ```
 
 ## DESCRIPTION
 Registra o actualiza una cadena de conexión con un servidor de SQL Server.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-CheckedCredential | Set-SqlConnection -Name 'MyName' -Server '(local)' -Database 'master'
 ```
 
 Guarda la información de conexión con el nombre MyName con las credenciales suministradas.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Set-SqlConnection -Name 'MyName' -Server '(local)' -Database 'master' -IntegratedSecurity
 ```
 
@@ -135,13 +135,16 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Author: Atorres
 
 ## RELATED LINKS
+[Get-SqlConnection](Get-SqlConnection.md)
 
+[Remove-SqlConnection](Remove-SqlConnection.md)
