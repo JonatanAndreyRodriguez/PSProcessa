@@ -45,7 +45,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Parameter description
+Nombre para identificar la configuración.
 
 ```yaml
 Type: String
@@ -90,7 +90,8 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Cuando está presente, omite la validación de configuración, es decir, guarda el valor sin comprobar la conexión. También sobrescribe cualquier valor guardado anteriormente con el mismo nombre.
+
 
 ```yaml
 Type: SwitchParameter
