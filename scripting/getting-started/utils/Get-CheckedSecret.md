@@ -11,7 +11,7 @@ Obtiene un objeto de tipo SecureString a partir de un texto ingresado por el usu
 
 ## SYNTAX
 
-```
+```powershell
 Get-CheckedSecret [[-Prompt] <String>] [[-ConfirmationPrompt] <String>]
 ```
 
@@ -21,19 +21,19 @@ Solicita dos veces al usuario el ingreso de un texto.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-CheckedSecret
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-CheckedSecret -Prompt 'Ingrese una clave' -ConfirmationPrompt 'Confirme la clave'
 ```
 
 ## PARAMETERS
 
 ### -Prompt
-{{Fill Prompt Description}}
+Texto que se muestra como instrucciones al usuario.
 
 ```yaml
 Type: String
@@ -48,7 +48,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConfirmationPrompt
-{{Fill ConfirmationPrompt Description}}
+Texto que se muestra como instrucciones cuando se solicita al usuario confirmar el valor ingresado.
 
 ```yaml
 Type: String
@@ -64,11 +64,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None.
+None.
 
 ## OUTPUTS
 
-### System.Security.SecureString
+System.Security.SecureString
 
 ## NOTES
 Autor: Atorres
