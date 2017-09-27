@@ -55,3 +55,24 @@
 ### Versión 1.8.6464.61834
 ------
 - \[Enhancement\] - Convert-ToCustomType soporta el uso del parámetro CallStackFrame
+
+### Versión 1.9.6479.31473
+------
+- \[New\] - Get-CheckedCredential
+- \[New\] - Get-CheckedSecret
+- \[New\] - Get-FtpConnection
+- \[New\] - Set-FtpConnection
+- \[New\] - Remove-FtpConnection
+- \[New\] - Test-FtpConnection
+- \[New\] - Get-PGPKeyStore
+- \[New\] - Set-PGPKeyStore
+- \[New\] - Remove-PGPKeyStore
+- \[New\] - Test-PGPKeyStore
+- \[New\] - Get-SmtpConnection
+- \[New\] - Set-SmtpConnection
+- \[New\] - Remove-SmtpConnection
+- \[New\] - Test-SmtpConnection
+- \[New\] - Get-SqlConnection
+- \[New\] - Set-SqlConnection
+- \[New\] - Remove-SqlConnection
+- \[New\] - Test-SqlConnection
