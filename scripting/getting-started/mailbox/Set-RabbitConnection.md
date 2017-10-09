@@ -11,18 +11,18 @@ Registra o actualiza una conexión con un servidor de RabbitMQ.
 
 ## SYNTAX
 
-```
+```powershell
 Set-RabbitConnection [-ConnectionString] <String> [-Name] <String> [-Force]
 ```
 
 ## DESCRIPTION
 Registra o actualiza una conexión con un servidor de RabbitMQ.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-RabbitConnection -Name 'MyName' -ConnectionString 'host=myServer;virtualHost=myVirtualHost;username=jhon;password=topsecret'
 ```
 
@@ -78,17 +78,18 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-RabbitConnection](Get-RabbitConnection.md)]()
+[Get-RabbitConnection](Get-RabbitConnection.md)
 
-[[Remove-RabbitConnection](Remove-RabbitConnection.md)]()
+[Remove-RabbitConnection](Remove-RabbitConnection.md)
 
