@@ -11,7 +11,7 @@ Verifica que se pueda establecer la comunicación con un servidor de RabbitMQ.
 
 ## SYNTAX
 
-```
+```powershell
 Test-RabbitConnection [-ConnectionString] <String>
 ```
 
@@ -22,7 +22,7 @@ Cierra la conexión al finalizar la prueba.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 'host=myServer;virtualHost=myVirtualHost;username=jhon;password=topsecret' | Test-RabbitConnection
 ```
 
@@ -46,11 +46,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de ConnectionString.
+Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-### Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
+True si se logra establecer la conexión; de lo contrario genera una excepción.
 
 ## NOTES
 Autor: Atorres
