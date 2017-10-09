@@ -11,18 +11,18 @@ Elimina la configuración de conexión a un servidor de RabbitMQ.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-RabbitConnection [-Name] <String>
 ```
 
 ## DESCRIPTION
 Elimina la configuración de conexión a un servidor RabbitMQ.
-\> Se necesita permisos de Administrador para completar la función.
+> Se necesita permisos de Administrador para completar la función.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Remove-RabbitConnection -Name 'MyName'
 ```
 
@@ -45,16 +45,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
+Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Set-RabbitConnection](Set-RabbitConnection.md)]()
+[Set-RabbitConnection](Set-RabbitConnection.md)
 
-[[Get-RabbitConnection](Get-RabbitConnection.md)]()
+[Get-RabbitConnection](Get-RabbitConnection.md)
 
