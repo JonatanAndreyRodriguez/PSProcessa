@@ -51,3 +51,13 @@ Get-Command -Module PSProcessa -Noun *PGP*
 * [Probar la configuración de llaves de cifrado](Test-PGPKeyStore.md)
 
 -----------------
+
+### Configuraciones de conexión con RabbitMQ
+```powershell
+Get-Command -Module PSProcessa -Noun *Rabbit*
+```
+* [Registrar o actualizar la información de una conexión con RabbitMQ](Set-RabbitConnection.md)
+* [Obtener la información de una conexión con RabbitMQ](Get-RabbitConnection.md)
+* [Eliminar la información una conexión con RabbitMQ](Remove-RabbitConnection.md)
+* [Probar la información de una conexión con RabbitMQ](Test-RabbitConnection.md)
+-----------------
