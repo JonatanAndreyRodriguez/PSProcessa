@@ -77,7 +77,7 @@
 - \[New\] - Remove-SqlConnection
 - \[New\] - Test-SqlConnection
 
-### Versión 1.10.6491.40997
+### Versión 1.10.6491.42147
 ------
 - \[Enhancement\] New-ConfigurationItem. Ahora se puede establecer un valor por defecto.
 - \[Enhancement\] Convert-ToMailMessage. Ahora se puede utilizar su salida como entrada para Send-MailMessage (ver ejemplos).
