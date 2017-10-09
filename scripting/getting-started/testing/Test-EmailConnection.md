@@ -78,7 +78,7 @@ Puede canalizar el valor de ConnectionString.
 
 ## OUTPUTS
 
-Ninguno si se logra establecer la conexión; de lo contrario genera una excepción.
+True si se logra establecer la conexión; de lo contrario genera una excepción.
 
 ## NOTES
 Autor: Atorres
