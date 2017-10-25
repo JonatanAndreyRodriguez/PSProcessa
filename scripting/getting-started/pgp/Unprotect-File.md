@@ -13,13 +13,13 @@ Descifra un archivo con extensión .pgp
 
 ### NoSignature
 ```powershell
-Unprotect-File -PrivateKeyFileName <String> -FileName <String> -Password <String> [-JavaPath <String>]
+Unprotect-File -PrivateKeyFileName <String> -FileName <String> -Password <String> [-JavaPath <String>] [-PassThru]
 ```
 
 ### Signature
 ```powershell
 Unprotect-File -PrivateKeyFileName <String> -PublicKeyFileName <String> -FileName <String> -Password <String>
- [-JavaPath <String>]
+ [-JavaPath <String>] [-PassThru]
 ```
 
 ## DESCRIPTION
@@ -119,6 +119,21 @@ Default value: Java.exe
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+### -PassThru
+Devuelve un objeto que representa el archivo encriptado.
+De forma predeterminada, este cmdlet no genera ningún resultado.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ## INPUTS
 
@@ -126,7 +141,11 @@ Puede canalizar el valor de FileName.
 
 ## OUTPUTS
 
-Void
+System.Void
+
+System.IO.DirectoryInfo
+
+System.IO.FileInfo
 
 ## NOTES
 Autor: JRiaño
