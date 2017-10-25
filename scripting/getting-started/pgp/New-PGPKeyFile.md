@@ -137,4 +137,4 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-Get-CheckedSecret
+[Get-CheckedSecret](../utils/Get-CheckedSecret.md)
