@@ -13,13 +13,13 @@ Cifra un archivo y cambia su extensión a .pgp
 
 ### NoSignature
 ```powershell
-Protect-File -FileName <String> -PublicKeyFileName <String> [-JavaPath <String>]
+Protect-File -FileName <String> -PublicKeyFileName <String> [-JavaPath <String>] [-PassThru]
 ```
 
 ### Signature
 ```powershell
 Protect-File -FileName <String> -PublicKeyFileName <String> -PrivateKeyFileName <String> -Password <String>
- [-JavaPath <String>]
+ [-JavaPath <String>] [-PassThru]
 ```
 
 ## DESCRIPTION
@@ -120,13 +120,33 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -PassThru
+Devuelve un objeto que representa el archivo encriptado.
+De forma predeterminada, este cmdlet no genera ningún resultado.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ## INPUTS
 
 Puede canalizar el valor de FileName.
 
 ## OUTPUTS
 
-Void
+System.Void
+
+System.IO.DirectoryInfo
+
+System.IO.FileInfo
 
 ## NOTES
 Autor: JRiaño
