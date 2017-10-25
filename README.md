@@ -2,7 +2,7 @@
 
 Funcionalidades comunes de PowerShell para Processa.
 
-![Curent release](https://img.shields.io/badge/version-1.10.6491.42147-f39f37.svg)
+![Curent release](https://img.shields.io/badge/version-1.11.6507.49328-f39f37.svg)
 
 
 ## Estructura de la documentación
