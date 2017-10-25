@@ -11,7 +11,7 @@ Generar un par de archivos de claves PGP.
 
 ## SYNTAX
 
-```
+```powershell
 New-PGPKeyFile [-Phrase] <SecureString> [-OutPath] <String> [[-FileName] <String>] [[-Email] <String>]
  [[-JavaPath] <String>] [-Force]
 ```
@@ -22,14 +22,13 @@ Genera un archivo .pkr (clave pública) y un archivo .skr (clave privada) en la 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 $Pwd = ConvertTo-SecureString -String 'P@ssW0rD!' -AsPlainText -Force
-```
-
 $Pwd | New-PGPKeyFile -OutPath 'C:\MyFolder'
+```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-CheckedSecret | New-PGPKeyFile -OutPath 'C:\MyFolder'
 ```
 
@@ -127,14 +126,15 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de Phrase desde la función Get-CheckedSecret.
+Puede canalizar el valor de Phrase desde la función Get-CheckedSecret.
 
 ## OUTPUTS
 
-### Processa.Management.Automation.PSProcessa.PGPKeyPair
+Processa.Management.Automation.PSProcessa.PGPKeyPair
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
+Get-CheckedSecret
