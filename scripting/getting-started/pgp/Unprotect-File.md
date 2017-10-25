@@ -120,7 +120,7 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 ### -PassThru
-Devuelve un objeto que representa el archivo encriptado.
+Devuelve un objeto que representa el archivo desencriptado.
 De forma predeterminada, este cmdlet no genera ningún resultado.
 
 ```yaml
