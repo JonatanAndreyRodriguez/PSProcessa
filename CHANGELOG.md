@@ -88,13 +88,13 @@
 ### Versión 1.11.6507.49328
 ------
 - \[New\] función New-PGPKeyFile que permite generar unas llaves PGP.
-- - \[Enhancement\] Remove-FtpConnection. Ahora se admite la eliminación másiva desde el PipeLine.
-- - \[Enhancement\] Remove-PGPKeyStore. Ahora se admite la eliminación másiva desde el PipeLine.
-- - \[Enhancement\] Remove-RabbitConnection. Ahora se admite la eliminación másiva desde el PipeLine.
-- - \[Enhancement\] Remove-SmtpConnection. Ahora se admite la eliminación másiva desde el PipeLine.
-- - \[Enhancement\] Remove-SqlConnection. Ahora se admite la eliminación másiva desde el PipeLine.
-- - \[Enhancement\] Format-Quote. Ahora se admite el procesamiento másivo desde el PipeLine.
-- - \[Enhancement\] Protect-File- Ahora se admite el parámetro PassThru.
-- - \[Enhancement\] Unprotect-File- Ahora se admite el parámetro PassThru.
+- \[Enhancement\] Remove-FtpConnection. Ahora se admite la eliminación másiva desde el PipeLine.
+- \[Enhancement\] Remove-PGPKeyStore. Ahora se admite la eliminación másiva desde el PipeLine.
+- \[Enhancement\] Remove-RabbitConnection. Ahora se admite la eliminación másiva desde el PipeLine.
+- \[Enhancement\] Remove-SmtpConnection. Ahora se admite la eliminación másiva desde el PipeLine.
+- \[Enhancement\] Remove-SqlConnection. Ahora se admite la eliminación másiva desde el PipeLine.
+- \[Enhancement\] Format-Quote. Ahora se admite el procesamiento másivo desde el PipeLine.
+- \[Enhancement\] Protect-File- Ahora se admite el parámetro PassThru.
+- \[Enhancement\] Unprotect-File- Ahora se admite el parámetro PassThru.
 
 
