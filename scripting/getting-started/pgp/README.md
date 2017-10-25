@@ -4,3 +4,4 @@
 
 * [Cifrar un archivo](Protect-File.md)
 * [Descifrar un archivo](Unprotect-File.md)
+* [Generar un par de archivos de claves PGP](New-PGPKeyFile.md)
