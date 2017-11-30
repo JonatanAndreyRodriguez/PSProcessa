@@ -14,4 +14,7 @@
 * [Crear un objeto a partir de la información de otro objeto](Convert-ToCustomType.md)
 * [Solicitar al usuario que ingrese una pareja usuario/clave](Get-CheckedCredential.md)
 * [Solicitar al usuario que ingrese una clave](Get-CheckedSecret.md)
+* [Crear una carpeta en el directorio de archivos temporales](New-TemporaryFolder.md)
+* [Buscar la ruta de acceso de un archivo en la variable %PATH%](Find-FullPath.md)
+* [Crear un objeto que represente un rango de fechas](New-DateRange.md)
 
