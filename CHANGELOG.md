@@ -97,4 +97,11 @@
 - \[Enhancement\] Protect-File- Ahora se admite el parámetro PassThru.
 - \[Enhancement\] Unprotect-File- Ahora se admite el parámetro PassThru.
 
+### Versión 1.12.6543.68935
+------
+- \[New\] Find-FullPath para buscar al ruta de acceso de un archivo en las carpetas en %PATH%.
+- \[New\] función New-TemporaryFolder para crear una carpeta temporal.
+- \[New\] función New-DateRange para crear un rango de fechas.
+- \[Fix\] Set-SqlConnection en el parámetro Credential.
+- \[Enhancement\] Create-Install.ps1 para establecer el parámetro AliasesToExport.
 
