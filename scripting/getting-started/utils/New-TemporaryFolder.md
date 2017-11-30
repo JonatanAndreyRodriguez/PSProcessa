@@ -11,7 +11,7 @@ Crea una carpeta temporal.
 
 ## SYNTAX
 
-```
+```powershell
 New-TemporaryFolder
 ```
 
@@ -21,7 +21,7 @@ Crea una carpeta temporal con un nombre dinámico, como una sub-carpeta en $Env:
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-TemporaryFolder
 ```
 
@@ -29,11 +29,11 @@ New-TemporaryFolder
 
 ## INPUTS
 
-### None.
+None.
 
 ## OUTPUTS
 
-### System.IO.DirectoryInfo
+System.IO.DirectoryInfo
 
 ## NOTES
 
