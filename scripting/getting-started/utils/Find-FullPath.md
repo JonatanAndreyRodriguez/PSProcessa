@@ -12,17 +12,17 @@ Busca la ruta completa de un archivo a partir de su nombre.
 ## SYNTAX
 
 ### Default (Default)
-```
+```powershell
 Find-FullPath -FileName <String>
 ```
 
 ### Newest
-```
+```powershell
 Find-FullPath -FileName <String> [-Newest]
 ```
 
 ### Oldest
-```
+```powershell
 Find-FullPath -FileName <String> [-Oldest]
 ```
 
@@ -33,7 +33,7 @@ Si no se encuentra al menos un archivo se genera una excepción FileNotFoundExce
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Find-FullPath -FileName 'cmd.exe'
 ```
 
@@ -88,11 +88,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de FileName.
+Puede canalizar el valor de FileName.
 
 ## OUTPUTS
 
-### System.IO.FileInfo
+System.IO.FileInfo
 
 ## NOTES
 
