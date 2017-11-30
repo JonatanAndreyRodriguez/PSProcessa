@@ -12,12 +12,12 @@ Obtiene un objeto que contiene una fecha inicial y una fecha final.
 ## SYNTAX
 
 ### ByFrame (Default)
-```
+```powershell
 New-DateRange [-Since <String>] [-InclusiveToday]
 ```
 
 ### ByDate
-```
+```powershell
 New-DateRange -StartDate <DateTime> [-EndDate <DateTime>]
 ```
 
@@ -28,14 +28,14 @@ Puede establer la fecha inicial y final o un string que representa estos valores
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-DateRange -StartDate (Get-Date) -EndDate ((Get-Date).AddDays(1))
 ```
 
 Periodo de tiempo con fecha inicial establecido en el día actual y fecha final mañana.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-DateRange -Since 'Midnight'
 ```
 
@@ -119,12 +119,12 @@ Accept wildcard characters: False
 ```
 
 ## INPUTS
+None.
 
 ## OUTPUTS
 
-### Processa.Management.Automation.PSProcessa.DateRange
+Processa.Management.Automation.PSProcessa.DateRange
 
-### Processa.Management.Automation.PSProcessa.DateRange
 
 ## NOTES
 Autor: DMontalvo
