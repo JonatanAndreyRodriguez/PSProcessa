@@ -105,3 +105,23 @@
 - \[Fix\] Set-SqlConnection en el parámetro Credential.
 - \[Enhancement\] Create-Install.ps1 para establecer el parámetro AliasesToExport.
 
+###  Versión 1.13
+------
+- Se agrega la creación de la variable de ambiente PROCESSAPATH en Startup.ps1. Para no interferir con la carga de otros módulos, se omite el manejo de errores al registrar
+- la variable de ambiente, por lo tanto, será necesario importar al menos un vez el módulo con un usuario en el grupo de Administradores.
+
+### Versión 1.14
+------
+- Nueva función Set-FileSystemAccessRule para establecer reglas de acceso a recursos del sistema de archivos.
+- Nueva función Get-DictionaryKey para obtener el valor de la clave especificada en un diccionario o un valor por defecto.
+- Nueva función Write-Message para escribir texto formateado en la salida del Host.
+- Nueva función ConvertTo-Epoc para obtener los segundos transcurridos desde la medianoche UTC del 1 de enero de 1970 de una fecha.
+- Nueva función ConvertTo-Base64 para obtener una representación de cadena equivalente codificada con dígitos de base 64 de un objeto.
+- Nueva función New-DateRange obtener un objeto que contiene una fecha inicial y una fecha final.
+- Mejoras en Get-AppSetting: Nuevo parámetro DefaultValue
+
+### Versión 1.15
+------
+- Nueva función Test-XmlSchema para validar un archivo XML contra un esquema XSD.
+- Nueva función ConvertTo-Masked para enmascarar un valor.
+- Correcciones en la función Get-SqlConnection
