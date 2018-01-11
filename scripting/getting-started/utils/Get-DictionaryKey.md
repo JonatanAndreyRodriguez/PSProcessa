@@ -28,7 +28,7 @@ $PSBoundParameters | Get-DictionaryKey -Key 'MyKey' -DefaultValue 'MyValue'
 ## PARAMETERS
 
 ### -InputObject
-{{Fill InputObject Description}}
+Diccionario donde se busca la clave especificada.
 
 ```yaml
 Type: IDictionary
@@ -43,7 +43,7 @@ Accept wildcard characters: False
 ```
 
 ### -Key
-{{Fill Key Description}}
+Clave para buscar.
 
 ```yaml
 Type: String
@@ -58,7 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultValue
-{{Fill DefaultValue Description}}
+Valor a retornar si no se encuentra la clave.
 
 ```yaml
 Type: PSObject
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 
 ## OUTPUTS
 
-### Valor del elemento en el diccionario o DefaultValue (si el diccionario no tiene un elemento cn la clave especificada).
+### Valor del elemento en el diccionario o DefaultValue (si el diccionario no tiene un elemento con la clave especificada).
 
 ## NOTES
 Autor: Atorres
