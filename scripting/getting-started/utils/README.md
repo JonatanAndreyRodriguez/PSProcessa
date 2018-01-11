@@ -17,4 +17,9 @@
 * [Crear una carpeta en el directorio de archivos temporales](New-TemporaryFolder.md)
 * [Buscar la ruta de acceso de un archivo en la variable %PATH%](Find-FullPath.md)
 * [Crear un objeto que represente un rango de fechas](New-DateRange.md)
+* [Establecer reglas de acceso a recursos del sistema de archivos](Set-FileSystemAccessRule.md)
+* [Obtener el valor de la clave especificada en un diccionario o un valor por defecto](Get-DictionaryKey.md)
+* [Escribir texto formateado en la salida del Host](Write-Message.md)
+* [Obtener los segundos transcurridos desde la medianoche UTC del 1 de enero de 1970 de una fecha](ConvertTo-Epoc.md)
+* [Obtener una representación de cadena equivalente codificada con dígitos de base 64 de un objeto](ConvertTo-Base64.md)
 
