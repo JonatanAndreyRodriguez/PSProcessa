@@ -20,12 +20,15 @@ El tiempo Unix es un sistema para la descripción de instantes de tiempo: se def
 
 ## EXAMPLES
 
-### Example 1
+### -------------------------- EXAMPLE 1 --------------------------
 ```
-PS C:\> {{ Add example code here }}
+ConvertTo-Epoch -DateTime (Get-Date).AddDays(-1)
 ```
 
-{{ Add example description here }}
+### -------------------------- EXAMPLE 2 --------------------------
+```
+ConvertTo-Epoch
+```
 
 ## PARAMETERS
 
