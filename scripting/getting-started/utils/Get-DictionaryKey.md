@@ -11,7 +11,7 @@ Obtiene el valor de la clave especificada en el diccionario.
 
 ## SYNTAX
 
-```
+```powershell
 Get-DictionaryKey [-InputObject] <IDictionary> [-Key] <String> [[-DefaultValue] <PSObject>]
 ```
 
@@ -21,7 +21,7 @@ Obtiene el valor de la clave especificada en el diccionario, si no la encuentra,
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 $PSBoundParameters | Get-DictionaryKey -Key 'MyKey' -DefaultValue 'MyValue'
 ```
 
