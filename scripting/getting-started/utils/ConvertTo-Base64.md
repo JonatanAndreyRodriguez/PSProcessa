@@ -12,7 +12,7 @@ PSCX Cmdlet: Converts byte array or specified file contents to base64 string.
 
 ## SYNTAX
 
-```
+```powershell
 ConvertTo-Base64 -InputObject <Object> [[-Depth] <Int32>] [[-Encoding] <String>]
 ```
 
@@ -27,46 +27,9 @@ In this case, use the -Stream parameter which will generate multiple string outp
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Date | Convert-ToBase64
 ```
-
-### -------------------------- EXAMPLE 1 --------------------------
-PS C:\\\>
-
-```
-[byte[]](1..127) | ConvertTo-Base64
-```
-
-This buffers up the steam of bytes and then outputs the base64 string.
-
-### -------------------------- EXAMPLE 2 --------------------------
-PS C:\\\>
-
-```
-$arr = [byte[]](1..127); ConvertTo-Base64 -Inp $arr
-```
-
-This outputs the base64 string based on the byte array passed into the InputObject parameter.
-
-### -------------------------- EXAMPLE 3 --------------------------
-PS C:\\\>
-
-```
-$b64 = ConvertTo-Base64 Foo.dll -NoLineBreak
-```
-
-Converts the specified file (read as binary) to a base 64 string.
-
-### -------------------------- EXAMPLE 4 --------------------------
-PS C:\\\>
-
-```
-ConvertTo-Base64 $PSHome\PowerShell.exe -stream > b64.txt
-```
-
-When dealing with large files it is usually better to pass the path to ConvertTo-Base64.
-
 ## PARAMETERS
 
 ### -InputObject
