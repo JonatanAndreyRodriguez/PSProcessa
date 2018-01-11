@@ -11,7 +11,7 @@ Escribe texto en la salida del Host.
 
 ## SYNTAX
 
-```
+```powershell
 Write-Message [-Title] <String> [-Message] <String[]> [[-Type] <Object>]
 ```
 
@@ -22,12 +22,12 @@ El resultado particular depende del programa que aloja PowerShell.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Write-Message -Title 'MyTitle' -Message 'MyMessage' -Type 'Warning'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Write-Message -Title 'MyTitle' -Message (1..10 | ForEach-Object {"Text-$PSItem"})
 ```
 
