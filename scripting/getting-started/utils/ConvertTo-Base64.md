@@ -85,6 +85,3 @@ Accept wildcard characters: False
 Autor: Atorres
 
 ## RELATED LINKS
-
-[ConvertFrom-Base64]()
-
