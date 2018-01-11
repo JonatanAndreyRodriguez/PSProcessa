@@ -66,6 +66,7 @@ Accept wildcard characters: False
 ### -Type
 Tipo del mensasje.
 Valores admitidos.
+
 Type | Description
 ------------ | -------------
 None | No se aplica ningún formato de salida.
@@ -73,6 +74,7 @@ Info | Se aplica un formato de colores basado en azul.
 Warning | Se aplica un formato de colores basado en amarillo.
 Error | Se aplica un formato de colores basado en rojo.
 Success | Se aplica un formato de colores basado en verde.
+
 
 ```yaml
 Type: Object
