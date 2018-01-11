@@ -11,7 +11,7 @@ Convierte la fecha en DateTime a la cantidad de segundos transcurridos desde la 
 
 ## SYNTAX
 
-```
+```powershell
 ConvertTo-Epoch [[-DateTime] <DateTime>]
 ```
 
@@ -21,12 +21,12 @@ El tiempo Unix es un sistema para la descripción de instantes de tiempo: se def
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 ConvertTo-Epoch -DateTime (Get-Date).AddDays(-1)
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 ConvertTo-Epoch
 ```
 
