@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ### -DomainSid
 SID del dominio.
 Este valor es requerido para algunos valores de SidType.
-[Más información](https://msdn.microsoft.com/en-us/library/214122bs(v=vs.110).aspx)
+[Más información...](https://msdn.microsoft.com/en-us/library/214122bs\(v=vs.110\).aspx)
 
 ```yaml
 Type: SecurityIdentifier
@@ -182,8 +182,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Muestra lo que sucedería si se ejecuta la función, pero no la ejecuta.
 
 ```yaml
 Type: SwitchParameter
@@ -198,7 +197,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Le solicita confirmación antes de ejecutar la función.
 
 ```yaml
 Type: SwitchParameter
