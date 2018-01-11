@@ -12,14 +12,14 @@ Establece el descriptor de seguridad de los elementos especificados.
 ## SYNTAX
 
 ### FromString (Default)
-```
+```powershell
 Set-FileSystemAccessRule -Path <String> -IdentityName <String> -AccessControl <String>
  [-FileSystemRight <FileSystemRights>] [-PropagationFlag <String>] [-InheritanceFlag <String>] [-WhatIf]
  [-Confirm]
 ```
 
 ### FromSid
-```
+```powershell
 Set-FileSystemAccessRule -Path <String> -SidType <WellKnownSidType> [-DomainSid <SecurityIdentifier>]
  -AccessControl <String> [-FileSystemRight <FileSystemRights>] [-PropagationFlag <String>]
  [-InheritanceFlag <String>] [-WhatIf] [-Confirm]
@@ -31,21 +31,21 @@ Agrega un nuevo descriptor de seguridad a los elementos especificados, mantenien
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-AccessRulePolicy -Path 'C:\Temp' -IdentityName 'username' -AccessControl 'Allow' -FileSystemRight 'FullControl'
 ```
 
 Agrega un descriptor de seguridad que permite al usuario 'username' control total de los elementos en la ruta 'C:\Temp'
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-ChildItem -Path 'C:\Temp' -Filter '*.txt' -Recurse | Set-AccessRulePolicy -IdentityName 'everyone' -AccessControl 'Deny'
 ```
 
 Agrega un descriptor de seguridad que deniega el acceso a todos los usuarios a los archivos txt en la ruta 'C:\Temp' incluidos todos los sub-elementos.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Set-AccessRulePolicy -Path 'C:\Temp' -SidType AnonymousSid -AccessControl Allow -FileSystemRight Read
 ```
 
@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ### -DomainSid
 SID del dominio.
 Este valor es requerido para algunos valores de SidType.
-Más información en: https://msdn.microsoft.com/en-us/library/214122bs(v=vs.110).aspx
+[Más información](https://msdn.microsoft.com/en-us/library/214122bs(v=vs.110).aspx)
 
 ```yaml
 Type: SecurityIdentifier
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 
 ### -PropagationFlag
 Especifica cómo las entradas de control de acceso (ACE) se propagan a objetos secundarios.
-\[Más información...\](https://msdn.microsoft.com/en-us/library/system.security.accesscontrol.propagationflags(v=vs.110).aspx)
+[Más información...](https://msdn.microsoft.com/en-us/library/system.security.accesscontrol.propagationflags\(v=vs.110\).aspx)
 
 ```yaml
 Type: String
@@ -167,7 +167,7 @@ Accept wildcard characters: False
 ### -InheritanceFlag
 Especifica la semántica de la herencia para las entradas de control de acceso (ACE).
 Por defecto se establece la herencia para contenedores (carpetas) y archivos.
-\[Más información...\](https://msdn.microsoft.com/en-us/library/system.security.accesscontrol.inheritanceflags(v=vs.110).aspx)
+[Más información...](https://msdn.microsoft.com/en-us/library/system.security.accesscontrol.inheritanceflags\(v=vs.110\).aspx)
 
 ```yaml
 Type: String
