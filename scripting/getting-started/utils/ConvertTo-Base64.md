@@ -8,7 +8,6 @@ schema: 2.0.0
 
 ## SYNOPSIS
 Convierte cada valor en InputObject en su representación de cadena equivalente codificada con dígitos de base 64.
-PSCX Cmdlet: Converts byte array or specified file contents to base64 string.
 
 ## SYNTAX
 
@@ -18,11 +17,6 @@ ConvertTo-Base64 -InputObject <Object> [[-Depth] <Int32>] [[-Encoding] <String>]
 
 ## DESCRIPTION
 Cada valor en InputObject se convierte primero a formato JSON y luego a una cadena equivalente codificada con dígitos de base 64.
-
-Converts byte array or specified file contents to base64 string. 
-By default, this cmdlet inserts line breaks every 76 characters and outputs the result in a single string.
-For very large files, you may run into OutOfMemoryExceptions.
-In this case, use the -Stream parameter which will generate multiple string outputs that, combined together, result in the equivalent base 64 text.
 
 ## EXAMPLES
 
