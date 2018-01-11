@@ -107,8 +107,7 @@
 
 ###  Versión 1.13
 ------
-- Se agrega la creación de la variable de ambiente PROCESSAPATH en Startup.ps1. Para no interferir con la carga de otros módulos, se omite el manejo de errores al registrar
-- la variable de ambiente, por lo tanto, será necesario importar al menos un vez el módulo con un usuario en el grupo de Administradores.
+- Se agrega la creación de la variable de ambiente PROCESSAPATH en Startup.ps1. Para no interferir con la carga de otros módulos, se omite el manejo de errores al registrar la variable de ambiente, por lo tanto, será necesario importar al menos un vez el módulo con un usuario en el grupo de Administradores.
 
 ### Versión 1.14
 ------
