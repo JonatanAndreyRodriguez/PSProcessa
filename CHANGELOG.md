@@ -124,3 +124,9 @@
 - Nueva función Test-XmlSchema para validar un archivo XML contra un esquema XSD.
 - Nueva función ConvertTo-Masked para enmascarar un valor.
 - Correcciones en la función Get-SqlConnection
+
+### Versión 1.16.6605.39777
+------
+- Se agrega System.Xml.Linq a la lista de ensamblados requeridos.
+- Set-EnvironmentVariable ahora se puede llamar con el parámetro Force. Hará que la variable se establezca en la sesión actual.
+- Remove-EnvironmentVariable ahora se puede llamar con el parámetro Force. Hará que la variable se elimine de la sesión actual.
